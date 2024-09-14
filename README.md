@@ -40,7 +40,7 @@
 - [TOC](#toc)<br>
 - 本プログラムはMS開発に興味はあるが、「**何から手を付ければいいのか**」に悩む方への道しるべを示すことを目指す。
 - ここでは**MS開発環境構築**([Part1[基本編]](Part1_基本編))、**製品(XLM)企画、要求分析、製品開発**([Part2[実装編]](#Part2_実装編))、**成果物の評価**([Part3[評価編]](#Part3_評価編))を順に追って教材を参考に進めていく。
-- [Part2(実装編)](#Part2_実装編)以降は[Part1(基本編)](#Part1_基本編)、[業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.Organization.md)に則って**実務感覚**で実習する。<br><br>
+- [Part2[実装編]](#Part2_実装編)以降は[Part1[基本編]](#Part1_基本編)、[業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)に則って**実務感覚**で実習する。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - README以外の教材は[英語で作成](https://english-club.jp/blog/english-world-population/)されている。
 - Keep in mind [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio) and [Affordance](https://en.m.wikipedia.org/wiki/Affordance), divide and conquer with [Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor). 
@@ -84,7 +84,7 @@
   - Hello Cube
   - Hello RTOS
   - printf(SWO)
-- [業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.Organization.md)
+- [業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
   - 業務プロセス
   - 開発組織・役割・成果物
 
