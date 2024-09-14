@@ -17,9 +17,9 @@
 - [Concept](#Concept)
 - [トレーナー](#トレーナー)
 - [事前準備](#事前準備)
-- [Part1(基本編)](#Part1_基本編)
-- [Part2(実装編)](#Part2_実装編)
-- [Part3(評価編)](#Part3_評価編)
+- [Part1[基本編]](#Part1_基本編)
+- [Part2[実装編]](#Part2_実装編)
+- [Part3[評価編]](#Part3_評価編)
 - [Reference](#Reference)
 
 </details>
