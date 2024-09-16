@@ -31,7 +31,7 @@
 <summary><font size="5"><b>History</b></font></summary> 
 
 - [TOC](#toc)<br>
-- v0.1 2024/09/14 Seho.Seo Brand-new document.
+- v0.1 2024/09/14 Seho.Seo Brand new document.
 - v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
 
 </details>
@@ -43,7 +43,7 @@
 - [TOC](#toc)<br>
 - 本プログラムはMS開発に興味はあるが、「**何から手を付ければいいのか**」に悩む方への道しるべを示すことを目指す。
 - **MS開発環境構築**([Part1[基本編]](Part1_基本編))、**製品企画、要求分析、製品開発**([Part2[実装編]](#Part2_実装編))を順に追って教材を参考に進めていく。
-- [Part2[実装編]](#Part2_実装編)以降は[Part1[基本編]](#Part1_基本編)、[業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)に則って**実務感覚**で実習する。<br><br>
+- [Part2[実装編]](#Part2_実装編)以降は[Part1[基本編]](#Part1_基本編)、[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)に則って**実務感覚**で実習する。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - README以外の教材は[英語で作成](https://english-club.jp/blog/english-world-population/)されている。
 - Keep in mind [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio) and [Affordance](https://en.m.wikipedia.org/wiki/Affordance), divide and conquer with [Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor). 
