@@ -11,5 +11,15 @@
 - Cond, The fade in and out shall be done when the short-pressed button event is notifyed.
 - Cond, LEDs shall be changed on and off immediately when th long press button event is notified.
 
+- Create a project.[PM]
+- Create a repository.[TPM]
+- Create an issue for SwRS analysis.[PM->TPM, branch:=issue#001_RA_SyRS]
+- Carry out SyRS analysis and make up SwRS.[TPM]
+- Pull request for issuexxx [TPM->PM, Accepted#, Rejected#]
+- Report rejected SyRS to System Division.[PM]
+- Report SwRS to Evaluation Division.[PM]
+- Create an issue for SwDD analysis.[TPM->DEV, branch:=issue#002_RA_SwRS]
+- Carry out SwRS analysis and make up SwDD.[TPM]
+
 
 
