@@ -1,5 +1,5 @@
 ![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
-　[![Language](https://img.shields.io/badge/Language-%E6%97%A5%E6%9C%AC%E8%AA%9E-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/README.md)
+[![Language](https://img.shields.io/badge/Language-%E6%97%A5%E6%9C%AC%E8%AA%9E-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/README.md)
 [![Part.1](https://img.shields.io/badge/Part.1-Basic-brightgreen)]((https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS_en.md)) [![Part.2](https://img.shields.io/badge/Part.2-Implementation-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub_en.md)
 
 # MCU development from scratch
