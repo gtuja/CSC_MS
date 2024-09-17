@@ -1,7 +1,7 @@
-<p align="center">
-aaa bbb ccc</p>
-
-
+![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
+[![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
+[![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
+<p align="center">aaa bbb ccc</p>
 
 # System Requirements
 
