@@ -1,5 +1,5 @@
-
-<center>aaa bbb ccc</center>
+<p align="center">
+aaa bbb ccc</p>
 
 
 
