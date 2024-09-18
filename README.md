@@ -4,7 +4,6 @@
 )](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md) [![Part.2](https://img.shields.io/badge/Part.2-%E5%AE%9F%E8%A3%85%E5%A4%89-brightgreen
 )](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
 
-
 # ゼロからのMCU開発
 
 <div id="toc"></div>
@@ -86,7 +85,7 @@
 - [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
   - 最初は? ***Git!!***
   - Hello Cube
-  - How to debug
+  - デバッグ
 - [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
   - 業務プロセス
   - 開発組織・役割・成果物
@@ -110,7 +109,7 @@
 - [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
   - コーディング規則
   - Doxygen
-  - イイベントドリブンアーキテクチャ
+  - イベントドリブンアーキテクチャ
 </details>
 
 <div id="Reference"></div>
