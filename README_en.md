@@ -33,7 +33,7 @@
 
 - [TOC](#toc)<br>
 - This program aims to provide a guide for those who are interested in MS development but are worried about ***where to start***.
-- Regarding **MS development environment** ([Part1[Basic]](Part1_Basic)) and **Requirements product development** ([Part2[Implementation]](#Part2_Implementation))
+- Regarding **MS development environment** ([Part1[Basic]](Part1_Basic)) and **Requirements, product development** ([Part2[Implementation]](#Part2_Implementation))
 follow the steps in order and proceed.
 - We're gonna practice a simple project at the [Part2[Implementation]](#Part2_Implementation), with [Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md) on the [Part1[Basic]](#Part1_Basic).<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
