@@ -77,15 +77,15 @@ follow the steps in order and proceed.
 <summary><font size="5"><b>Part1[Basic]</b></font></summary>
 
 - [TOC](#toc)<br>
-- [What is MS](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS_en.md)
+- [1. What is MS](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS_en.md)
   - Trends
   - Market
   - MCU basic features
-- [Hello MCU](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU_en.md)
+- [2. Hello MCU](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU_en.md)
   - At first? ***Git!!***
   - Hello Cube
   - How to debug
-- [Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization_en.md)
+- [3. Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization_en.md)
   - Development Process
   - Organization
 
