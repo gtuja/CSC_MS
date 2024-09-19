@@ -16,7 +16,7 @@
 - [事前準備](#Preparation)
 - [Part1[基本編]](#Part1_Basic)
 - [Part2[実装編]](#Part2_Implementation)
-- [Tip001: Show me the Badge!](#Tip001)
+- [Tip001: Show me the Badge](#Tip001)
 
 </details>
 
@@ -119,11 +119,19 @@
 
 <div id="Tip001"></div>
 <details open>
-<summary><font size="5"><b>Tip001: Show me the Badge!</b></font></summary>
+<summary><font size="5"><b>Tip001: Show me the Badge</b></font></summary>
 
 - [TOC](#toc)<br>
 - 綺麗なアイコン作りはなかなか難しいものです。
-- 下記マニュアル？を参考にBadgeを作ってもらいましょう。
-- このドキュメントにも(左上の![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)など)使われています。
+- 下記マニュアル？を参考にBadgeを作ってもらいましょう。<br>
+![Show-me-the-badge](https://github.com/gtuja/CSC_MS/blob/main/Resources/Tips/tip001_001_shields_io_static_badge.png)<br>
+- このドキュメントにも、最新タグ表示、ナビゲーション、ソフトウエアリンクなどに色々使われています。<br><br>
+
+![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
+[![Language](https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-English-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/README_en.md)
+[![Part.1](https://img.shields.io/badge/Part.1-%E5%9F%BA%E6%9C%AC%E7%B7%A8-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md) [![Part.2](https://img.shields.io/badge/Part.2-%E5%AE%9F%E8%A3%85%E5%A4%89-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
+
 
 </details>
