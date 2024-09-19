@@ -123,7 +123,8 @@
 
 - [TOC](#toc)<br>
 - 綺麗なアイコン作りはなかなか難しいものです。
-- 下記マニュアル？を参考にBadgeを作ってもらいましょう。<br>
+- 下記マニュアル？を参考にBadgeを作ってもらいましょう。
+- [Shield.io](https://shields.io),  [Simpe icon](https://simpleicons.org/)<br>
 ![Show-me-the-badge](https://github.com/gtuja/CSC_MS/blob/main/Resources/Tips/tip001_001_shields_io_static_badge.png)<br>
 - このドキュメントにも、最新タグの表示、ナビゲーション、ソフトウエアリンクなどにBadgeが使われています。
 
