@@ -16,7 +16,7 @@
 - [事前準備](#Preparation)
 - [Part1[基本編]](#Part1_Basic)
 - [Part2[実装編]](#Part2_Implementation)
-- [Tip001:Show me the badge](#Tip001)
+- [Tip001: Show me the Badge!](#Tip001)
 
 </details>
 
@@ -119,10 +119,10 @@
 
 <div id="Tip001"></div>
 <details open>
-<summary><font size="5"><b>Show me the Badge!</b></font></summary>
+<summary><font size="5"><b>Tip001: Show me the Badge!</b></font></summary>
 
 - [TOC](#toc)<br>
-- 
-- 
+- Badge作成
+- Gitbubタグ連動
 
 </details>
