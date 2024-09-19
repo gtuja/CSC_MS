@@ -122,7 +122,8 @@
 <summary><font size="5"><b>Tip001: Show me the Badge!</b></font></summary>
 
 - [TOC](#toc)<br>
-- Badge作成
-- Gitbubタグ連動
+- 綺麗なアイコン作りはなかなか難しいものです。
+- 下記マニュアル？を参考にBadgeを作ってもらいましょう。
+- このドキュメントにも(左上の![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)など)使われています。
 
 </details>
