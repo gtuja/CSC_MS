@@ -36,8 +36,8 @@
 
 - [TOC](#toc)<br>
 - 本プログラムはMS開発に興味はあるが､**何から手を付ければいいのか**に悩む方への道しるべを示すことを目指します。
-- **MS開発環境構築**([Part1[基本編]](Part1_Basic))、**製品企画、要求分析、製品開発**([Part2[実装編]](#Part2_実装編))を順に追って進めていきます。
-- [Part2[実装編]](#Part2_実装編)では[Part1[基本編]](#Part1_Basic)、[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を意識しながら**実務感覚**で実習しましょう。<br><br>
+- [Part1[基本編]](Part1_Basic))では開発環境を構築し、[Part2[実装編]](#Part2_実装編)では、製品企画、要求分析、製品開発を順に追って進めていきます。
+- [Part2[実装編]](#Part2_実装編)では[Part1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を意識しながら**実務感覚**で実習しましょう。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
