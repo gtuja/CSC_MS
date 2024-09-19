@@ -14,8 +14,8 @@
 - [コンセプト](#Concept)
 - [トレーナー](#Trainer)
 - [事前準備](#Preparation)
-- [Part1[基本編]](#Part1_Basic)
-- [Part2[実装編]](#Part2_Implementation)
+- [Part.1[基本編]](#Part1_Basic)
+- [Part.2[実装編]](#Part2_Implementation)
 - [Tip001: Show me the Badge](#Tip001)
 
 </details>
@@ -36,8 +36,8 @@
 
 - [TOC](#toc)<br>
 - 本プログラムはMS開発に興味はあるが､**何から手を付ければいいのか**に悩む方への道しるべを示すことを目指します。
-- [Part1[基本編]](Part1_Basic)では開発環境を構築し、[Part2[実装編]](#Part2_実装編)では、製品企画、要求分析、製品開発を順に追って進めていきます。
-- [Part2[実装編]](#Part2_実装編)では[Part1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を意識しながら**実務感覚**で実習しましょう。<br><br>
+- [Part.1[基本編]](Part1_Basic)では開発環境を構築し、[Part.2[実装編]](#Part2_実装編)では、製品企画、要求分析、製品開発を順に追って進めていきます。
+- [Part.2[実装編]](#Part2_実装編)では[Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を意識しながら**実務感覚**で実習しましょう。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
@@ -76,7 +76,7 @@
 
 <div id="Part1_Basic"></div>
 <details open>
-<summary><font size="5"><b>Part1[基本編]</b></font></summary>
+<summary><font size="5"><b>Part.1[基本編]</b></font></summary>
 
 - [TOC](#toc)<br>
 - [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
@@ -95,7 +95,7 @@
 
 <div id="Part2_Implementation"></div>
 <details open>
-<summary><font size="5"><b>Part2[実装編]</b></font></summary>
+<summary><font size="5"><b>Part.2[実装編]</b></font></summary>
 
 - [TOC](#toc)<br>
 - [1. Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
