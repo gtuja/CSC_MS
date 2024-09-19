@@ -14,6 +14,7 @@
 - [Preparation](#Preparation)
 - [Part1[Basic]](#Part1_Basic)
 - [Part2[Implementation]](#Part2_Implementation)
+- [Tip001: Show me the Badge](#Tip001)
 
 </details>
 
@@ -111,21 +112,19 @@ follow the steps in order and proceed.
   - Event Driven Design Pattern
 </details>
 
-<div id="Reference"></div>
+<div id="Tip001"></div>
 <details open>
-<summary><font size="5"><b>Reference</b></font></summary>
+<summary><font size="5"><b>Tip001: Show me the Badge</b></font></summary>
 
 - [TOC](#toc)<br>
-[![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
-[![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
-[![Github](https://img.shields.io/badge/Github-brightgreen?style=flat&logo=github&logoColor=%23181717&labelColor=white)](https://github.com/)
-[![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat
-)](https://winmerge.org/)
-[![Markdown](https://img.shields.io/badge/Markdown-brightgreen?style=flat&logo=markdown&logoColor=%23000000&labelColor=white)](https://daringfireball.net/projects/markdown/)
-[![Stm](https://img.shields.io/badge/Stm-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)
-[![FreeRTOS](https://img.shields.io/badge/FreeRTOS-brightgreen?style=flat)](https://www.freertos.org/)
-[![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)
-[![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)
-[![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)
+- Creating beautiful icons is quite difficult.
+- Let's have you create a Badge using this as a reference.<br>
+![Show-me-the-badge](https://github.com/gtuja/CSC_MS/blob/main/Resources/Tips/tip001_001_shields_io_static_badge.png)<br>
+- This document is also used in various ways, such as displaying the latest tags, navigation, and software links.
 
 </details>
+<br>
+
+![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
+[![Language](https://img.shields.io/badge/Language-%E6%97%A5%E6%9C%AC%E8%AA%9E-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/README.md)
+[![Part.1](https://img.shields.io/badge/Part.1-Basic-brightgreen)]((https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS_en.md)) [![Part.2](https://img.shields.io/badge/Part.2-Implementation-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub_en.md)
