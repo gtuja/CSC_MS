@@ -34,9 +34,9 @@
 <summary><font size="5"><b>コンセプト</b></font></summary>
 
 - [TOC](#toc)<br>
-- 本プログラムはMS開発に興味はあるが、「**何から手を付ければいいのか**」に悩む方への道しるべを示すことを目指します。
-- **MS開発環境構築**([Part1[基本編]](Part1_Basic))、**製品企画、要求分析、製品開発**([Part2[実装編]](#Part2_実装編))を順に追って進めていきます。。
-- [Part2[実装編]](#Part2_実装編)では、簡単なプロジェクトを定義してから、[Part1[基本編]](#Part1_Basic)、[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)に則って**実務感覚**で実習します。<br><br>
+- 本プログラムはMS開発に興味はあるが､**何から手を付ければいいのか**に悩む方への道しるべを示すことを目指します。
+- **MS開発環境構築**([Part1[基本編]](Part1_Basic))、**製品企画、要求分析、製品開発**([Part2[実装編]](#Part2_実装編))を順に追って教材を参考に進めていきます。
+- [Part2[実装編]](#Part2_実装編)以降は[Part1[基本編]](#Part1_Basic)、[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)に則って**実務感覚**で実習しましょう。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
@@ -81,7 +81,7 @@
 - [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
   - トレンド
   - 市場
-  - MCUの基本
+  - マイコンの基本
 - [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
   - 最初は? ***Git!!***
   - Hello Cube
@@ -104,12 +104,16 @@
   - ソフトウエア要求仕様
 - [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)
   - HLD (High Level Design)
+  - インラーフェス一覧
+  - パッケージ図
   - シーケンス図
   - ステートマシン図
 - [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
+  - フォルダ構成
   - コーディング規則
   - Doxygen
-  - イベントドリブンアーキテクチャ
+  - タグ・配布
+
 </details>
 
 <div id="Reference"></div>
