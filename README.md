@@ -60,7 +60,27 @@
 <summary><font size="5"><b>事前準備</b></font></summary>
 
 - [TOC](#toc)<br>
-- 評価ボード：[Stm32 NUCLEO](https://www.st.com/ja/evaluation-tools/stm32-nucleo-boards.html), [秋月](https://akizukidenshi.com/catalog/goods/search.aspx?keyword=nucleo&ct=&goods=&number=&name=&min_price=2800&max_price=&yy_min_releasedt=&mm_min_releasedt=&dd_min_releasedt=&yy_max_releasedt=&mm_max_releasedt=&dd_max_releasedt=&last_sdt=&gt=&goods_specification=&seq=popd&maker_name=&search=%E6%A4%9C%E7%B4%A2%E3%81%99%E3%82%8B&variation=)
+- 評価ボード：[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)
+- どのマイコンにするのか？<br>
+![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png) ![STM32 MCUs](https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/arm-cortex-mcu-portfolio-1.jpg)
+- [分かりやすいIDE](https://www.st.com/content/st_com/ja/stm32cubemx.html)があればいい。
+![](https://www.st.com/content/dam/st-crew/developer-zone/cube-mx/stm32cubemx-pinout-configuration.png)
+- 無料で商用IDEも使えればいい！<br>
+[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)
+- Flash, RAMに余裕があれば色々試せそう<br>
+
+| Name | Flash(KB) | RAM(KB) | Price | Delivery(day) | Stock | Link | 
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | 
+| NUCLEO-C031C6 | 32 | 12 | **2197** | 5 | 584 | [NUCLEO-C031C6](https://www.marutsu.co.jp/pc/i/43347410/)
+| NUCLEO-C071RB | 128 | 24 | 2242 | 5 | 136 | [NUCLEO-C071RB](https://www.marutsu.co.jp/GoodsDetail.jsp?q=NUCLEO-C071RB&salesGoodsCode=48382034&shopNo=3)
+| NUCLEO-F030R8 | 64 | 8 | 2201 | 5 | 663 | [NUCLEO-F030R8](https://www.marutsu.co.jp/pc/i/13537476/)
+| NUCLEO-F070RB | 128 | 16 | 2201 | 5 | 71 | [NUCLEO-F070RB](https://www.marutsu.co.jp/pc/i/13537479/)
+| NUCLEO-F072RB | 128 | 16 | 2201 | 5 | 304 | [NUCLEO-F072RB](https://www.marutsu.co.jp/pc/i/13537480/)
+| NUCLEO-F091RC | 256 | 32 | 2201 | 5 | 80 | [NUCLEO-F091RC](https://www.marutsu.co.jp/pc/i/13537481/)
+| NUCLEO-G070RB | 128 | 36 | 2201 | 5 | 315 | [NUCLEO-G070RB](https://www.marutsu.co.jp/pc/i/32060905/)
+| NUCLEO-G071RB | 128 | 36 | 2201 | 5 | ***2200*** | [NUCLEO-G071RB](https://www.marutsu.co.jp/pc/i/31819503/)
+| **NUCLEO-G0B1RE** | ***512*** | ***128*** | 2290 | 5 | 896 | [NUCLEO-G0B1RE](https://www.marutsu.co.jp/pc/i/40719714/)
+
 - PC
 - Application
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
