@@ -62,7 +62,10 @@
 - [TOC](#toc)<br>
 - 評価ボード：[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)
 - どのメーカさんにするのか？<br>
-![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)
+![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
+[Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)
+[Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
+
 - どのマイコンにするのか？<br>
 [Stm32 line-up](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
 
