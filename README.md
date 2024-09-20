@@ -61,8 +61,9 @@
 
 - [TOC](#toc)<br>
 - 評価ボード：[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)
-- どのマイコンにするのか？<br>
-![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png) ![STM32 MCUs](https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/arm-cortex-mcu-portfolio-1.jpg)
+- どのMCUにするのか？<br>
+![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)
+![STM32 MCUs](https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/arm-cortex-mcu-portfolio-1.jpg)
 - [分かりやすいIDE](https://www.st.com/content/st_com/ja/stm32cubemx.html)があればいい。
 ![](https://www.st.com/content/dam/st-crew/developer-zone/cube-mx/stm32cubemx-pinout-configuration.png)
 - 無料で商用IDEも使えればいい！<br>
