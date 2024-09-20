@@ -64,8 +64,9 @@
 - どのMCUにするのか？<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)
 ![STM32 MCUs](https://www.st.com/content/dam/category-pages/stm32-32-bit-arm-cortex-mcus/arm-cortex-mcu-portfolio-1.jpg)
+
 - [分かりやすいIDE](https://www.st.com/content/st_com/ja/stm32cubemx.html)があればいい。
-![](https://www.st.com/content/dam/st-crew/developer-zone/cube-mx/stm32cubemx-pinout-configuration.png)
+![Stm32Cube](https://www.st.com/content/dam/st-crew/developer-zone/cube-mx/stm32cubemx-pinout-configuration.png)
 - 無料で商用IDEも使えればいい！<br>
 [Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)
 - Flash, RAMに余裕があれば色々試せそう<br>
