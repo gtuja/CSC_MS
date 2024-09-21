@@ -39,7 +39,7 @@
 - [Part.1[基本編]](Part1_Basic)で開発環境を構築し、[Part.2[実装編]](#Part2_実装編)では簡単なシステム要求を定義してから、要求分析、ソフトウエア設計、製品開発などを順に追って進めていきます。
 - [Part.2[実装編]](#Part2_実装編)では[Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を意識しながら実習しましょう。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
-- **[Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)** を念頭に入れ、**[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)** を手に持って切り開こう！
+- **[Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)**と**[Affordance](https://en.m.wikipedia.org/wiki/Affordance)** を念頭に入れ、**[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)** を手に持って切り開こう！
 
 </details>
 
