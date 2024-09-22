@@ -79,7 +79,7 @@
 - PC<br>
 - Wifi<br>
 - Application<br>
-最新版でOKですが、ST BadgeのCubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。
+最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
   - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
   - [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat
