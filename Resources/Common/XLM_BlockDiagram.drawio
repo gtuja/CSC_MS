@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="c2iEev-Jstg_Icvi2VbT">
-    <mxGraphModel dx="1687" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,14 +105,14 @@
             <mxPoint x="836.5" y="279" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dhf1BJ36f9NFJUOVtASJ-2" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.pushbutton;aspect=fixed;elSwitchState=off;" vertex="1" parent="1">
-          <mxGeometry x="449.75" y="260.84" width="57.51" height="15.33" as="geometry" />
+        <mxCell id="Dhf1BJ36f9NFJUOVtASJ-2" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.pushbutton;aspect=fixed;elSwitchState=off;" parent="1" vertex="1">
+          <mxGeometry x="434.75" y="263.73999999999995" width="57.51" height="15.33" as="geometry" />
         </mxCell>
-        <mxCell id="Dhf1BJ36f9NFJUOVtASJ-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="458.5" y="372.5" width="40" height="20" as="geometry" />
+        <mxCell id="Dhf1BJ36f9NFJUOVtASJ-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_2;pointerEvents=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="443.5" y="372.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Dhf1BJ36f9NFJUOVtASJ-4" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="1">
-          <mxGeometry x="464.5" y="459.25" width="32" height="26.5" as="geometry" />
+        <mxCell id="Dhf1BJ36f9NFJUOVtASJ-4" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" parent="1" vertex="1">
+          <mxGeometry x="447.5" y="459.25" width="32" height="26.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
