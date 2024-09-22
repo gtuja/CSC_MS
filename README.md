@@ -73,7 +73,7 @@
 
 - Flash, RAMサイズ？ 大は小を兼ねる **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
-[marutsu](https://www.marutsu.co.jp)
+[marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
 
 - PC<br>
 - Wifi<br>
@@ -103,7 +103,7 @@
 - [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
   - 最初は? ***Git!!***
   - Hello Cube
-  - printf
+  - Debug printf
 - [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
   - 業務プロセス
   - 開発組織

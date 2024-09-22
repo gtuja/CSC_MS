@@ -34,11 +34,11 @@
 
 - [TOC](#toc)<br>
 - This program aims to provide a guide for those who are interested in MS development but are worried about ***where to start***.
-- Regarding **MS development environment** ([Part.1[Basic]](Part1_Basic)) and **Requirements, product development** ([Part.2[Implementation]](#Part2_Implementation))
+- Regarding MS development environment ([Part.1[Basic]](Part1_Basic)) and Requirements, product development ([Part.2[Implementation]](#Part2_Implementation))
 follow the steps in order and proceed.
 - We're gonna practice a simple project at the [Part.2[Implementation]](#Part2_Implementation), with [Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md) on the [Part.1[Basic]](#Part1_Basic).<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
-- Keep in mind [**Golden ratio**](https://en.m.wikipedia.org/wiki/Golden_ratio) and [**Affordance**](https://en.m.wikipedia.org/wiki/Affordance), divide and conquer with [**Occam's razor**](https://en.m.wikipedia.org/wiki/Occam%27s_razor). 
+- Keep in mind [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio) and [Affordance](https://en.m.wikipedia.org/wiki/Affordance), divide and conquer with [Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor). 
 
 </details>
 
@@ -72,7 +72,7 @@ follow the steps in order and proceed.
 
 - Flash, RAM? **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
-[marutsu](https://www.marutsu.co.jp)
+[marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
 
 - PC<br>
 - Wifi<br>
@@ -101,7 +101,7 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 - [2. Hello MCU](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU_en.md)
   - At first? ***Git!!***
   - Hello Cube
-  - How to debug
+  - Debug printf
 - [3. Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization_en.md)
   - Development Process
   - Organization
@@ -126,7 +126,7 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 - [Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
   - Folder Structure
   - Coding Rules
-  - Software Analysis **[doxygen](https://www.doxygen.nl/)** **[graviz](https://graphviz.org/)**
+  - Software Analysis [doxygen](https://www.doxygen.nl/) [graviz](https://graphviz.org/)
 
 </details>
 
