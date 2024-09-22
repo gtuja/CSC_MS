@@ -62,7 +62,7 @@
 
 - [TOC](#toc)<br>
 - このプログラムではMCU開発を実習しますので、MCUを載せている評価ボードが必要です。
-- どのサプライや？ 伸びしろ！ **[ST](https://www.st.com/content/st_com/en.html)**<br>
+- どのサプライヤー？ 伸びしろ！ **[ST](https://www.st.com/content/st_com/en.html)**<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
 [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)<br>
 [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
