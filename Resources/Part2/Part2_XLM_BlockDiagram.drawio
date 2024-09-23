@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="c2iEev-Jstg_Icvi2VbT">
-    <mxGraphModel dx="683" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
             <mxPoint x="555.5" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lPVegLePywHtXsEGlFOO-35" value="LED Request" style="endArrow=blockThin;startArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;startFill=0;endFill=1;fontFamily=Calibri;edgeStyle=orthogonalEdgeStyle;" parent="1" source="lPVegLePywHtXsEGlFOO-10" target="lPVegLePywHtXsEGlFOO-24" edge="1">
+        <mxCell id="lPVegLePywHtXsEGlFOO-35" value="LED Request [optional]" style="endArrow=blockThin;startArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;startFill=0;endFill=1;fontFamily=Calibri;edgeStyle=orthogonalEdgeStyle;" parent="1" source="lPVegLePywHtXsEGlFOO-10" target="lPVegLePywHtXsEGlFOO-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="746" y="483" as="sourcePoint" />
             <mxPoint x="576" y="483" as="targetPoint" />
@@ -77,11 +77,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lPVegLePywHtXsEGlFOO-38" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;LED Request&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Calibri;" parent="1" vertex="1">
+        <mxCell id="lPVegLePywHtXsEGlFOO-38" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;LED Request [optional]&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Calibri;" parent="1" vertex="1">
           <mxGeometry x="264" y="447.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lPVegLePywHtXsEGlFOO-39" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;fontFamily=Calibri;" parent="1" vertex="1">
-          <mxGeometry x="150" y="437.5" width="100" height="70" as="geometry" />
+          <mxGeometry x="138" y="437.5" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lPVegLePywHtXsEGlFOO-40" value="State[LED, Button] / Log" style="endArrow=blockThin;startArrow=blockThin;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;startFill=1;endFill=1;fontFamily=Calibri;entryPerimeter=0;" parent="1" source="lPVegLePywHtXsEGlFOO-10" target="lPVegLePywHtXsEGlFOO-39" edge="1">
           <mxGeometry x="-0.3333" y="11" width="50" height="50" relative="1" as="geometry">
@@ -91,7 +91,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lPVegLePywHtXsEGlFOO-41" value="RS232C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Calibri;fontStyle=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="270" y="492" width="60" height="30" as="geometry" />
+          <mxGeometry x="280" y="492" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lPVegLePywHtXsEGlFOO-42" value="" style="endArrow=blockThin;startArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;startFill=0;endFill=1;fontFamily=Calibri;" parent="1" source="lPVegLePywHtXsEGlFOO-29" target="lPVegLePywHtXsEGlFOO-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
