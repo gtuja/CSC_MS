@@ -62,11 +62,11 @@
 
 - [TOC](#toc)<br>
 - このプログラムではMCU開発を実習しますので、MCUを載せている評価ボードが必要です。
-- どのサプライヤー？ 伸びしろ！ **[ST](https://www.st.com/content/st_com/en.html)**<br>
+- どのサプライヤー？ 伸びしろからは・・・ **[ST](https://www.st.com/content/st_com/en.html)**<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
 [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)<br>
 [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
-- どのマイコン？ [SDGs!](https://en.wikipedia.org/wiki/Sustainable_Development_Goals) **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)**<br>
+- どのマイコン？ [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には・・・ **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)**<br>
 
 - [Toolchain?](https://en.wikipedia.org/wiki/Toolchain) **[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)**<br>
 \* Keil MDKの年間ライセンス費用は20~40万円 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
