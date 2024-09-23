@@ -69,8 +69,8 @@
 - どのマイコン？ [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には・・・ **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)**<br>
 
 - [Toolchain?](https://en.wikipedia.org/wiki/Toolchain) **[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)**<br>
-\* Keil MDKの年間ライセンス費用は20~40万円 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
-\* 本プログラムではStm32Cubeの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
+\- Keil MDKの年間ライセンス費用は20~40万円 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
+\- 本プログラムではStm32Cubeの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
 
 - Flash, RAMサイズ？ 大は小を兼ねる **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
@@ -80,13 +80,13 @@
 - Wifi<br>
 - Application<br>
 最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。<br>
-\* [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
-\* [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
-\* [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
-\* [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)<br>
-\* [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)<br>
-\* [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)<br>
-\* [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)<br>
+\- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
+\- [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
+\- [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
+\- [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)<br>
+\- [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)<br>
+\- [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)<br>
+\- [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)<br>
 
 </details>
 
@@ -96,16 +96,16 @@
 
 - [TOC](#toc)<br>
 - [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)<br>
-\* トレンド<br>
-\* 市場<br>
-\* マイコンの基本<br>
+\- トレンド<br>
+\- 市場<br>
+\- マイコンの基本<br>
 - [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)<br>
-\* 最初は? ***Git!!***<br>
-\* Hello Cube<br>
-\* Debug printf<br>
+\- 最初は? ***Git!!***<br>
+\- Hello Cube<br>
+\- Debug printf<br>
 - [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)<br>
-\* 業務プロセス<br>
-\* 開発組織<br>
+\- 業務プロセス<br>
+\- 開発組織<br>
 
 </details>
 
@@ -116,18 +116,18 @@
 - [TOC](#toc)<br>
 - [1. Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
 - [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)<br>
-\* システム要求<br>
-\* システム要求仕様<br>
-\* ソフトウエア要求仕様<br>
+\- システム要求<br>
+\- システム要求仕様<br>
+\- ソフトウエア要求仕様<br>
 - [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)<br>
-\* インラーフェス一覧<br>
-\* パッケージ図<br>
-\* シーケンス図<br>
-\* ステートマシン図<br>
+\- インラーフェス一覧<br>
+\- パッケージ図<br>
+\- シーケンス図<br>
+\- ステートマシン図<br>
 - [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
-\* フォルダ構成<br>
-\* コーディング規則<br>
-\* ソフトウエア分析 **[doxygen](https://www.doxygen.nl/)** **[graviz](https://graphviz.org/)**<br>
+\- フォルダ構成<br>
+\- コーディング規則<br>
+\- ソフトウエア分析 **[doxygen](https://www.doxygen.nl/)** **[graviz](https://graphviz.org/)**<br>
  
 </details>
 

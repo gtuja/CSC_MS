@@ -67,8 +67,8 @@ follow the steps in order and proceed.
 [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
 - Which MCU? [SDGs!](https://en.wikipedia.org/wiki/Sustainable_Development_Goals) **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)**<br>
 - [Toolchain?](https://en.wikipedia.org/wiki/Toolchain) **[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)**<br>
-\* The annual license fee for Keil MDK is 200,000 to 400,000 Yen [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
-\* In this program, we're gonna use Stm32Cube's [GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain). <br>
+\- The annual license fee for Keil MDK is 200,000 to 400,000 Yen [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
+\- In this program, we're gonna use Stm32Cube's [GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain). <br>
 - Flash, RAM? **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
 [marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
@@ -76,13 +76,13 @@ follow the steps in order and proceed.
 - Wifi
 - Application<br>
 The latest version is always a good choice, but let's use CubeIDE with ***1.16.0***, which does not have any minor features.<br>
-\* [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
-\* [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
-\* [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
-\* [![Stm Cube IDE](https://img.shields.io/badge/Stm-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)　***1.16.0***<br>
-\* [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)<br>
-\* [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)<br>
-\* [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)<br>
+\- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
+\- [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
+\- [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
+\- [![Stm Cube IDE](https://img.shields.io/badge/Stm-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)　***1.16.0***<br>
+\- [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)<br>
+\- [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)<br>
+\- [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)<br>
 
 </details>
 
@@ -92,16 +92,16 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 
 - [TOC](#toc)
 - [1. What is MS](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS_en.md)<br>
-\* Trends<br>
-\* Market<br>
-\* MCU basic features<br>
+\- Trends<br>
+\- Market<br>
+\- MCU basic features<br>
 - [2. Hello MCU](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU_en.md)<br>
-\* At first? ***Git!!***<br>
-\* Hello Cube<br>
-\* Debug printf<br>
+\- At first? ***Git!!***<br>
+\- Hello Cube<br>
+\- Debug printf<br>
 - [3. Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization_en.md)<br>
-\* Development Process<br>
-\* Organization<br>
+\- Development Process<br>
+\- Organization<br>
 
 </details>
 
@@ -112,18 +112,18 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 - [TOC](#toc)
 - [Wok flow on Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)<br>
 - [Requirement Analysis](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)<br>
-\* System Requirement<br>
-\* System Requirement Specification<br>
-\* Software Requirement Specification<br>
+\- System Requirement<br>
+\- System Requirement Specification<br>
+\- Software Requirement Specification<br>
 - [Software Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)<br>
-\* Interface List<br>
-\* Package Diagram<br>
-\* Sequence Diagram<br>
-\* State Machine Diagram<br>
+\- Interface List<br>
+\- Package Diagram<br>
+\- Sequence Diagram<br>
+\- State Machine Diagram<br>
 - [Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
-\* Folder Structure<br>
-\* Coding Rules<br>
-\* Software Analysis [doxygen](https://www.doxygen.nl/) [graviz](https://graphviz.org/)<br>
+\- Folder Structure<br>
+\- Coding Rules<br>
+\- Software Analysis [doxygen](https://www.doxygen.nl/) [graviz](https://graphviz.org/)<br>
 
 </details>
 
