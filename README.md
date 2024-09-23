@@ -79,16 +79,14 @@
 - PC<br>
 - Wifi<br>
 - Application<br>
-最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。
-  - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
-  - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
-  - [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat
-)](https://winmerge.org/)
-  - [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white
-)](https://www.st.com/en/development-tools/stm32cubeide.html)
-  - [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)
-  - [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)
-  - [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)
+最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。<br>
+\* [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
+\* [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
+\* [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
+\* [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)<br>
+\* [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)<br>
+\* [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)<br>
+\* [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)<br>
 
 </details>
 
@@ -97,17 +95,17 @@
 <summary><font size="5"><b>Part.1[基本編]</b></font></summary>
 
 - [TOC](#toc)<br>
-- [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
-  - トレンド
-  - 市場
-  - マイコンの基本
-- [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
-  - 最初は? ***Git!!***
-  - Hello Cube
-  - Debug printf
-- [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
-  - 業務プロセス
-  - 開発組織
+- [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)<br>
+\* トレンド<br>
+\* 市場<br>
+\* マイコンの基本<br>
+- [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)<br>
+\* 最初は? ***Git!!***<br>
+\* Hello Cube<br>
+\* Debug printf<br>
+- [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)<br>
+\* 業務プロセス<br>
+\* 開発組織<br>
 
 </details>
 
@@ -117,19 +115,19 @@
 
 - [TOC](#toc)<br>
 - [1. Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
-- [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)
-  - システム要求
-  - システム要求仕様
-  - ソフトウエア要求仕様
-- [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)
-  - インラーフェス一覧
-  - パッケージ図
-  - シーケンス図
-  - ステートマシン図
-- [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
-  - フォルダ構成
-  - コーディング規則
-  - ソフトウエア分析 **[doxygen](https://www.doxygen.nl/)** **[graviz](https://graphviz.org/)**
+- [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)<br>
+\* システム要求<br>
+\* システム要求仕様<br>
+\* ソフトウエア要求仕様<br>
+- [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)<br>
+\* インラーフェス一覧<br>
+\* パッケージ図<br>
+\* シーケンス図<br>
+\* ステートマシン図<br>
+- [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
+\* フォルダ構成<br>
+\* コーディング規則<br>
+\* ソフトウエア分析 **[doxygen](https://www.doxygen.nl/)** **[graviz](https://graphviz.org/)**<br>
  
 </details>
 
