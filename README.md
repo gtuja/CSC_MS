@@ -77,8 +77,9 @@
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
 [marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
 
-- PC<br>
-- Wifi<br>
+- PC
+- Data Cable(Type-C)
+- Wifi
 - Application<br>
 最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。<br>
 \- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
