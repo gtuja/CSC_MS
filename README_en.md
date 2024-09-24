@@ -67,8 +67,10 @@ follow the steps in order and proceed.
 [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
 - Which MCU? [SDGs!](https://en.wikipedia.org/wiki/Sustainable_Development_Goals) **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)**<br>
 - [Toolchain?](https://en.wikipedia.org/wiki/Toolchain) **[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)**<br>
-\- The annual license fee for Keil MDK is 200,000 to 400,000 Yen [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
-\- In this program, we're gonna use Stm32Cube's [GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain). <br>
+\- The annual license fee for Keil MDK is 200,000 to 400,000 Yen, who could afford to it? [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
+\- Being able to use it for free is a huge benefit, so let's use it for future big projects!<br>
+\- In this program we're gonna use CubeIDE, cause it's easy to start.<br>
+
 - Flash, RAM? **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
 [marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
