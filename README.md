@@ -69,7 +69,7 @@
 - どのマイコン？ [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には・・・ **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)**<br>
 
 - [Toolchain?](https://en.wikipedia.org/wiki/Toolchain) **[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)**<br>
-\- Keil MDKの年間ライセンス費用は20~40万円 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
+\- Keil MDKの年間ライセンス費用は20~40万円で個人での購入は絶望的ですね。 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
 \- 本プログラムではStm32Cubeの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
 
 - Flash, RAMサイズ？ 大は小を兼ねる **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
