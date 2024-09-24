@@ -80,6 +80,8 @@
 - PC
 - Data Cable(Type-C)
 - Wifi
+- [Githubアカウント](https://github.com)
+- [STMアカウント](https://www.st.com)
 - Application<br>
 最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。<br>
 \- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
