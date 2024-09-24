@@ -112,17 +112,17 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 <summary><font size="5"><b>Part.2[Implementation]</b></font></summary>
 
 - [TOC](#toc)
-- [Wok flow on Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)<br>
-- [Requirement Analysis](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)<br>
+- [Wok flow on Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub_en.md)<br>
+- [Requirement Analysis](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis_en.md)<br>
 \- System Requirement<br>
 \- System Requirement Specification<br>
 \- Software Requirement Specification<br>
-- [Software Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)<br>
+- [Software Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign_en.md)<br>
 \- Interface List<br>
 \- Package Diagram<br>
 \- Sequence Diagram<br>
 \- State Machine Diagram<br>
-- [Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
+- [Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md)<br>
 \- Folder Structure<br>
 \- Coding Rules<br>
 \- Software Analysis [doxygen](https://www.doxygen.nl/) [graviz](https://graphviz.org/)<br>
