@@ -120,8 +120,8 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 \- System Requirement Specification<br>
 \- Software Requirement Specification<br>
 - [Software Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign_en.md)<br>
-\- Interface List<br>
 \- Package Diagram<br>
+\- Interface List<br>
 \- Sequence Diagram<br>
 \- State Machine Diagram<br>
 - [Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md)<br>
