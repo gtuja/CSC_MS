@@ -125,7 +125,7 @@
 \- ソフトウエア要求仕様<br>
 - [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)<br>
 \- パッケージ図<br>
-\- インラーフェス一覧<br>
+\- データストラクチャー<br>
 \- シーケンス図<br>
 \- ステートマシン図<br>
 - [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
