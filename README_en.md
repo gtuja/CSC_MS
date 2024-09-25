@@ -76,6 +76,8 @@ follow the steps in order and proceed.
 [marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
 - PC
 - Wifi
+- [Github account](https://github.com)
+- [STM account](https://www.st.com)
 - Application<br>
 The latest version is always a good choice, but let's use CubeIDE with ***1.16.0***, which does not have any minor features.<br>
 \- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
