@@ -74,7 +74,7 @@ PROJECT_ICON           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = doxygen
+OUTPUT_DIRECTORY       = doxy
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -1056,7 +1056,10 @@ RECURSIVE              = YES
 
 EXCLUDE                = NUCLEO-G0B1RE/FreeRTOS_Queues/Drivers \
                          NUCLEO-G0B1RE/GPIO_IOToggle/Drivers \
-                         NUCLEO-G0B1RE/TIM_PWMOutput/Drivers
+                         NUCLEO-G0B1RE/TIM_PWMOutput/Drivers \
+                         NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE \
+                         NUCLEO-G0B1RE/GPIO_IOToggle/STM32CubeIDE \
+                         NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
