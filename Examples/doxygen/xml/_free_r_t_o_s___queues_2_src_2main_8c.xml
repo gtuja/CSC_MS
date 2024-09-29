@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_free_r_t_o_s___queues_2_src_2main_8c" kind="file" language="C++">
+    <compoundname>main.c</compoundname>
+    <includes local="yes">main.h</includes>
+    <includes refid="cmsis__os_8h" local="yes">cmsis_os.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>FreeRTOSConfig.h</label>
+        <link refid="_free_r_t_o_s_config_8h"/>
+      </node>
+      <node id="3">
+        <label>cmsis_os.h</label>
+        <link refid="cmsis__os_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>cmsis_os2.h</label>
+        <link refid="cmsis__os2_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FreeRTOS.h</label>
+        <link refid="_free_r_t_o_s_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>deprecated_definitions.h</label>
+        <link refid="deprecated__definitions_8h"/>
+      </node>
+      <node id="14">
+        <label>list.h</label>
+        <link refid="list_8h"/>
+      </node>
+      <node id="12">
+        <label>mpu_wrappers.h</label>
+        <link refid="mpu__wrappers_8h"/>
+      </node>
+      <node id="9">
+        <label>portable.h</label>
+        <link refid="portable_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>projdefs.h</label>
+        <link refid="projdefs_8h"/>
+      </node>
+      <node id="13">
+        <label>task.h</label>
+        <link refid="task_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>portmacro.h</label>
+        <link refid="portmacro_8h"/>
+      </node>
+      <node id="1">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c</label>
+        <link refid="_free_r_t_o_s___queues_2_src_2main_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>main.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_free_r_t_o_s___queues_2_src_2main_8c_1aab6aa6606d971609dac7a5bdf25166a7" prot="public" static="no">
+        <name>blckqSTACK_SIZE</name>
+        <initializer><ref refid="_free_r_t_o_s_config_8h_1a6c534a6cf8a00528fe0be42083484f9a" kindref="member">configMINIMAL_STACK_SIZE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="41" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a898c622b21d3041aba174dc4df898425" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os2_8h_1a6333e016ba9b008e6dd76851c38b9217" kindref="member">osThreadId_t</ref></type>
+        <definition>osThreadId_t MessageQueueProHandle</definition>
+        <argsstring></argsstring>
+        <name>MessageQueueProHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="46" column="14" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="46" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1ace324effa0833006ec9dcf6fa00fec97" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structos_thread_attr__t" kindref="compound">osThreadAttr_t</ref></type>
+        <definition>const osThreadAttr_t MessageQueuePro_attributes</definition>
+        <argsstring></argsstring>
+        <name>MessageQueuePro_attributes</name>
+        <initializer>= {
+  .name = &quot;MessageQueuePro&quot;,
+  .priority = (<ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342ec" kindref="member">osPriority_t</ref>) <ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342eca45a2895ad30c79fb97de18cac7cc19f1" kindref="member">osPriorityNormal</ref>,
+  .stack_size = 128 * 4
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="47" column="22" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="47" bodyend="51"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a6ed6847c5969ecb84e42849ac5f4eccb" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os2_8h_1a6333e016ba9b008e6dd76851c38b9217" kindref="member">osThreadId_t</ref></type>
+        <definition>osThreadId_t MessageQueueConHandle</definition>
+        <argsstring></argsstring>
+        <name>MessageQueueConHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="53" column="14" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="53" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a38c7d0081f1cdb056cfb0593cdc27ddb" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structos_thread_attr__t" kindref="compound">osThreadAttr_t</ref></type>
+        <definition>const osThreadAttr_t MessageQueueCon_attributes</definition>
+        <argsstring></argsstring>
+        <name>MessageQueueCon_attributes</name>
+        <initializer>= {
+  .name = &quot;MessageQueueCon&quot;,
+  .priority = (<ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342ec" kindref="member">osPriority_t</ref>) <ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342eca61cb822239ac8f66dfbdc7291598a3d4" kindref="member">osPriorityLow</ref>,
+  .stack_size = 128 * 4
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="54" column="22" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="54" bodyend="58"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os2_8h_1a206dbc05367e03c39fc6d4d1ebcff317" kindref="member">osMessageQueueId_t</ref></type>
+        <definition>osMessageQueueId_t osQueueHandle</definition>
+        <argsstring></argsstring>
+        <name>osQueueHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="60" column="20" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="60" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="261" endline="292">MessageQueueConsumer</referencedby>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="227" endline="252">MessageQueueProducer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a8d680ab4fbd4d0869e9c60ac7aeea2cf" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structos_message_queue_attr__t" kindref="compound">osMessageQueueAttr_t</ref></type>
+        <definition>const osMessageQueueAttr_t osQueue_attributes</definition>
+        <argsstring></argsstring>
+        <name>osQueue_attributes</name>
+        <initializer>= {
+  .name = &quot;osQueue&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="61" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="61" bodyend="63"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osQueueMsg</definition>
+        <argsstring></argsstring>
+        <name>osQueueMsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="65" column="12" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="65" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="261" endline="292">MessageQueueConsumer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1ae738e5564d2830c64ffc407028a0afa2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ProducerValue</definition>
+        <argsstring></argsstring>
+        <name>ProducerValue</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="66" column="10" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="66" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="227" endline="252">MessageQueueProducer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ConsumerValue</definition>
+        <argsstring></argsstring>
+        <name>ConsumerValue</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="66" column="25" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="66" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="261" endline="292">MessageQueueConsumer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a5a26dc9fbb7c8fbccf7251383bcfb56e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ProducerErrors</definition>
+        <argsstring></argsstring>
+        <name>ProducerErrors</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="67" column="15" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="67" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="227" endline="252">MessageQueueProducer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ConsumerErrors</definition>
+        <argsstring></argsstring>
+        <name>ConsumerErrors</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="67" column="31" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="67" bodyend="-1"/>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="261" endline="292">MessageQueueConsumer</referencedby>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="227" endline="252">MessageQueueProducer</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemClock_Config</definition>
+        <argsstring>(void)</argsstring>
+        <name>SystemClock_Config</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>System Clock Configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>Configure the main internal regulator output voltage</para>
+<para>Initializes the RCC Oscillators according to the specified parameters in the RCC_OscInitTypeDef structure.</para>
+<para>Initializes the CPU, AHB and APB buses clocks</para>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="174" column="6" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="174" bodyend="214" declfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" declline="71" declcolumn="6"/>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a1730ffe1e560465665eb47d9264826f9" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="319" endline="325">Error_Handler</references>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MessageQueueProducer</definition>
+        <argsstring>(void *argument)</argsstring>
+        <name>MessageQueueProducer</name>
+        <param>
+          <type>void *</type>
+          <declname>argument</declname>
+        </param>
+        <briefdescription>
+<para>Function implementing the MessageQueuePro thread. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Not used </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="227" column="6" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="227" bodyend="252" declfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" declline="72" declcolumn="6"/>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="67">ConsumerErrors</references>
+        <references refid="cmsis__os2_8c_1af6055a51390ef65b6b6edc28bf47322e" compoundref="cmsis__os2_8c" startline="881" endline="896">osDelay</references>
+        <references refid="cmsis__os2_8c_1aa515fc8b956f721a8f72b2c505813bfc" compoundref="cmsis__os2_8c" startline="1750" endline="1789">osMessageQueuePut</references>
+        <references refid="cmsis__os2_8h_1a6c0dbe6069e4e7f47bb4cd32ae2b813ea9e1c9e2550bb4de8969a935acffc968f" compoundref="cmsis__os2_8h" startline="177">osOK</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="60">osQueueHandle</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5a26dc9fbb7c8fbccf7251383bcfb56e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="67">ProducerErrors</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae738e5564d2830c64ffc407028a0afa2" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="66">ProducerValue</references>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MessageQueueConsumer</definition>
+        <argsstring>(void *argument)</argsstring>
+        <name>MessageQueueConsumer</name>
+        <param>
+          <type>void *</type>
+          <declname>argument</declname>
+        </param>
+        <briefdescription>
+<para>Function implementing the MessageQueueCon thread. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>argument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Not used </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="261" column="6" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="261" bodyend="292" declfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" declline="73" declcolumn="6"/>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="67">ConsumerErrors</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="66">ConsumerValue</references>
+        <references refid="cmsis__os2_8c_1ad90d4959466a7a65105061da8256ab9e" compoundref="cmsis__os2_8c" startline="1791" endline="1830">osMessageQueueGet</references>
+        <references refid="cmsis__os2_8h_1a6c0dbe6069e4e7f47bb4cd32ae2b813ea9e1c9e2550bb4de8969a935acffc968f" compoundref="cmsis__os2_8h" startline="177">osOK</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="60">osQueueHandle</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="65">osQueueMsg</references>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="88" endline="168">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>The application entry point. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="88" column="5" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="88" bodyend="168"/>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a38c7d0081f1cdb056cfb0593cdc27ddb" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="54" endline="58">MessageQueueCon_attributes</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a6ed6847c5969ecb84e42849ac5f4eccb" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="53">MessageQueueConHandle</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="261" endline="292">MessageQueueConsumer</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1ace324effa0833006ec9dcf6fa00fec97" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="47" endline="51">MessageQueuePro_attributes</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="227" endline="252">MessageQueueProducer</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a898c622b21d3041aba174dc4df898425" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="46">MessageQueueProHandle</references>
+        <references refid="cmsis__os2_8c_1ae818f6611d25ba3140bede410a52d659" compoundref="cmsis__os2_8c" startline="198" endline="220">osKernelInitialize</references>
+        <references refid="cmsis__os2_8c_1a9ae2cc00f0d89d7b6a307bba942b5221" compoundref="cmsis__os2_8c" startline="265" endline="286">osKernelStart</references>
+        <references refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" compoundref="cmsis__os2_8c" startline="1693" endline="1748">osMessageQueueNew</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a8d680ab4fbd4d0869e9c60ac7aeea2cf" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="61" endline="63">osQueue_attributes</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="60">osQueueHandle</references>
+        <references refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</references>
+        <references refid="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="174" endline="214">SystemClock_Config</references>
+      </memberdef>
+      <memberdef kind="function" id="_free_r_t_o_s___queues_2_src_2main_8c_1a8a3b0ad512a6e6c6157440b68d395eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HAL_TIM_PeriodElapsedCallback</definition>
+        <argsstring>(TIM_HandleTypeDef *htim)</argsstring>
+        <name>HAL_TIM_PeriodElapsedCallback</name>
+        <param>
+          <type>TIM_HandleTypeDef *</type>
+          <declname>htim</declname>
+        </param>
+        <briefdescription>
+<para>Period elapsed callback in non blocking mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This function is called when TIM6 interrupt took place, inside HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment a global variable &quot;uwTick&quot; used as application time base. </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>htim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: TIM handle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="302" column="6" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="302" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="_free_r_t_o_s___queues_2_src_2main_8c_1a1730ffe1e560465665eb47d9264826f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Error_Handler</definition>
+        <argsstring>(void)</argsstring>
+        <name>Error_Handler</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This function is executed in case of error occurrence. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" line="319" column="6" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c" bodystart="319" bodyend="325"/>
+        <referencedby refid="_t_i_m___p_w_m_output_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_t_i_m___p_w_m_output_2_src_2main_8c" startline="68" endline="145">main</referencedby>
+        <referencedby refid="_t_i_m___p_w_m_output_2_src_2main_8c_1a1d1beb7da60021ee1adbca294f28ba88" compoundref="_t_i_m___p_w_m_output_2_src_2main_8c" startline="198" endline="278">MX_TIM1_Init</referencedby>
+        <referencedby refid="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" compoundref="_free_r_t_o_s___queues_2_src_2main_8c" startline="174" endline="214">SystemClock_Config</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Header<sp/>*/</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Header<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Includes<sp/>------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;main.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cmsis__os_8h" kindref="compound">cmsis_os.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>includes<sp/>----------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Includes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Includes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>typedef<sp/>-----------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>PTD<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>PTD<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>define<sp/>------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>PD<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>PD<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>macro<sp/>-------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>PM<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="_free_r_t_o_s___queues_2_src_2main_8c_1aab6aa6606d971609dac7a5bdf25166a7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>blckqSTACK_SIZE<sp/><sp/><sp/>configMINIMAL_STACK_SIZE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>PM<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>variables<sp/>---------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Definitions<sp/>for<sp/>MessageQueuePro<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a898c622b21d3041aba174dc4df898425" refkind="member"><highlight class="normal"><ref refid="cmsis__os2_8h_1a6333e016ba9b008e6dd76851c38b9217" kindref="member">osThreadId_t</ref><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a898c622b21d3041aba174dc4df898425" kindref="member">MessageQueueProHandle</ref>;</highlight></codeline>
+<codeline lineno="47" refid="_free_r_t_o_s___queues_2_src_2main_8c_1ace324effa0833006ec9dcf6fa00fec97" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structos_thread_attr__t" kindref="compound">osThreadAttr_t</ref><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ace324effa0833006ec9dcf6fa00fec97" kindref="member">MessageQueuePro_attributes</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>.<ref refid="structos_thread_attr__t_1aed20d9f112c97dcb4fc6374290ab7446" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MessageQueuePro&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>.priority<sp/>=<sp/>(<ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342ec" kindref="member">osPriority_t</ref>)<sp/><ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342eca45a2895ad30c79fb97de18cac7cc19f1" kindref="member">osPriorityNormal</ref>,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>.stack_size<sp/>=<sp/>128<sp/>*<sp/>4</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Definitions<sp/>for<sp/>MessageQueueCon<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a6ed6847c5969ecb84e42849ac5f4eccb" refkind="member"><highlight class="normal"><ref refid="cmsis__os2_8h_1a6333e016ba9b008e6dd76851c38b9217" kindref="member">osThreadId_t</ref><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a6ed6847c5969ecb84e42849ac5f4eccb" kindref="member">MessageQueueConHandle</ref>;</highlight></codeline>
+<codeline lineno="54" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a38c7d0081f1cdb056cfb0593cdc27ddb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structos_thread_attr__t" kindref="compound">osThreadAttr_t</ref><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a38c7d0081f1cdb056cfb0593cdc27ddb" kindref="member">MessageQueueCon_attributes</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>.<ref refid="structos_thread_attr__t_1aed20d9f112c97dcb4fc6374290ab7446" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MessageQueueCon&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>.priority<sp/>=<sp/>(<ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342ec" kindref="member">osPriority_t</ref>)<sp/><ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342eca61cb822239ac8f66dfbdc7291598a3d4" kindref="member">osPriorityLow</ref>,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>.stack_size<sp/>=<sp/>128<sp/>*<sp/>4</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Definitions<sp/>for<sp/>osQueue<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" refkind="member"><highlight class="normal"><ref refid="cmsis__os2_8h_1a206dbc05367e03c39fc6d4d1ebcff317" kindref="member">osMessageQueueId_t</ref><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" kindref="member">osQueueHandle</ref>;</highlight></codeline>
+<codeline lineno="61" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a8d680ab4fbd4d0869e9c60ac7aeea2cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structos_message_queue_attr__t" kindref="compound">osMessageQueueAttr_t</ref><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a8d680ab4fbd4d0869e9c60ac7aeea2cf" kindref="member">osQueue_attributes</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>.<ref refid="structos_message_queue_attr__t_1a7a0ddc31f97f8d8e5d9f880f5d03768b" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;osQueue&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>PV<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" refkind="member"><highlight class="normal">uint32_t<sp/><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" kindref="member">osQueueMsg</ref>;</highlight></codeline>
+<codeline lineno="66" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" refkind="member"><highlight class="normal">uint32_t<sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae738e5564d2830c64ffc407028a0afa2" kindref="member">ProducerValue</ref><sp/>=<sp/>0,<sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" kindref="member">ConsumerValue</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" refkind="member"><highlight class="normal">__IO<sp/>uint32_t<sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5a26dc9fbb7c8fbccf7251383bcfb56e" kindref="member">ProducerErrors</ref><sp/>=<sp/>0,<sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" kindref="member">ConsumerErrors</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>PV<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>function<sp/>prototypes<sp/>-----------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" kindref="member">SystemClock_Config</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" kindref="member">MessageQueueProducer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*argument);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" kindref="member">MessageQueueConsumer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*argument);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>PFP<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>PFP<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Private<sp/>user<sp/>code<sp/>---------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>MCU<sp/>Configuration--------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Reset<sp/>of<sp/>all<sp/>peripherals,<sp/>Initializes<sp/>the<sp/>Flash<sp/>interface<sp/>and<sp/>the<sp/>Systick.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>HAL_Init();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Init<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Init<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Configure<sp/>the<sp/>system<sp/>clock<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" kindref="member">SystemClock_Config</ref>();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>SysInit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialize<sp/>LED<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>BSP_LED_Init(LED4);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>SysInit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialize<sp/>all<sp/>configured<sp/>peripherals<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Init<sp/>scheduler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><ref refid="cmsis__os2_8c_1ae818f6611d25ba3140bede410a52d659" kindref="member">osKernelInitialize</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>RTOS_MUTEX<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>RTOS_MUTEX<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>RTOS_SEMAPHORES<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>RTOS_SEMAPHORES<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>RTOS_TIMERS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>RTOS_TIMERS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Create<sp/>the<sp/>queue(s)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>creation<sp/>of<sp/>osQueue<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" kindref="member">osQueueHandle</ref><sp/>=<sp/><ref refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" kindref="member">osMessageQueueNew</ref><sp/>(1,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint16_t),<sp/>&amp;<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a8d680ab4fbd4d0869e9c60ac7aeea2cf" kindref="member">osQueue_attributes</ref>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>RTOS_QUEUES<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>RTOS_QUEUES<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Create<sp/>the<sp/>thread(s)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>creation<sp/>of<sp/>MessageQueuePro<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a898c622b21d3041aba174dc4df898425" kindref="member">MessageQueueProHandle</ref><sp/>=<sp/><ref refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" kindref="member">osThreadNew</ref>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" kindref="member">MessageQueueProducer</ref>,<sp/>NULL,<sp/>&amp;<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ace324effa0833006ec9dcf6fa00fec97" kindref="member">MessageQueuePro_attributes</ref>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>creation<sp/>of<sp/>MessageQueueCon<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a6ed6847c5969ecb84e42849ac5f4eccb" kindref="member">MessageQueueConHandle</ref><sp/>=<sp/><ref refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" kindref="member">osThreadNew</ref>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" kindref="member">MessageQueueConsumer</ref>,<sp/>NULL,<sp/>&amp;<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a38c7d0081f1cdb056cfb0593cdc27ddb" kindref="member">MessageQueueCon_attributes</ref>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>RTOS_THREADS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>RTOS_THREADS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>RTOS_EVENTS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>add<sp/>events,<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>RTOS_EVENTS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Start<sp/>scheduler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="cmsis__os2_8c_1a9ae2cc00f0d89d7b6a307bba942b5221" kindref="member">osKernelStart</ref>();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>We<sp/>should<sp/>never<sp/>get<sp/>here<sp/>as<sp/>control<sp/>is<sp/>now<sp/>taken<sp/>by<sp/>the<sp/>scheduler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Infinite<sp/>loop<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>WHILE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(1)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>WHILE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a70af21c671abfcc773614a9a4f63d920" kindref="member">SystemClock_Config</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>RCC_OscInitTypeDef<sp/>RCC_OscInitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>RCC_ClkInitTypeDef<sp/>RCC_ClkInitStruct<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>HAL_PWREx_ControlVoltageScaling(PWR_REGULATOR_VOLTAGE_SCALE1);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.OscillatorType<sp/>=<sp/>RCC_OSCILLATORTYPE_HSI;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.HSIState<sp/>=<sp/>RCC_HSI_ON;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.HSIDiv<sp/>=<sp/>RCC_HSI_DIV1;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.HSICalibrationValue<sp/>=<sp/>RCC_HSICALIBRATION_DEFAULT;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLState<sp/>=<sp/>RCC_PLL_ON;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLSource<sp/>=<sp/>RCC_PLLSOURCE_HSI;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLM<sp/>=<sp/>RCC_PLLM_DIV1;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLN<sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLP<sp/>=<sp/>RCC_PLLP_DIV2;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLQ<sp/>=<sp/>RCC_PLLQ_DIV2;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>RCC_OscInitStruct.PLL.PLLR<sp/>=<sp/>RCC_PLLR_DIV2;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(HAL_RCC_OscConfig(&amp;RCC_OscInitStruct)<sp/>!=<sp/>HAL_OK)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a1730ffe1e560465665eb47d9264826f9" kindref="member">Error_Handler</ref>();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>RCC_ClkInitStruct.ClockType<sp/>=<sp/>RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|RCC_CLOCKTYPE_PCLK1;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>RCC_ClkInitStruct.SYSCLKSource<sp/>=<sp/>RCC_SYSCLKSOURCE_PLLCLK;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>RCC_ClkInitStruct.AHBCLKDivider<sp/>=<sp/>RCC_SYSCLK_DIV1;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>RCC_ClkInitStruct.APB1CLKDivider<sp/>=<sp/>RCC_HCLK_DIV1;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(HAL_RCC_ClockConfig(&amp;RCC_ClkInitStruct,<sp/>FLASH_LATENCY_2)<sp/>!=<sp/>HAL_OK)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a1730ffe1e560465665eb47d9264826f9" kindref="member">Error_Handler</ref>();</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Header_MessageQueueProducer<sp/>*/</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Header_MessageQueueProducer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5722e77ac0684aebdfe2a7927efa501e" kindref="member">MessageQueueProducer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*argument)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>5<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Infinite<sp/>loop<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;;)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cmsis__os2_8c_1aa515fc8b956f721a8f72b2c505813bfc" kindref="member">osMessageQueuePut</ref>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" kindref="member">osQueueHandle</ref>,<sp/>&amp;<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae738e5564d2830c64ffc407028a0afa2" kindref="member">ProducerValue</ref>,<sp/>100,<sp/>0)<sp/>!=<sp/><ref refid="cmsis__os2_8h_1a6c0dbe6069e4e7f47bb4cd32ae2b813ea9e1c9e2550bb4de8969a935acffc968f" kindref="member">osOK</ref>)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>++<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5a26dc9fbb7c8fbccf7251383bcfb56e" kindref="member">ProducerErrors</ref>;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Switch<sp/>On<sp/>continuously<sp/>LED4<sp/>to<sp/>indicate<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>BSP_LED_On(LED4);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Increment<sp/>the<sp/>variable<sp/>we<sp/>are<sp/>going<sp/>to<sp/>post<sp/>next<sp/>time<sp/>round.<sp/><sp/>The</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>consumer<sp/>will<sp/>expect<sp/>the<sp/>numbers<sp/>to<sp/>follow<sp/>in<sp/>numerical<sp/>order<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>++<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae738e5564d2830c64ffc407028a0afa2" kindref="member">ProducerValue</ref>;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a5a26dc9fbb7c8fbccf7251383bcfb56e" kindref="member">ProducerErrors</ref><sp/>==<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" kindref="member">ConsumerErrors</ref><sp/>==<sp/>0)<sp/>)</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BSP_LED_Toggle(LED4);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="cmsis__os2_8c_1af6055a51390ef65b6b6edc28bf47322e" kindref="member">osDelay</ref>(1000);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>5<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Header_MessageQueueConsumer<sp/>*/</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Header_MessageQueueConsumer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a0322cad3bd0e264bdf2104b17b6d971d" kindref="member">MessageQueueConsumer</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*argument)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>MessageQueueConsumer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><ref refid="cmsis__os2_8h_1a6c0dbe6069e4e7f47bb4cd32ae2b813e" kindref="member">osStatus_t</ref><sp/>status;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;;)</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>message<sp/>from<sp/>the<sp/>queue<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>status<sp/>=<sp/><ref refid="cmsis__os2_8c_1ad90d4959466a7a65105061da8256ab9e" kindref="member">osMessageQueueGet</ref>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ac864173dacf63858bcd75bca3d7b4702" kindref="member">osQueueHandle</ref>,<sp/>&amp;<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" kindref="member">osQueueMsg</ref>,<sp/>NULL,<sp/>100);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(status<sp/>==<sp/><ref refid="cmsis__os2_8h_1a6c0dbe6069e4e7f47bb4cd32ae2b813ea9e1c9e2550bb4de8969a935acffc968f" kindref="member">osOK</ref>)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" kindref="member">osQueueMsg</ref><sp/>!=<sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" kindref="member">ConsumerValue</ref>)</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Catch-up<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" kindref="member">ConsumerValue</ref><sp/>=<sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1ae3ba952ea856cb109c00b2ed6a620750" kindref="member">osQueueMsg</ref>;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a63e71fa350a3b9e22f588968cffd0d9e" kindref="member">ConsumerErrors</ref>;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Switch<sp/>On<sp/>continuously<sp/>LED4<sp/>to<sp/>indicate<sp/>error<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BSP_LED_On(LED4);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Increment<sp/>the<sp/>value<sp/>we<sp/>expect<sp/>to<sp/>remove<sp/>from<sp/>the<sp/>queue<sp/>next<sp/>time</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>round<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++<ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a280c21a297b812a9bb1da5a53ec46d15" kindref="member">ConsumerValue</ref>;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>MessageQueueConsumer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="_free_r_t_o_s___queues_2_src_2main_8c_1a8a3b0ad512a6e6c6157440b68d395eac" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a8a3b0ad512a6e6c6157440b68d395eac" kindref="member">HAL_TIM_PeriodElapsedCallback</ref>(TIM_HandleTypeDef<sp/>*htim)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Callback<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Callback<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(htim-&gt;Instance<sp/>==<sp/>TIM6)<sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>HAL_IncTick();</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Callback<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Callback<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="_free_r_t_o_s___queues_2_inc_2main_8h_1a1730ffe1e560465665eb47d9264826f9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_free_r_t_o_s___queues_2_src_2main_8c_1a1730ffe1e560465665eb47d9264826f9" kindref="member">Error_Handler</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>Error_Handler_Debug<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>User<sp/>can<sp/>add<sp/>his<sp/>own<sp/>implementation<sp/>to<sp/>report<sp/>the<sp/>HAL<sp/>error<sp/>return<sp/>state<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>Error_Handler_Debug<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>USE_FULL_ASSERT</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>assert_failed(uint8_t<sp/>*file,<sp/>uint32_t<sp/>line)</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>BEGIN<sp/>6<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>User<sp/>can<sp/>add<sp/>his<sp/>own<sp/>implementation<sp/>to<sp/>report<sp/>the<sp/>file<sp/>name<sp/>and<sp/>line<sp/>number,</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>tex:<sp/>printf(&quot;Wrong<sp/>parameters<sp/>value:<sp/>file<sp/>%s<sp/>on<sp/>line<sp/>%d\r\n&quot;,<sp/>file,<sp/>line)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Infinite<sp/>loop<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(1)</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>USER<sp/>CODE<sp/>END<sp/>6<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>USE_FULL_ASSERT<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/main.c"/>
+  </compounddef>
+</doxygen>

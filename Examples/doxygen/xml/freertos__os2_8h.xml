@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="freertos__os2_8h" kind="file" language="C++">
+    <compoundname>freertos_os2.h</compoundname>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes refid="_free_r_t_o_s_8h" local="yes">FreeRTOS.h</includes>
+    <includes local="no">CMSIS_device_header</includes>
+    <includedby refid="cmsis__os2_8c" local="yes">NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>CMSIS_device_header</label>
+      </node>
+      <node id="6">
+        <label>FreeRTOSConfig.h</label>
+        <link refid="_free_r_t_o_s_config_8h"/>
+      </node>
+      <node id="1">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h</label>
+        <link refid="freertos__os2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FreeRTOS.h</label>
+        <link refid="_free_r_t_o_s_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>deprecated_definitions.h</label>
+        <link refid="deprecated__definitions_8h"/>
+      </node>
+      <node id="11">
+        <label>mpu_wrappers.h</label>
+        <link refid="mpu__wrappers_8h"/>
+      </node>
+      <node id="8">
+        <label>portable.h</label>
+        <link refid="portable_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>projdefs.h</label>
+        <link refid="projdefs_8h"/>
+      </node>
+      <node id="10">
+        <label>portmacro.h</label>
+        <link refid="portmacro_8h"/>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c</label>
+        <link refid="cmsis__os2_8c"/>
+      </node>
+      <node id="1">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h</label>
+        <link refid="freertos__os2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="freertos__os2_8h_1a29c5de2bca09fa23f66452549f3ff448" prot="public" static="no">
+        <name>configUSE_OS2_THREAD_SUSPEND_RESUME</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" line="48" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__os2_8h_1a9db98d1311073d45fafae4604bfe95a8" prot="public" static="no">
+        <name>configUSE_OS2_THREAD_ENUMERATE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" line="55" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__os2_8h_1ae217959706025f308b1183b3a0b017e5" prot="public" static="no">
+        <name>configUSE_OS2_EVENTFLAGS_FROM_ISR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" line="63" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__os2_8h_1a1f83ae13f34409a19d3ce087850270ec" prot="public" static="no">
+        <name>configUSE_OS2_THREAD_FLAGS</name>
+        <initializer><ref refid="_free_r_t_o_s_8h_1aca14daeac974218ce2497f12d614fb6b" kindref="member">configUSE_TASK_NOTIFICATIONS</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" line="70" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__os2_8h_1a5740cfa1bfc7ac78fc9db4b8b14ea865" prot="public" static="no">
+        <name>configUSE_OS2_TIMER</name>
+        <initializer><ref refid="_free_r_t_o_s_config_8h_1ac342ae309b0c53828d2ecad3e6de355b" kindref="member">configUSE_TIMERS</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" line="77" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__os2_8h_1acb45e61b0f68cbdbf209bc35e20f51ce" prot="public" static="no">
+        <name>configUSE_OS2_MUTEX</name>
+        <initializer><ref refid="_free_r_t_o_s_config_8h_1a543bf3c79008974cc1d36bab51d94fbf" kindref="member">configUSE_MUTEXES</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" line="84" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2013-2020<sp/>Arm<sp/>Limited.<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>Apache-2.0</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>License);<sp/>you<sp/>may</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>AS<sp/>IS<sp/>BASIS,<sp/>WITHOUT</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Name:<sp/><sp/><sp/><sp/>freertos_os2.h</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Purpose:<sp/>CMSIS<sp/>RTOS2<sp/>wrapper<sp/>for<sp/>FreeRTOS</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FREERTOS_OS2_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FREERTOS_OS2_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_free_r_t_o_s_8h" kindref="compound">FreeRTOS.h</ref>&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ARM.FreeRTOS::RTOS:Core</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>CMSIS_device_header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/>CMSIS-RTOS2<sp/>FreeRTOS<sp/>image<sp/>size<sp/>optimization<sp/>definitions.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"></highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/>Note:<sp/>Definitions<sp/>configUSE_OS2<sp/>can<sp/>be<sp/>used<sp/>to<sp/>optimize<sp/>FreeRTOS<sp/>image<sp/>size<sp/>when</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>certain<sp/>functionality<sp/>is<sp/>not<sp/>required<sp/>when<sp/>using<sp/>CMSIS-RTOS2<sp/>API.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>In<sp/>general<sp/>optimization<sp/>decisions<sp/>are<sp/>left<sp/>to<sp/>the<sp/>tool<sp/>chain<sp/>but<sp/>in<sp/>cases</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>when<sp/>coding<sp/>style<sp/>prevents<sp/>it<sp/>to<sp/>optimize<sp/>the<sp/>code<sp/>following<sp/>optional</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>definitions<sp/>can<sp/>be<sp/>used.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/>Option<sp/>to<sp/>exclude<sp/>CMSIS-RTOS2<sp/>functions<sp/>osThreadSuspend<sp/>and<sp/>osThreadResume<sp/>from</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/>the<sp/>application<sp/>image.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>configUSE_OS2_THREAD_SUSPEND_RESUME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="freertos__os2_8h_1a29c5de2bca09fa23f66452549f3ff448" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>configUSE_OS2_THREAD_SUSPEND_RESUME<sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/>Option<sp/>to<sp/>exclude<sp/>CMSIS-RTOS2<sp/>function<sp/>osThreadEnumerate<sp/>from<sp/>the<sp/>application<sp/>image.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>configUSE_OS2_THREAD_ENUMERATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="freertos__os2_8h_1a9db98d1311073d45fafae4604bfe95a8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>configUSE_OS2_THREAD_ENUMERATE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/>Option<sp/>to<sp/>disable<sp/>CMSIS-RTOS2<sp/>function<sp/>osEventFlagsSet<sp/>and<sp/>osEventFlagsClear</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/>operation<sp/>from<sp/>ISR.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>configUSE_OS2_EVENTFLAGS_FROM_ISR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="freertos__os2_8h_1ae217959706025f308b1183b3a0b017e5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>configUSE_OS2_EVENTFLAGS_FROM_ISR<sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/>Option<sp/>to<sp/>exclude<sp/>CMSIS-RTOS2<sp/>Thread<sp/>Flags<sp/>API<sp/>functions<sp/>from<sp/>the<sp/>application<sp/>image.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>configUSE_OS2_THREAD_FLAGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="freertos__os2_8h_1a1f83ae13f34409a19d3ce087850270ec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>configUSE_OS2_THREAD_FLAGS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configUSE_TASK_NOTIFICATIONS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/>Option<sp/>to<sp/>exclude<sp/>CMSIS-RTOS2<sp/>Timer<sp/>API<sp/>functions<sp/>from<sp/>the<sp/>application<sp/>image.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>configUSE_OS2_TIMER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="freertos__os2_8h_1a5740cfa1bfc7ac78fc9db4b8b14ea865" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>configUSE_OS2_TIMER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configUSE_TIMERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/>Option<sp/>to<sp/>exclude<sp/>CMSIS-RTOS2<sp/>Mutex<sp/>API<sp/>functions<sp/>from<sp/>the<sp/>application<sp/>image.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>configUSE_OS2_MUTEX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="freertos__os2_8h_1acb45e61b0f68cbdbf209bc35e20f51ce" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>configUSE_OS2_MUTEX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configUSE_MUTEXES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/>CMSIS-RTOS2<sp/>FreeRTOS<sp/>configuration<sp/>check<sp/>(FreeRTOSConfig.h).</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"></highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/>Note:<sp/>CMSIS-RTOS<sp/>API<sp/>requires<sp/>functions<sp/>included<sp/>by<sp/>using<sp/>following<sp/>definitions.</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>In<sp/>case<sp/>if<sp/>certain<sp/>API<sp/>function<sp/>is<sp/>not<sp/>used<sp/>compiler<sp/>will<sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_xSemaphoreGetMutexHolder<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osMutexGetOwner<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>xSemaphoreGetMutexHolder.<sp/>In<sp/>case<sp/>if</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>osMutexGetOwner<sp/>is<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_xSemaphoreGetMutexHolder<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_xSemaphoreGetMutexHolder<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Mutex<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_vTaskDelay<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osDelay<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>vTaskDelay.<sp/>In<sp/>case<sp/>if</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/><sp/>osDelay<sp/>is<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_vTaskDelay<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_vTaskDelay<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Generic<sp/>Wait<sp/>Functions<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_vTaskDelayUntil<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osDelayUntil<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>vTaskDelayUntil.<sp/>In<sp/>case<sp/>if</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/>osDelayUntil<sp/>is<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_vTaskDelayUntil<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_vTaskDelayUntil<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Generic<sp/>Wait<sp/>Functions<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_vTaskDelete<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osThreadTerminate<sp/>and<sp/>osThreadExit<sp/>uses<sp/>FreeRTOS<sp/>function</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/>vTaskDelete.<sp/>In<sp/>case<sp/>if<sp/>they<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_vTaskDelete<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_vTaskDelete<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_xTaskGetCurrentTaskHandle<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>API<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>xTaskGetCurrentTaskHandle<sp/>to<sp/>implement</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/>functions<sp/>osThreadGetId,<sp/>osThreadFlagsClear<sp/>and<sp/>osThreadFlagsGet.<sp/>In<sp/>case<sp/>if<sp/>these</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/>functions<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_xTaskGetCurrentTaskHandle<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_xTaskGetCurrentTaskHandle<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_xTaskGetSchedulerState<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>API<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>xTaskGetSchedulerState<sp/>to<sp/>implement<sp/>Kernel</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/>tick<sp/>handling<sp/>and<sp/>therefore<sp/>it<sp/>is<sp/>vital<sp/>that<sp/>xTaskGetSchedulerState<sp/>is<sp/>included<sp/>into</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/>the<sp/>application<sp/>image.</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_xTaskGetSchedulerState<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_xTaskGetSchedulerState<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Kernel<sp/>Information<sp/>and<sp/>Control<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_uxTaskGetStackHighWaterMark<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osThreadGetStackSpace<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>uxTaskGetStackHighWaterMark.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/>In<sp/>case<sp/>if<sp/>osThreadGetStackSpace<sp/>is<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_uxTaskGetStackHighWaterMark<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_uxTaskGetStackHighWaterMark<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_uxTaskPriorityGet<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osThreadGetPriority<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>uxTaskPriorityGet.<sp/>In<sp/>case<sp/>if</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/>osThreadGetPriority<sp/>is<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_uxTaskPriorityGet<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_uxTaskPriorityGet<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_vTaskPrioritySet<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osThreadSetPriority<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>vTaskPrioritySet.<sp/>In<sp/>case<sp/>if</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/>osThreadSetPriority<sp/>is<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>it<sp/>away.</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_vTaskPrioritySet<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_vTaskPrioritySet<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_eTaskGetState<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>API<sp/>uses<sp/>FreeRTOS<sp/>function<sp/>vTaskDelayUntil<sp/>to<sp/>implement<sp/>functions<sp/>osThreadGetState</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/>and<sp/>osThreadTerminate.<sp/>In<sp/>case<sp/>if<sp/>these<sp/>functions<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_eTaskGetState<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_eTaskGetState<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_vTaskSuspend<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>API<sp/>uses<sp/>FreeRTOS<sp/>functions<sp/>vTaskSuspend<sp/>and<sp/>vTaskResume<sp/>to<sp/>implement</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/>functions<sp/>osThreadSuspend<sp/>and<sp/>osThreadResume.<sp/>In<sp/>case<sp/>if<sp/>these<sp/>functions<sp/>are<sp/>not</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,<sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_vTaskSuspend<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"></highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/><sp/>Alternatively,<sp/>if<sp/>the<sp/>application<sp/>does<sp/>not<sp/>use<sp/>osThreadSuspend<sp/>and</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/><sp/>osThreadResume<sp/>they<sp/>can<sp/>be<sp/>excluded<sp/>from<sp/>the<sp/>image<sp/>code<sp/>by<sp/>setting:</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>configUSE_OS2_THREAD_SUSPEND_RESUME<sp/>0<sp/>(in<sp/>FreeRTOSConfig.h)</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(configUSE_OS2_THREAD_SUSPEND_RESUME<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_vTaskSuspend<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Kernel<sp/>Information<sp/>and<sp/>Control<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(INCLUDE_xTimerPendFunctionCall<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osEventFlagsSet<sp/>and<sp/>osEventFlagsClear,<sp/>when<sp/>called<sp/>from</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/><sp/><sp/><sp/>the<sp/>ISR,<sp/>call<sp/>FreeRTOS<sp/>functions<sp/>xEventGroupSetBitsFromISR<sp/>and</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/><sp/><sp/><sp/>xEventGroupClearBitsFromISR<sp/>which<sp/>are<sp/>only<sp/>enabled<sp/>if<sp/>timers<sp/>are<sp/>operational<sp/>and</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/><sp/><sp/><sp/>xTimerPendFunctionCall<sp/>in<sp/>enabled.</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>INCLUDE_xTimerPendFunctionCall<sp/>1<sp/>and<sp/>#define<sp/>configUSE_TIMERS<sp/>1</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"></highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/><sp/><sp/><sp/>Alternatively,<sp/>if<sp/>the<sp/>application<sp/>does<sp/>not<sp/>use<sp/>osEventFlagsSet<sp/>and<sp/>osEventFlagsClear</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/><sp/><sp/><sp/>from<sp/>the<sp/>ISR<sp/>their<sp/>operation<sp/>from<sp/>ISR<sp/>can<sp/>be<sp/>restricted<sp/>by<sp/>setting:</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>configUSE_OS2_EVENTFLAGS_FROM_ISR<sp/>0<sp/>(in<sp/>FreeRTOSConfig.h)</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(configUSE_OS2_EVENTFLAGS_FROM_ISR<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>&quot;Definition<sp/>INCLUDE_xTimerPendFunctionCall<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Event<sp/>Flags<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_TIMERS<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>Timer<sp/>Management<sp/>API<sp/>functions<sp/>use<sp/>FreeRTOS<sp/>timer<sp/>functions<sp/>to<sp/>implement</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/><sp/>timer<sp/>management.<sp/>In<sp/>case<sp/>if<sp/>these<sp/>functions<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/><sp/><sp/><sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_TIMERS<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"></highlight></codeline>
+<codeline lineno="219"><highlight class="comment"><sp/><sp/><sp/><sp/>Alternatively,<sp/>if<sp/>the<sp/>application<sp/>does<sp/>not<sp/>use<sp/>timer<sp/>functions<sp/>they<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/>excluded<sp/>from<sp/>the<sp/>image<sp/>code<sp/>by<sp/>setting:</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>configUSE_OS2_TIMER<sp/>0<sp/>(in<sp/>FreeRTOSConfig.h)</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(configUSE_OS2_TIMER<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_TIMERS<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Timer<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_MUTEXES<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>Mutex<sp/>Management<sp/>API<sp/>functions<sp/>use<sp/>FreeRTOS<sp/>mutex<sp/>functions<sp/>to<sp/>implement</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/><sp/><sp/><sp/>mutex<sp/>management.<sp/>In<sp/>case<sp/>if<sp/>these<sp/>functions<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,</highlight></codeline>
+<codeline lineno="232"><highlight class="comment"><sp/><sp/><sp/><sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_MUTEXES<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="234"><highlight class="comment"></highlight></codeline>
+<codeline lineno="235"><highlight class="comment"><sp/><sp/><sp/><sp/>Alternatively,<sp/>if<sp/>the<sp/>application<sp/>does<sp/>not<sp/>use<sp/>mutex<sp/>functions<sp/>they<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="236"><highlight class="comment"><sp/><sp/><sp/><sp/>excluded<sp/>from<sp/>the<sp/>image<sp/>code<sp/>by<sp/>setting:</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>configUSE_OS2_MUTEX<sp/>0<sp/>(in<sp/>FreeRTOSConfig.h)</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(configUSE_OS2_MUTEX<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_MUTEXES<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Mutex<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_COUNTING_SEMAPHORES<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>Memory<sp/>Pool<sp/>functions<sp/>use<sp/>FreeRTOS<sp/>function<sp/>xSemaphoreCreateCounting</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/><sp/><sp/><sp/>to<sp/>implement<sp/>memory<sp/>pools.<sp/>In<sp/>case<sp/>if<sp/>these<sp/>functions<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/><sp/><sp/><sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_COUNTING_SEMAPHORES<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_COUNTING_SEMAPHORES<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Memory<sp/>Pool<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_TASK_NOTIFICATIONS<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>Thread<sp/>Flags<sp/>API<sp/>functions<sp/>use<sp/>FreeRTOS<sp/>Task<sp/>Notification<sp/>functions<sp/>to<sp/>implement</highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/><sp/><sp/><sp/>thread<sp/>flag<sp/>management.<sp/>In<sp/>case<sp/>if<sp/>these<sp/>functions<sp/>are<sp/>not<sp/>used<sp/>in<sp/>the<sp/>application<sp/>image,</highlight></codeline>
+<codeline lineno="257"><highlight class="comment"><sp/><sp/><sp/><sp/>compiler<sp/>will<sp/>optimize<sp/>them<sp/>away.</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_TASK_NOTIFICATIONS<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"></highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/><sp/><sp/><sp/>Alternatively,<sp/>if<sp/>the<sp/>application<sp/>does<sp/>not<sp/>use<sp/>thread<sp/>flags<sp/>functions<sp/>they<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/><sp/><sp/><sp/>excluded<sp/>from<sp/>the<sp/>image<sp/>code<sp/>by<sp/>setting:</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>configUSE_OS2_THREAD_FLAGS<sp/>0<sp/>(in<sp/>FreeRTOSConfig.h)</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(configUSE_OS2_THREAD_FLAGS<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_TASK_NOTIFICATIONS<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>Thread<sp/>Flags<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_TRACE_FACILITY<sp/>==<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="271"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>function<sp/>osThreadEnumerate<sp/>requires<sp/>FreeRTOS<sp/>function<sp/>uxTaskGetSystemState</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/><sp/><sp/><sp/>which<sp/>is<sp/>only<sp/>enabled<sp/>if<sp/>configUSE_TRACE_FACILITY<sp/>==<sp/>1.</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_TRACE_FACILITY<sp/>1<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="274"><highlight class="comment"></highlight></codeline>
+<codeline lineno="275"><highlight class="comment"><sp/><sp/><sp/><sp/>Alternatively,<sp/>if<sp/>the<sp/>application<sp/>does<sp/>not<sp/>use<sp/>osThreadEnumerate<sp/>it<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="276"><highlight class="comment"><sp/><sp/><sp/><sp/>excluded<sp/>from<sp/>the<sp/>image<sp/>code<sp/>by<sp/>setting:</highlight></codeline>
+<codeline lineno="277"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>configUSE_OS2_THREAD_ENUMERATE<sp/>0<sp/>(in<sp/>FreeRTOSConfig.h)</highlight></codeline>
+<codeline lineno="278"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(configUSE_OS2_THREAD_ENUMERATE<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_TRACE_FACILITY<sp/>must<sp/>equal<sp/>1<sp/>to<sp/>implement<sp/>osThreadEnumerate.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_16_BIT_TICKS<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="286"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>wrapper<sp/>for<sp/>FreeRTOS<sp/>relies<sp/>on<sp/>32-bit<sp/>tick<sp/>timer<sp/>which<sp/>is<sp/>also<sp/>optimal<sp/>on</highlight></codeline>
+<codeline lineno="287"><highlight class="comment"><sp/><sp/><sp/><sp/>a<sp/>32-bit<sp/>CPU<sp/>architectures.</highlight></codeline>
+<codeline lineno="288"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_16_BIT_TICKS<sp/>0<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_16_BIT_TICKS<sp/>must<sp/>be<sp/>zero<sp/>to<sp/>implement<sp/>CMSIS-RTOS2<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configMAX_PRIORITIES<sp/>!=<sp/>56)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>defines<sp/>56<sp/>different<sp/>priorities<sp/>(see<sp/>osPriority_t)<sp/>and<sp/>portable<sp/>CMSIS-RTOS2</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/><sp/><sp/><sp/>implementation<sp/>should<sp/>implement<sp/>the<sp/>same<sp/>number<sp/>of<sp/>priorities.</highlight></codeline>
+<codeline lineno="297"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configMAX_PRIORITIES<sp/>56<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="298"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>configMAX_PRIORITIES<sp/>must<sp/>equal<sp/>56<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configUSE_PORT_OPTIMISED_TASK_SELECTION<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="303"><highlight class="comment"><sp/><sp/><sp/><sp/>CMSIS-RTOS2<sp/>requires<sp/>handling<sp/>of<sp/>56<sp/>different<sp/>priorities<sp/>(see<sp/>osPriority_t)<sp/>while<sp/>FreeRTOS<sp/>port</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/><sp/><sp/><sp/>optimised<sp/>selection<sp/>for<sp/>Cortex<sp/>core<sp/>only<sp/>handles<sp/>32<sp/>different<sp/>priorities.</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/><sp/><sp/><sp/>Set<sp/>#define<sp/>configUSE_PORT_OPTIMISED_TASK_SELECTION<sp/>0<sp/>to<sp/>fix<sp/>this<sp/>error.</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#error<sp/>&quot;Definition<sp/>configUSE_PORT_OPTIMISED_TASK_SELECTION<sp/>must<sp/>be<sp/>zero<sp/>to<sp/>implement<sp/>Thread<sp/>Management<sp/>API.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>FREERTOS_OS2_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h"/>
+  </compounddef>
+</doxygen>

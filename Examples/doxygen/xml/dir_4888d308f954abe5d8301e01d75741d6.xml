@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_4888d308f954abe5d8301e01d75741d6" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Middlewares</compoundname>
+    <innerdir refid="dir_d595d60584e1b0f612c3ee138ca20d74">NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Middlewares/FreeRTOS</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Middlewares/"/>
+  </compounddef>
+</doxygen>

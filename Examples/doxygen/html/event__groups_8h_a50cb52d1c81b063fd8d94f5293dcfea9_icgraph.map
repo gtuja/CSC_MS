@@ -1,0 +1,5 @@
+<map id="vEventGroupDelete" name="vEventGroupDelete">
+<area shape="rect" id="Node000001" title="event_groups.h" alt="" coords="190,5,320,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a7c4acf2fb0d506ec82905dee53fb5435" title="Delete an Event Flags object." alt="" coords="5,5,142,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>

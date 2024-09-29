@@ -1,0 +1,19 @@
+<map id="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h" name="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="143,5,357,80"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,73,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,83,82,124,79,119,168,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="96,128,161,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,83,158,120,154,116,202,78"/>
+<area shape="rect" id="Node000004" href="$_free_r_t_o_s_config_8h.html" title=" " alt="" coords="185,128,314,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,80,252,112,247,112,247,80"/>
+<area shape="rect" id="Node000005" href="$projdefs_8h.html" title=" " alt="" coords="339,128,416,155"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="300,78,351,116,347,121,297,83"/>
+<area shape="rect" id="Node000006" href="$portable_8h.html" title=" " alt="" coords="440,128,518,155"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="338,78,436,119,434,124,336,83"/>
+<area shape="rect" id="Node000007" href="$deprecated__definitions_8h.html" title=" " alt="" coords="249,203,410,229"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="454,158,371,198,369,193,452,153"/>
+<area shape="rect" id="Node000008" href="$portmacro_8h.html" title=" " alt="" coords="434,203,524,229"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="482,155,482,187,476,187,476,155"/>
+<area shape="rect" id="Node000009" href="$mpu__wrappers_8h.html" title=" " alt="" coords="549,203,665,229"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="503,153,573,192,570,197,500,158"/>
+</map>

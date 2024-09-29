@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_8bed0edad900621a5f6089b3fd4e6443" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2</compoundname>
+    <innerfile refid="cmsis__os_8h">cmsis_os.h</innerfile>
+    <innerfile refid="cmsis__os2_8c">cmsis_os2.c</innerfile>
+    <innerfile refid="cmsis__os2_8h">cmsis_os2.h</innerfile>
+    <innerfile refid="freertos__mpool_8h">freertos_mpool.h</innerfile>
+    <innerfile refid="freertos__os2_8h">freertos_os2.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/"/>
+  </compounddef>
+</doxygen>

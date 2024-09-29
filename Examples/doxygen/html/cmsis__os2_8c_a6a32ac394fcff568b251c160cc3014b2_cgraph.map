@@ -1,0 +1,7 @@
+<map id="osMessageQueueGetCount" name="osMessageQueueGetCount">
+<area shape="rect" id="Node000001" title="Get number of queued messages in a Message Queue." alt="" coords="5,31,187,57"/>
+<area shape="rect" id="Node000002" href="$queue_8c.html#a4158a6134c9d1c60ffdb18d279d475b1" title=" " alt="" coords="260,5,438,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,32,244,26,245,32,188,38"/>
+<area shape="rect" id="Node000003" href="$queue_8c.html#ad5d110bc27c691ff8da238e0116bf92a" title=" " alt="" coords="235,56,463,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,50,219,54,219,59,187,56"/>
+</map>

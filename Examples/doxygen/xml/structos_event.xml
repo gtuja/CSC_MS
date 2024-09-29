@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_event" kind="struct" language="C++" prot="public">
+    <compoundname>osEvent</compoundname>
+    <includes refid="cmsis__os_8h" local="no">cmsis_os.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_event_1aafcd2cedd08e033f9df25fd9875caaf2" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os_8h_1afa03187386e2e754164f181be8d80019" kindref="member">osStatus</ref></type>
+        <definition>osStatus osEvent::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>osEvent::status</qualifiedname>
+        <briefdescription>
+<para>status code: event or error information </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="367" column="31" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1a5d2bb38f7be9c75f508646c24d2de4b1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osEvent::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>osEvent::v</qualifiedname>
+        <briefdescription>
+<para>message as 32-bit value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="369" column="36" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1a70b8f3f364cf158c9e538c5f590d1393" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osEvent::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <qualifiedname>osEvent::p</qualifiedname>
+        <briefdescription>
+<para>message or mail as void pointer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="370" column="35" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1ad63c33b8b5d3bb37b45433d7c67d1e09" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t osEvent::signals</definition>
+        <argsstring></argsstring>
+        <name>signals</name>
+        <qualifiedname>osEvent::signals</qualifiedname>
+        <briefdescription>
+<para>signal flags </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="371" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1ad759680596c29d49337e1eacaa839eb8" prot="public" static="no" mutable="no">
+        <type>union <ref refid="structos_event" kindref="compound">osEvent</ref></type>
+        <definition>union osEvent osEvent::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>osEvent::value</qualifiedname>
+        <briefdescription>
+<para>event value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="372" column="44"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1aeeccddfa51120e20a2316e73bdba099a" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os_8h_1a6c62ad14ecde583acb77345636a4aa8c" kindref="member">osMailQId</ref></type>
+        <definition>osMailQId osEvent::mail_id</definition>
+        <argsstring></argsstring>
+        <name>mail_id</name>
+        <qualifiedname>osEvent::mail_id</qualifiedname>
+        <briefdescription>
+<para>mail id obtained by osMailCreate </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="374" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1af759bde42477c29f56ed1bf8a19c4db8" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os_8h_1a60cc1d910be85c56c22d4ba127abba5c" kindref="member">osMessageQId</ref></type>
+        <definition>osMessageQId osEvent::message_id</definition>
+        <argsstring></argsstring>
+        <name>message_id</name>
+        <qualifiedname>osEvent::message_id</qualifiedname>
+        <briefdescription>
+<para>message id obtained by <ref refid="cmsis__os_8h_1afada987658d1e6f41e389b2e7c5faea0" kindref="member">osMessageCreate</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="375" column="27" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_event_1a1e815de1015bac118ccb3e6724401d00" prot="public" static="no" mutable="no">
+        <type>union <ref refid="structos_event" kindref="compound">osEvent</ref></type>
+        <definition>union osEvent osEvent::def</definition>
+        <argsstring></argsstring>
+        <name>def</name>
+        <qualifiedname>osEvent::def</qualifiedname>
+        <briefdescription>
+<para>event definition </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="376" column="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Event structure contains detailed information about an event. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="366" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="366" bodyend="377"/>
+    <listofallmembers>
+      <member refid="structos_event_1a1e815de1015bac118ccb3e6724401d00" prot="public" virt="non-virtual"><scope>osEvent</scope><name>def</name></member>
+      <member refid="structos_event_1aeeccddfa51120e20a2316e73bdba099a" prot="public" virt="non-virtual"><scope>osEvent</scope><name>mail_id</name></member>
+      <member refid="structos_event_1af759bde42477c29f56ed1bf8a19c4db8" prot="public" virt="non-virtual"><scope>osEvent</scope><name>message_id</name></member>
+      <member refid="structos_event_1a70b8f3f364cf158c9e538c5f590d1393" prot="public" virt="non-virtual"><scope>osEvent</scope><name>p</name></member>
+      <member refid="structos_event_1ad63c33b8b5d3bb37b45433d7c67d1e09" prot="public" virt="non-virtual"><scope>osEvent</scope><name>signals</name></member>
+      <member refid="structos_event_1aafcd2cedd08e033f9df25fd9875caaf2" prot="public" virt="non-virtual"><scope>osEvent</scope><name>status</name></member>
+      <member refid="structos_event_1a5d2bb38f7be9c75f508646c24d2de4b1" prot="public" virt="non-virtual"><scope>osEvent</scope><name>v</name></member>
+      <member refid="structos_event_1ad759680596c29d49337e1eacaa839eb8" prot="public" virt="non-virtual"><scope>osEvent</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

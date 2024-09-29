@@ -1,0 +1,10 @@
+<map id="xLIST" name="xLIST">
+<area shape="rect" id="Node000001" title=" " alt="" coords="128,5,182,32"/>
+<area shape="rect" id="Node000002" href="$structx_l_i_s_t___i_t_e_m.html" title=" " alt="" coords="5,99,97,125"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="113,25,78,35,62,45,50,58,45,67,45,77,49,98,43,99,39,77,40,65,45,54,59,41,76,31,112,20"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,89,124,70,138,51,148,31,153,34,143,54,128,74,100,94"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="114,103,123,112,115,121,98,124,97,118,113,116,118,112,111,107"/>
+<area shape="rect" id="Node000003" href="$structx_m_i_n_i___l_i_s_t___i_t_e_m.html" title=" " alt="" coords="80,208,204,235"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="74,136,133,206,129,209,70,139"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="167,195,177,183,188,157,192,128,198,91,197,76,191,57,183,45,172,34,176,31,187,41,196,55,203,75,204,91,198,128,193,158,181,185,171,199"/>
+</map>

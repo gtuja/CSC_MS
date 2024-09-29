@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_af050cd85aa90f23bbb7fef25efc438f" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Application</compoundname>
+    <innerdir refid="dir_2f882ea8ae98df8311939d67f8d75973">NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Application/Startup</innerdir>
+    <innerdir refid="dir_ce0734cca5874a62a0dc618df82a71a2">NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Application/User</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Application/"/>
+  </compounddef>
+</doxygen>

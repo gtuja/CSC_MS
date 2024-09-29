@@ -1,0 +1,11 @@
+<map id="vTaskSwitchContext" name="vTaskSwitchContext">
+<area shape="rect" id="Node000001" title=" " alt="" coords="626,5,764,32"/>
+<area shape="rect" id="Node000002" href="$port_8c.html#ade5a8c6666e7413a0355cc252029c5c6" title=" " alt="" coords="439,5,578,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="610,21,578,21,578,16,610,16"/>
+<area shape="rect" id="Node000003" href="$tasks_8c.html#a598661cdd2a6af95a077245d11e3d142" title=" " alt="" coords="251,5,391,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,21,392,21,392,16,424,16"/>
+<area shape="rect" id="Node000004" href="$cmsis__os2_8c.html#a9ae2cc00f0d89d7b6a307bba942b5221" title="Start the RTOS Kernel scheduler." alt="" coords="103,5,203,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="235,21,204,21,204,16,235,16"/>
+<area shape="rect" id="Node000005" href="$_free_r_t_o_s___queues_2_src_2main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

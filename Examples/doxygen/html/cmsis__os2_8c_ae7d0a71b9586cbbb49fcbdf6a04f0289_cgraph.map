@@ -1,0 +1,18 @@
+<map id="osKernelRestoreLock" name="osKernelRestoreLock">
+<area shape="rect" id="Node000001" title="Restore the RTOS Kernel scheduler lock state." alt="" coords="5,56,151,83"/>
+<area shape="rect" id="Node000002" href="$tasks_8c.html#a084d232640bd1d04bcac0b8784417015" title=" " alt="" coords="222,5,342,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,53,210,34,211,39,135,58"/>
+<area shape="rect" id="Node000003" href="$task_8h.html#a0241000e08a261372186d34825a35979" title=" " alt="" coords="199,56,365,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,67,183,67,183,72,151,72"/>
+<area shape="rect" id="Node000004" href="$tasks_8c.html#adf830ea0f150fcdfdaa944667137f080" title=" " alt="" coords="222,107,342,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="135,81,211,100,210,105,134,86"/>
+<area shape="rect" id="Node000005" href="$tasks_8c.html#ad1b2e4995f863a99cf980836efe330d7" title=" " alt="" coords="413,56,614,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="341,104,434,84,435,89,342,110"/>
+<area shape="rect" id="Node000006" href="$list_8c.html#a274fdced76bbdd9d8a4c4840ded2920c" title=" " alt="" coords="683,107,786,133"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="342,117,668,117,668,123,342,123"/>
+<area shape="rect" id="Node000007" href="$tasks_8c.html#a54f31e9aef0eb7b87e48c7d68ecc84c1" title=" " alt="" coords="445,157,582,184"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="342,130,435,151,434,156,341,136"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="575,154,667,133,669,138,576,159"/>
+<area shape="rect" id="Node000008" href="$cmsis__os2_8c.html#a9ca051aa77e17583aa5a85d5de5c199a" title=" " alt="" coords="662,157,807,184"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="583,168,647,168,647,173,583,173"/>
+</map>

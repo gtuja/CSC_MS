@@ -1,0 +1,19 @@
+<map id="osKernelStart" name="osKernelStart">
+<area shape="rect" id="Node000001" title="Start the RTOS Kernel scheduler." alt="" coords="5,81,106,108"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a359625bfe75dbe8149c2a86b8504639e" title=" " alt="" coords="179,56,269,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,84,164,76,164,81,106,90"/>
+<area shape="rect" id="Node000003" href="$tasks_8c.html#a598661cdd2a6af95a077245d11e3d142" title=" " alt="" coords="154,107,294,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,100,139,105,138,110,106,105"/>
+<area shape="rect" id="Node000004" href="$port_8c.html#ade5a8c6666e7413a0355cc252029c5c6" title=" " alt="" coords="352,81,490,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,108,336,103,337,108,295,114"/>
+<area shape="rect" id="Node000009" href="$timers_8h.html#af777ab3e9ac04abd5dd21be739fa1321" title=" " alt="" coords="342,132,500,159"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="295,126,327,131,326,136,294,132"/>
+<area shape="rect" id="Node000005" href="$port_8c.html#a813e8227aedfc6bd83c66c4a9b8e4f41" title=" " alt="" coords="572,5,688,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="454,78,547,41,567,35,569,40,549,47,456,83"/>
+<area shape="rect" id="Node000006" href="$port_8c.html#a4649001ea4d29b80759e6eca4bba58eb" title=" " alt="" coords="548,56,712,83"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="490,84,533,78,533,84,491,89"/>
+<area shape="rect" id="Node000007" href="$port_8c.html#a5cfc38319f17c8e804020ec247b6325d" title=" " alt="" coords="564,107,696,133"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="491,100,549,107,548,113,490,106"/>
+<area shape="rect" id="Node000008" href="$tasks_8c.html#a9c86137bc3c1cbffc39fff22627cb885" title=" " alt="" coords="561,157,699,184"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="471,106,501,118,549,143,566,149,564,154,547,148,499,122,469,111"/>
+</map>

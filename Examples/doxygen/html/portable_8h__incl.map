@@ -1,0 +1,9 @@
+<map id="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h" name="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="128,5,343,80"/>
+<area shape="rect" id="Node000002" href="$deprecated__definitions_8h.html" title=" " alt="" coords="5,128,167,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,83,119,122,117,117,177,78"/>
+<area shape="rect" id="Node000003" href="$portmacro_8h.html" title=" " alt="" coords="190,128,281,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,80,238,112,233,112,233,80"/>
+<area shape="rect" id="Node000004" href="$mpu__wrappers_8h.html" title=" " alt="" coords="305,128,422,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,78,336,116,333,121,282,83"/>
+</map>

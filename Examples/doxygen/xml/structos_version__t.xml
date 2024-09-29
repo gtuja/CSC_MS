@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_version__t" kind="struct" language="C++" prot="public">
+    <compoundname>osVersion_t</compoundname>
+    <includes refid="cmsis__os2_8h" local="no">cmsis_os2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_version__t_1a399e0292985f12145a0e61c0b50a50ec" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osVersion_t::api</definition>
+        <argsstring></argsstring>
+        <name>api</name>
+        <qualifiedname>osVersion_t::api</qualifiedname>
+        <briefdescription>
+<para>API version (major.minor.rev: mmnnnrrrr dec). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="55" column="34" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a6f7764e7250c5c5364c00c45a5d1d199" compoundref="cmsis__os2_8c" startline="222" endline="238">osKernelGetInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_version__t_1a3a589e0cc665071abb720afda12e9a15" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osVersion_t::kernel</definition>
+        <argsstring></argsstring>
+        <name>kernel</name>
+        <qualifiedname>osVersion_t::kernel</qualifiedname>
+        <briefdescription>
+<para>Kernel version (major.minor.rev: mmnnnrrrr dec). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="56" column="31" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a6f7764e7250c5c5364c00c45a5d1d199" compoundref="cmsis__os2_8c" startline="222" endline="238">osKernelGetInfo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Version information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="54" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="54" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structos_version__t_1a399e0292985f12145a0e61c0b50a50ec" prot="public" virt="non-virtual"><scope>osVersion_t</scope><name>api</name></member>
+      <member refid="structos_version__t_1a3a589e0cc665071abb720afda12e9a15" prot="public" virt="non-virtual"><scope>osVersion_t</scope><name>kernel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

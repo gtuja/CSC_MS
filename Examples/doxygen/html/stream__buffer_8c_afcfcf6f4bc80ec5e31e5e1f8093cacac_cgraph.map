@@ -1,0 +1,15 @@
+<map id="xStreamBufferReceive" name="xStreamBufferReceive">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,154,133"/>
+<area shape="rect" id="Node000002" href="$stream__buffer_8c.html#ac4183c0af266bc5ffbd4f3eb4a4d07c2" title=" " alt="" coords="238,5,353,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,104,143,73,201,42,223,33,224,38,203,46,146,77,101,108"/>
+<area shape="rect" id="Node000003" href="$stream__buffer_8c.html#aea486f3983538e061b22cce98612d8bc" title=" " alt="" coords="204,56,387,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,103,220,84,221,89,140,109"/>
+<area shape="rect" id="Node000005" href="$task_8h.html#a85a0f9c9f817b18686efbf8f37c72dfc" title=" " alt="" coords="202,107,389,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="154,117,186,117,186,123,154,123"/>
+<area shape="rect" id="Node000006" href="$task_8h.html#a4cb6c908a9d2d733e9d519d7dc27bb34" title=" " alt="" coords="220,157,371,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="140,131,221,151,220,156,139,137"/>
+<area shape="rect" id="Node000007" href="$task_8h.html#a0475fcda9718f403521c270a7270ff93" title=" " alt="" coords="237,208,354,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="101,132,146,163,203,194,223,201,221,206,201,198,143,167,98,136"/>
+<area shape="rect" id="Node000004" href="$stream__buffer_8c.html#a8ec163e54dc25c091dbff11c1b8f7a2c" title=" " alt="" coords="437,56,601,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="387,67,421,67,421,72,387,72"/>
+</map>

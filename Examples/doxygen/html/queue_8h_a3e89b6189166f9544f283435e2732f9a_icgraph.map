@@ -1,0 +1,7 @@
+<map id="uxQueueMessagesWaitingFromISR" name="uxQueueMessagesWaitingFromISR">
+<area shape="rect" id="Node000001" title=" " alt="" coords="235,31,463,57"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a6a32ac394fcff568b251c160cc3014b2" title="Get number of queued messages in a Message Queue." alt="" coords="5,5,187,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,34,187,30,187,25,219,28"/>
+<area shape="rect" id="Node000003" href="$cmsis__os2_8c.html#a7559d4dff3cda9992fc5ab5de3e74c70" title="Get current Semaphore token count." alt="" coords="18,56,174,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,60,175,64,174,59,219,54"/>
+</map>

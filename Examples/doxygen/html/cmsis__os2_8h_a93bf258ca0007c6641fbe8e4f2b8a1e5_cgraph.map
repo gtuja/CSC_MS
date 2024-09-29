@@ -1,0 +1,7 @@
+<map id="osEventFlagsClear" name="osEventFlagsClear">
+<area shape="rect" id="Node000001" title="Clear the specified Event Flags." alt="" coords="5,31,135,57"/>
+<area shape="rect" id="Node000002" href="$event__groups_8c.html#a71dd2680fdfbdde7d6b10db203e266ba" title=" " alt="" coords="204,5,352,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,33,188,27,189,32,135,39"/>
+<area shape="rect" id="Node000003" href="$event__groups_8c.html#adcb3d3f7dded9fa372bb1ee405c36b8d" title=" " alt="" coords="183,56,373,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,49,168,53,167,58,135,55"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="eTaskGetState" name="eTaskGetState">
+<area shape="rect" id="Node000001" title="task." alt="" coords="185,31,293,57"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#acc0a98b42f0a5928e12dc91dc76866b9" title="Get current thread state of a thread." alt="" coords="8,5,134,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,36,134,31,135,26,170,31"/>
+<area shape="rect" id="Node000003" href="$cmsis__os2_8c.html#a2f8ba6dba6e9c065a6e236ffd410d74a" title="Terminate execution of a thread." alt="" coords="5,56,137,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,57,137,62,137,57,169,52"/>
+</map>

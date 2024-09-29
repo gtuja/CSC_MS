@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group___s_t_m32_g0xx___system___private___defines" kind="group">
+    <compoundname>STM32G0xx_System_Private_Defines</compoundname>
+    <title>STM32G0xx_System_Private_Defines</title>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group___s_t_m32_g0xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe" prot="public" static="no">
+        <name>VECT_TAB_OFFSET</name>
+        <initializer>0x0U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Uncomment the following line if you need to relocate your vector Table in Internal SRAM. Vector Table base offset field. This value must be a multiple of 0x100. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/system_stm32g0xx.c" line="117" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Src/system_stm32g0xx.c" bodystart="116" bodyend="-1"/>
+        <referencedby refid="group___s_t_m32_g0xx___system___private___functions_1ga93f514700ccf00d08dbdcff7f1224eb2" compoundref="_free_r_t_o_s___queues_2_src_2system__stm32g0xx_8c" startline="168" endline="176">SystemInit</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="group___s_t_m32_g0xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe" prot="public" static="no">
+        <name>VECT_TAB_OFFSET</name>
+        <initializer>0x0U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Uncomment the following line if you need to relocate your vector Table in Internal SRAM. Vector Table base offset field. This value must be a multiple of 0x100. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/GPIO_IOToggle/Src/system_stm32g0xx.c" line="117" column="9" bodyfile="NUCLEO-G0B1RE/GPIO_IOToggle/Src/system_stm32g0xx.c" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___s_t_m32_g0xx___system___private___defines_1ga40e1495541cbb4acbe3f1819bd87a9fe" prot="public" static="no">
+        <name>VECT_TAB_OFFSET</name>
+        <initializer>0x0U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Uncomment the following line if you need to relocate your vector Table in Internal SRAM. Vector Table base offset field. This value must be a multiple of 0x100. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/TIM_PWMOutput/Src/system_stm32g0xx.c" line="117" column="9" bodyfile="NUCLEO-G0B1RE/TIM_PWMOutput/Src/system_stm32g0xx.c" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

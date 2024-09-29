@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_d4388135c15ac065223298aea63db587" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares</compoundname>
+    <innerdir refid="dir_0ee14caea69eb7f73ce85200f4eee8ce">NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/"/>
+  </compounddef>
+</doxygen>

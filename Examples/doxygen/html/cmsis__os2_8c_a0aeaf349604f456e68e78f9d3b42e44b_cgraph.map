@@ -1,0 +1,5 @@
+<map id="osThreadGetPriority" name="osThreadGetPriority">
+<area shape="rect" id="Node000001" title="Get current priority of a thread." alt="" coords="5,5,142,32"/>
+<area shape="rect" id="Node000002" href="$task_8h.html#a18d1148c845f5c4bff3b9e5b2077e058" title=" " alt="" coords="190,5,315,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,16,174,16,174,21,142,21"/>
+</map>

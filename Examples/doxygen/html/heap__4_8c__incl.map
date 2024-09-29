@@ -1,0 +1,27 @@
+<map id="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" name="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="195,5,414,80"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="170,128,233,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,82,228,119,224,115,264,78"/>
+<area shape="rect" id="Node000003" href="$_free_r_t_o_s_8h.html" title=" " alt="" coords="258,128,351,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,80,307,112,302,112,302,80"/>
+<area shape="rect" id="Node000012" href="$task_8h.html" title=" " alt="" coords="484,128,541,155"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="385,78,473,119,470,124,382,83"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,203,73,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,158,88,204,87,199,257,153"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="96,203,161,229"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="275,158,174,199,172,194,273,153"/>
+<area shape="rect" id="Node000006" href="$_free_r_t_o_s_config_8h.html" title=" " alt="" coords="185,203,314,229"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="297,157,270,192,266,188,293,154"/>
+<area shape="rect" id="Node000007" href="$projdefs_8h.html" title=" " alt="" coords="339,203,416,229"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="319,153,356,190,352,193,315,157"/>
+<area shape="rect" id="Node000008" href="$portable_8h.html" title=" " alt="" coords="440,203,518,229"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="336,153,435,194,433,199,334,158"/>
+<area shape="rect" id="Node000009" href="$deprecated__definitions_8h.html" title=" " alt="" coords="249,277,410,304"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="454,232,371,272,369,268,452,227"/>
+<area shape="rect" id="Node000010" href="$portmacro_8h.html" title=" " alt="" coords="434,277,524,304"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="482,230,482,262,476,262,476,230"/>
+<area shape="rect" id="Node000011" href="$mpu__wrappers_8h.html" title=" " alt="" coords="549,277,665,304"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="503,228,573,267,570,272,500,232"/>
+<area shape="rect" id="Node000013" href="$list_8h.html" title=" " alt="" coords="542,203,592,229"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="524,154,550,188,546,192,520,157"/>
+</map>

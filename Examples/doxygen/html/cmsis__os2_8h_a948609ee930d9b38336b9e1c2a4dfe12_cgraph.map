@@ -1,0 +1,7 @@
+<map id="osKernelLock" name="osKernelLock">
+<area shape="rect" id="Node000001" title="Lock the RTOS Kernel scheduler." alt="" coords="5,31,106,57"/>
+<area shape="rect" id="Node000002" href="$tasks_8c.html#a084d232640bd1d04bcac0b8784417015" title=" " alt="" coords="177,5,297,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,34,161,27,162,32,107,40"/>
+<area shape="rect" id="Node000003" href="$task_8h.html#a0241000e08a261372186d34825a35979" title=" " alt="" coords="154,56,320,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,48,138,53,138,58,106,54"/>
+</map>

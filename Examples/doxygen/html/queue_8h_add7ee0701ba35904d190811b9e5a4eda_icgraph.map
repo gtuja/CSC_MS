@@ -1,0 +1,5 @@
+<map id="uxQueueMessagesWaiting" name="uxQueueMessagesWaiting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="235,5,412,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a6a32ac394fcff568b251c160cc3014b2" title="Get number of queued messages in a Message Queue." alt="" coords="5,5,187,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,21,187,21,187,16,219,16"/>
+</map>

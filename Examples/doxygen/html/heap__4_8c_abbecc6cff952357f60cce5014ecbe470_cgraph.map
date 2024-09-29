@@ -1,0 +1,16 @@
+<map id="vPortGetHeapStats" name="vPortGetHeapStats">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,138,57"/>
+<area shape="rect" id="Node000002" href="$tasks_8c.html#a084d232640bd1d04bcac0b8784417015" title=" " alt="" coords="186,5,306,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,32,170,27,171,32,139,37"/>
+<area shape="rect" id="Node000003" href="$tasks_8c.html#adf830ea0f150fcdfdaa944667137f080" title=" " alt="" coords="186,56,306,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,51,171,56,171,61,138,56"/>
+<area shape="rect" id="Node000004" href="$tasks_8c.html#ad1b2e4995f863a99cf980836efe330d7" title=" " alt="" coords="354,5,555,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="303,53,381,34,383,39,305,58"/>
+<area shape="rect" id="Node000005" href="$list_8c.html#a274fdced76bbdd9d8a4c4840ded2920c" title=" " alt="" coords="624,56,727,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="306,67,609,67,609,72,306,72"/>
+<area shape="rect" id="Node000006" href="$tasks_8c.html#a54f31e9aef0eb7b87e48c7d68ecc84c1" title=" " alt="" coords="386,107,523,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="305,81,383,100,381,105,303,86"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="516,103,608,82,610,87,517,109"/>
+<area shape="rect" id="Node000007" href="$cmsis__os2_8c.html#a9ca051aa77e17583aa5a85d5de5c199a" title=" " alt="" coords="603,107,748,133"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="524,117,588,117,588,123,524,123"/>
+</map>

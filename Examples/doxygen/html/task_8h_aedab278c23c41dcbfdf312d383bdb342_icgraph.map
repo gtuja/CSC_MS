@@ -1,0 +1,5 @@
+<map id="pcTaskGetName" name="pcTaskGetName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="183,5,301,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#ac3230f3a55a297514b013ebf38f27e0a" title="Get name of a thread." alt="" coords="5,5,135,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,21,135,21,135,16,167,16"/>
+</map>

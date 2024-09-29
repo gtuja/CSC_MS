@@ -1,0 +1,5 @@
+<map id="uxTaskGetStackHighWaterMark" name="uxTaskGetStackHighWaterMark">
+<area shape="rect" id="Node000001" title="task.h" alt="" coords="220,5,428,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a9c83bd5dd8de329701775d6ef7012720" title="Get available stack space of a thread based on stack watermark recording during execution." alt="" coords="5,5,172,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,21,172,21,172,16,204,16"/>
+</map>

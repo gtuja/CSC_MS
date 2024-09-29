@@ -1,0 +1,10 @@
+<map id="xMINI_LIST_ITEM" name="xMINI_LIST_ITEM">
+<area shape="rect" id="Node000001" title=" " alt="" coords="82,5,206,32"/>
+<area shape="rect" id="Node000003" href="$structx_l_i_s_t.html" title=" " alt="" coords="80,99,134,125"/>
+<area shape="poly" id="edge5_Node000003_Node000001" title=" " alt="" coords="118,44,110,57,106,78,107,98,102,99,101,78,105,55,114,42"/>
+<area shape="rect" id="Node000002" href="$structx_l_i_s_t___i_t_e_m.html" title=" " alt="" coords="66,195,158,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,184,160,167,171,138,173,114,160,57,150,33,155,31,165,55,178,113,176,139,165,169,151,187"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="175,199,184,208,176,217,159,220,158,214,174,212,179,208,172,203"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="108,179,105,126,110,126,113,179"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="65,123,40,131,20,140,9,152,8,159,12,167,23,178,36,187,67,199,65,204,34,192,19,182,7,169,3,160,4,150,17,136,38,126,64,118"/>
+</map>

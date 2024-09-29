@@ -1,0 +1,23 @@
+<map id="xStreamBufferSend" name="xStreamBufferSend">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,139,209"/>
+<area shape="rect" id="Node000002" href="$stream__buffer_8c.html#ac4183c0af266bc5ffbd4f3eb4a4d07c2" title=" " alt="" coords="229,5,343,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,181,116,114,147,75,185,42,213,28,215,33,188,46,151,79,120,117,82,184"/>
+<area shape="rect" id="Node000003" href="$stream__buffer_8c.html#a1415b7e265e106aab476023f9a6cce6c" title=" " alt="" coords="202,56,370,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,180,125,137,154,113,185,92,199,86,201,91,188,97,157,117,128,141,87,184"/>
+<area shape="rect" id="Node000005" href="$tasks_8c.html#a5dfb2b9e41fb002318d9c55452a91c83" title=" " alt="" coords="209,107,363,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="100,180,186,143,208,136,210,141,188,148,102,185"/>
+<area shape="rect" id="Node000006" href="$stream__buffer_8c.html#a8fb90892c74eb94fb063b2a018a10509" title=" " alt="" coords="187,157,385,184"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="139,185,171,182,172,187,139,191"/>
+<area shape="rect" id="Node000007" href="$tasks_8c.html#acfc8de487c86355713d0e8546506d9e4" title=" " alt="" coords="205,208,367,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="139,201,190,207,190,213,139,207"/>
+<area shape="rect" id="Node000009" href="$task_8h.html#a85a0f9c9f817b18686efbf8f37c72dfc" title=" " alt="" coords="192,259,380,285"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="102,207,188,244,210,251,208,256,186,249,100,212"/>
+<area shape="rect" id="Node000010" href="$task_8h.html#a4cb6c908a9d2d733e9d519d7dc27bb34" title=" " alt="" coords="211,309,361,336"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="87,208,128,251,157,275,188,295,201,301,199,306,185,300,154,279,125,255,83,212"/>
+<area shape="rect" id="Node000011" href="$task_8h.html#a0475fcda9718f403521c270a7270ff93" title=" " alt="" coords="228,360,344,387"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="82,208,120,275,151,313,188,346,214,358,212,363,185,350,147,317,116,278,77,211"/>
+<area shape="rect" id="Node000004" href="$stream__buffer_8c.html#ab05b79124292dd7bed33fca7a92473c0" title=" " alt="" coords="457,56,606,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="370,67,441,67,441,72,370,72"/>
+<area shape="rect" id="Node000008" href="$tasks_8c.html#a91fbc7c4b65e32fae51b7d43ebdcb131" title=" " alt="" coords="433,208,629,235"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="367,219,418,219,418,224,367,224"/>
+</map>

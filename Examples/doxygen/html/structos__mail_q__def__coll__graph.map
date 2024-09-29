@@ -1,0 +1,7 @@
+<map id="os_mailQ_def" name="os_mailQ_def">
+<area shape="rect" id="Node000001" title="Definition structure for mail queue." alt="" coords="112,96,212,123"/>
+<area shape="rect" id="Node000002" href="$structos_memory_pool_attr__t.html" title="Attributes structure for memory pool." alt="" coords="5,5,146,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,41,152,94,148,97,96,45"/>
+<area shape="rect" id="Node000003" href="$structos_message_queue_attr__t.html" title="Attributes structure for message queue." alt="" coords="170,5,328,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,45,176,97,173,94,224,41"/>
+</map>

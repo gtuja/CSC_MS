@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_memory_pool_attr__t" kind="struct" language="C++" prot="public">
+    <compoundname>osMemoryPoolAttr_t</compoundname>
+    <includes refid="cmsis__os2_8h" local="no">cmsis_os2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_memory_pool_attr__t_1a1a14604293f5327ce10f33f67f718679" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* osMemoryPoolAttr_t::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>osMemoryPoolAttr_t::name</qualifiedname>
+        <briefdescription>
+<para>name of the memory pool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="264" column="32" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_memory_pool_attr__t_1a855bf6d976d2457a2fe76b0285fa140a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMemoryPoolAttr_t::attr_bits</definition>
+        <argsstring></argsstring>
+        <name>attr_bits</name>
+        <qualifiedname>osMemoryPoolAttr_t::attr_bits</qualifiedname>
+        <briefdescription>
+<para>attribute bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="265" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_memory_pool_attr__t_1a429ab7932bd1acff955ece56f51b2fe1" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osMemoryPoolAttr_t::cb_mem</definition>
+        <argsstring></argsstring>
+        <name>cb_mem</name>
+        <qualifiedname>osMemoryPoolAttr_t::cb_mem</qualifiedname>
+        <briefdescription>
+<para>memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="266" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_memory_pool_attr__t_1ac503c59e0429dd8bb57058ac6264a3b7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMemoryPoolAttr_t::cb_size</definition>
+        <argsstring></argsstring>
+        <name>cb_size</name>
+        <qualifiedname>osMemoryPoolAttr_t::cb_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="267" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_memory_pool_attr__t_1adbf721bdd533e8a0e021ab2f4759a7ce" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osMemoryPoolAttr_t::mp_mem</definition>
+        <argsstring></argsstring>
+        <name>mp_mem</name>
+        <qualifiedname>osMemoryPoolAttr_t::mp_mem</qualifiedname>
+        <briefdescription>
+<para>memory for data storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="268" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_memory_pool_attr__t_1a170b59ba063d6d3f5387a23478db8d28" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMemoryPoolAttr_t::mp_size</definition>
+        <argsstring></argsstring>
+        <name>mp_size</name>
+        <qualifiedname>osMemoryPoolAttr_t::mp_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for data storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="269" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Attributes structure for memory pool. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="263" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="263" bodyend="270"/>
+    <listofallmembers>
+      <member refid="structos_memory_pool_attr__t_1a855bf6d976d2457a2fe76b0285fa140a" prot="public" virt="non-virtual"><scope>osMemoryPoolAttr_t</scope><name>attr_bits</name></member>
+      <member refid="structos_memory_pool_attr__t_1a429ab7932bd1acff955ece56f51b2fe1" prot="public" virt="non-virtual"><scope>osMemoryPoolAttr_t</scope><name>cb_mem</name></member>
+      <member refid="structos_memory_pool_attr__t_1ac503c59e0429dd8bb57058ac6264a3b7" prot="public" virt="non-virtual"><scope>osMemoryPoolAttr_t</scope><name>cb_size</name></member>
+      <member refid="structos_memory_pool_attr__t_1adbf721bdd533e8a0e021ab2f4759a7ce" prot="public" virt="non-virtual"><scope>osMemoryPoolAttr_t</scope><name>mp_mem</name></member>
+      <member refid="structos_memory_pool_attr__t_1a170b59ba063d6d3f5387a23478db8d28" prot="public" virt="non-virtual"><scope>osMemoryPoolAttr_t</scope><name>mp_size</name></member>
+      <member refid="structos_memory_pool_attr__t_1a1a14604293f5327ce10f33f67f718679" prot="public" virt="non-virtual"><scope>osMemoryPoolAttr_t</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos__pool__def" kind="struct" language="C++" prot="public">
+    <compoundname>os_pool_def</compoundname>
+    <includes refid="cmsis__os_8h" local="no">cmsis_os.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos__pool__def_1a7a455b537ba119df57a704a3c4ac8b40" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t os_pool_def::pool_sz</definition>
+        <argsstring></argsstring>
+        <name>pool_sz</name>
+        <qualifiedname>os_pool_def::pool_sz</qualifiedname>
+        <briefdescription>
+<para>number of items (elements) in the pool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="328" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__pool__def_1a815cc2ca8f46c006e460d57fa0f3be6a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t os_pool_def::item_sz</definition>
+        <argsstring></argsstring>
+        <name>item_sz</name>
+        <qualifiedname>os_pool_def::item_sz</qualifiedname>
+        <briefdescription>
+<para>size of an item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="329" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__pool__def_1ab6b7370cc4fc6e167e88177f764eb06c" prot="public" static="no" mutable="no">
+        <type><ref refid="structos_memory_pool_attr__t" kindref="compound">osMemoryPoolAttr_t</ref></type>
+        <definition>osMemoryPoolAttr_t os_pool_def::attr</definition>
+        <argsstring></argsstring>
+        <name>attr</name>
+        <qualifiedname>os_pool_def::attr</qualifiedname>
+        <briefdescription>
+<para>memory pool attributes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="330" column="33" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition structure for memory block allocation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>osMemoryPoolAttr_t</label>
+        <link refid="structos_memory_pool_attr__t"/>
+      </node>
+      <node id="1">
+        <label>os_pool_def</label>
+        <link refid="structos__pool__def"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>attr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="327" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="327" bodyend="331"/>
+    <listofallmembers>
+      <member refid="structos__pool__def_1ab6b7370cc4fc6e167e88177f764eb06c" prot="public" virt="non-virtual"><scope>os_pool_def</scope><name>attr</name></member>
+      <member refid="structos__pool__def_1a815cc2ca8f46c006e460d57fa0f3be6a" prot="public" virt="non-virtual"><scope>os_pool_def</scope><name>item_sz</name></member>
+      <member refid="structos__pool__def_1a7a455b537ba119df57a704a3c4ac8b40" prot="public" virt="non-virtual"><scope>os_pool_def</scope><name>pool_sz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_8187d43bd56213108acf69118a3c0588" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/TIM_PWMOutput/Inc</compoundname>
+    <innerfile refid="_t_i_m___p_w_m_output_2_inc_2main_8h">main.h</innerfile>
+    <innerfile refid="_t_i_m___p_w_m_output_2_inc_2stm32g0xx__hal__conf_8h">stm32g0xx_hal_conf.h</innerfile>
+    <innerfile refid="_t_i_m___p_w_m_output_2_inc_2stm32g0xx__it_8h">stm32g0xx_it.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/TIM_PWMOutput/Inc/"/>
+  </compounddef>
+</doxygen>

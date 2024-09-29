@@ -1,0 +1,9 @@
+<map id="xEventGroupSetBits" name="xEventGroupSetBits">
+<area shape="rect" id="Node000001" title=" " alt="" coords="240,56,378,83"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a33b71d14cecf90b4e72639dd19f23a5e" title="Set the specified Event Flags." alt="" coords="39,5,158,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,54,156,35,158,30,236,49"/>
+<area shape="rect" id="Node000003" href="$event__groups_8c.html#a54db6cc97bbb926aa4b78d5affc257d9" title=" " alt="" coords="5,56,192,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,72,192,72,192,67,224,67"/>
+<area shape="rect" id="Node000004" href="$event__groups_8c.html#ac38db316f0928c7ddaacb677a75dbc03" title=" " alt="" coords="36,107,161,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="236,89,158,109,156,103,235,84"/>
+</map>

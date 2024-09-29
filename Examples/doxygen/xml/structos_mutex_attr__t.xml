@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_mutex_attr__t" kind="struct" language="C++" prot="public">
+    <compoundname>osMutexAttr_t</compoundname>
+    <includes refid="cmsis__os2_8h" local="no">cmsis_os2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_mutex_attr__t_1af3997dba664ce0e0f788a35e8f473a4d" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* osMutexAttr_t::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>osMutexAttr_t::name</qualifiedname>
+        <briefdescription>
+<para>name of the mutex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="248" column="32" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_mutex_attr__t_1a9dbf080ff04a6e5fde40b8e962868fd5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMutexAttr_t::attr_bits</definition>
+        <argsstring></argsstring>
+        <name>attr_bits</name>
+        <qualifiedname>osMutexAttr_t::attr_bits</qualifiedname>
+        <briefdescription>
+<para>attribute bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="249" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_mutex_attr__t_1afb6e0bd20375f3ebc1cca487b9c01799" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osMutexAttr_t::cb_mem</definition>
+        <argsstring></argsstring>
+        <name>cb_mem</name>
+        <qualifiedname>osMutexAttr_t::cb_mem</qualifiedname>
+        <briefdescription>
+<para>memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="250" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_mutex_attr__t_1a444c834a2336196cc87b200cbd33106c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMutexAttr_t::cb_size</definition>
+        <argsstring></argsstring>
+        <name>cb_size</name>
+        <qualifiedname>osMutexAttr_t::cb_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="251" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Attributes structure for mutex. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="247" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="247" bodyend="252"/>
+    <listofallmembers>
+      <member refid="structos_mutex_attr__t_1a9dbf080ff04a6e5fde40b8e962868fd5" prot="public" virt="non-virtual"><scope>osMutexAttr_t</scope><name>attr_bits</name></member>
+      <member refid="structos_mutex_attr__t_1afb6e0bd20375f3ebc1cca487b9c01799" prot="public" virt="non-virtual"><scope>osMutexAttr_t</scope><name>cb_mem</name></member>
+      <member refid="structos_mutex_attr__t_1a444c834a2336196cc87b200cbd33106c" prot="public" virt="non-virtual"><scope>osMutexAttr_t</scope><name>cb_size</name></member>
+      <member refid="structos_mutex_attr__t_1af3997dba664ce0e0f788a35e8f473a4d" prot="public" virt="non-virtual"><scope>osMutexAttr_t</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

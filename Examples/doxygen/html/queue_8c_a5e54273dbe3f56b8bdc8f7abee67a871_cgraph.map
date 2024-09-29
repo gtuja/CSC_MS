@@ -1,0 +1,13 @@
+<map id="xQueueGenericReset" name="xQueueGenericReset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,151,57"/>
+<area shape="rect" id="Node000002" href="$list_8c.html#aa0831d347bba16bfbe524f4faa790b9d" title=" " alt="" coords="244,5,339,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,33,228,23,229,29,152,38"/>
+<area shape="rect" id="Node000003" href="$tasks_8c.html#a6d21c9054b62d8bc1bfb2724e11578d9" title=" " alt="" coords="199,56,384,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,50,183,54,183,59,151,55"/>
+<area shape="rect" id="Node000004" href="$tasks_8c.html#ad1b2e4995f863a99cf980836efe330d7" title=" " alt="" coords="432,5,633,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="358,53,450,33,451,38,359,58"/>
+<area shape="rect" id="Node000005" href="$list_8c.html#a274fdced76bbdd9d8a4c4840ded2920c" title=" " alt="" coords="482,56,584,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="385,67,466,67,466,72,385,72"/>
+<area shape="rect" id="Node000006" href="$list_8c.html#a3240bc0f43fcf755be02bfc6de7dc6ef" title=" " alt="" coords="482,107,584,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="359,81,467,104,465,109,358,86"/>
+</map>

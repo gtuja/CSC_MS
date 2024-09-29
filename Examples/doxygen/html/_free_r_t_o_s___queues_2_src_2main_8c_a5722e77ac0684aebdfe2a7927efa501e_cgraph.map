@@ -1,0 +1,9 @@
+<map id="MessageQueueProducer" name="MessageQueueProducer">
+<area shape="rect" id="Node000001" title="Function implementing the MessageQueuePro thread." alt="" coords="5,31,170,57"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#af6055a51390ef65b6b6edc28bf47322e" title="Wait for Timeout (Time Delay)." alt="" coords="257,5,325,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,31,241,22,242,27,170,36"/>
+<area shape="rect" id="Node000004" href="$cmsis__os2_8c.html#aa515fc8b956f721a8f72b2c505813bfc" title="Put a Message into a Queue or timeout if Queue is full." alt="" coords="218,56,364,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="170,52,203,56,202,61,170,57"/>
+<area shape="rect" id="Node000003" href="$task_8h.html#aa154068cecd7f31446a7a84af44ab1a3" title=" " alt="" coords="412,5,499,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,16,397,16,397,21,325,21"/>
+</map>

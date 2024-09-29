@@ -1,0 +1,19 @@
+<map id="QueueDefinition" name="QueueDefinition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,315,250,341"/>
+<area shape="rect" id="Node000002" href="$struct_queue_pointers.html" title=" " alt="" coords="5,208,113,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,243,141,289,175,312,172,316,138,293,82,247"/>
+<area shape="rect" id="Node000003" href="$struct_semaphore_data.html" title=" " alt="" coords="137,208,251,235"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,250,196,314,191,314,191,250"/>
+<area shape="rect" id="Node000004" href="$structtsk_task_control_block.html" title=" " alt="" coords="104,117,246,144"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="183,159,194,207,188,208,178,160"/>
+<area shape="rect" id="Node000005" href="$structx_l_i_s_t___i_t_e_m.html" title=" " alt="" coords="292,8,383,35"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="277,34,223,46,201,54,188,63,180,75,177,90,176,117,171,117,171,89,176,73,184,59,199,49,222,41,276,29"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="401,11,410,21,402,31,384,34,383,29,399,27,405,21,397,15"/>
+<area shape="rect" id="Node000006" href="$structx_l_i_s_t.html" title=" " alt="" coords="372,208,426,235"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="323,49,312,70,304,94,301,119,307,143,320,163,337,180,375,205,372,210,334,184,316,166,302,145,296,119,299,93,308,68,318,47"/>
+<area shape="rect" id="Node000007" href="$structx_m_i_n_i___l_i_s_t___i_t_e_m.html" title=" " alt="" coords="366,117,491,144"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="360,45,420,115,416,118,356,49"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="366,245,278,293,226,316,224,312,275,288,364,240"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="439,203,473,182,489,167,499,153,503,138,500,118,487,87,463,64,424,43,383,32,385,27,426,38,466,59,492,84,506,117,509,138,504,156,493,171,477,186,442,207"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="422,160,406,208,401,207,417,158"/>
+</map>

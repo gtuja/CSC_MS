@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_d32b035281d70908c7aa9f29937c9602" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Drivers/BSP/STM32G0xx_Nucleo</compoundname>
+    <innerfile refid="_free_r_t_o_s___queues_2_s_t_m32_cube_i_d_e_2_debug_2_drivers_2_b_s_p_2_s_t_m32_g0xx___nucleo_2stm32g0xx__nucleo_8d">stm32g0xx_nucleo.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Drivers/BSP/STM32G0xx_Nucleo/"/>
+  </compounddef>
+</doxygen>

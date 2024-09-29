@@ -1,0 +1,5 @@
+<map id="Error_Handler" name="Error_Handler">
+<area shape="rect" id="Node000001" title="This function is executed in case of error occurrence." alt="" coords="217,5,317,32"/>
+<area shape="rect" id="Node000002" href="$_t_i_m___p_w_m_output_2_src_2stm32g0xx__hal__msp_8c.html#a24d5b9c609d8b753d95508419f4c1901" title="TIM_PWM MSP Initialization This function configures the hardware resources used in this example." alt="" coords="5,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,21,169,21,169,16,201,16"/>
+</map>

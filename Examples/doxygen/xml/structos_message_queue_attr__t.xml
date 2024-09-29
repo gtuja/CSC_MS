@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_message_queue_attr__t" kind="struct" language="C++" prot="public">
+    <compoundname>osMessageQueueAttr_t</compoundname>
+    <includes refid="cmsis__os2_8h" local="no">cmsis_os2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_message_queue_attr__t_1a7a0ddc31f97f8d8e5d9f880f5d03768b" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* osMessageQueueAttr_t::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>osMessageQueueAttr_t::name</qualifiedname>
+        <briefdescription>
+<para>name of the message queue </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="274" column="32" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="274" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" compoundref="cmsis__os2_8c" startline="1693" endline="1748">osMessageQueueNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_message_queue_attr__t_1a89d1d6bc8c5926f764c0c915f7fc04e5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMessageQueueAttr_t::attr_bits</definition>
+        <argsstring></argsstring>
+        <name>attr_bits</name>
+        <qualifiedname>osMessageQueueAttr_t::attr_bits</qualifiedname>
+        <briefdescription>
+<para>attribute bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="275" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_message_queue_attr__t_1ad3452e2c35fbdccbedfc88781ad16059" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osMessageQueueAttr_t::cb_mem</definition>
+        <argsstring></argsstring>
+        <name>cb_mem</name>
+        <qualifiedname>osMessageQueueAttr_t::cb_mem</qualifiedname>
+        <briefdescription>
+<para>memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="276" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="276" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" compoundref="cmsis__os2_8c" startline="1693" endline="1748">osMessageQueueNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_message_queue_attr__t_1af027a158b586c5064006bba6f965b8fa" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMessageQueueAttr_t::cb_size</definition>
+        <argsstring></argsstring>
+        <name>cb_size</name>
+        <qualifiedname>osMessageQueueAttr_t::cb_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="277" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="277" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" compoundref="cmsis__os2_8c" startline="1693" endline="1748">osMessageQueueNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_message_queue_attr__t_1af1492738958bf4a44c90d96a08d34a57" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osMessageQueueAttr_t::mq_mem</definition>
+        <argsstring></argsstring>
+        <name>mq_mem</name>
+        <qualifiedname>osMessageQueueAttr_t::mq_mem</qualifiedname>
+        <briefdescription>
+<para>memory for data storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="278" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="278" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" compoundref="cmsis__os2_8c" startline="1693" endline="1748">osMessageQueueNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_message_queue_attr__t_1adec49e7e57147aed14e83bd99cf2c6d7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osMessageQueueAttr_t::mq_size</definition>
+        <argsstring></argsstring>
+        <name>mq_size</name>
+        <qualifiedname>osMessageQueueAttr_t::mq_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for data storage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="279" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="279" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a24e895a00f9d484db33aaf784c57bfed" compoundref="cmsis__os2_8c" startline="1693" endline="1748">osMessageQueueNew</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Attributes structure for message queue. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="273" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="273" bodyend="280"/>
+    <listofallmembers>
+      <member refid="structos_message_queue_attr__t_1a89d1d6bc8c5926f764c0c915f7fc04e5" prot="public" virt="non-virtual"><scope>osMessageQueueAttr_t</scope><name>attr_bits</name></member>
+      <member refid="structos_message_queue_attr__t_1ad3452e2c35fbdccbedfc88781ad16059" prot="public" virt="non-virtual"><scope>osMessageQueueAttr_t</scope><name>cb_mem</name></member>
+      <member refid="structos_message_queue_attr__t_1af027a158b586c5064006bba6f965b8fa" prot="public" virt="non-virtual"><scope>osMessageQueueAttr_t</scope><name>cb_size</name></member>
+      <member refid="structos_message_queue_attr__t_1af1492738958bf4a44c90d96a08d34a57" prot="public" virt="non-virtual"><scope>osMessageQueueAttr_t</scope><name>mq_mem</name></member>
+      <member refid="structos_message_queue_attr__t_1adec49e7e57147aed14e83bd99cf2c6d7" prot="public" virt="non-virtual"><scope>osMessageQueueAttr_t</scope><name>mq_size</name></member>
+      <member refid="structos_message_queue_attr__t_1a7a0ddc31f97f8d8e5d9f880f5d03768b" prot="public" virt="non-virtual"><scope>osMessageQueueAttr_t</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

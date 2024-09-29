@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="freertos__mpool_8h" kind="file" language="C++">
+    <compoundname>freertos_mpool.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="_free_r_t_o_s_8h" local="yes">FreeRTOS.h</includes>
+    <includes refid="semphr_8h" local="yes">semphr.h</includes>
+    <includedby refid="cmsis__os2_8c" local="yes">NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>FreeRTOSConfig.h</label>
+        <link refid="_free_r_t_o_s_config_8h"/>
+      </node>
+      <node id="1">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h</label>
+        <link refid="freertos__mpool_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FreeRTOS.h</label>
+        <link refid="_free_r_t_o_s_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>deprecated_definitions.h</label>
+        <link refid="deprecated__definitions_8h"/>
+      </node>
+      <node id="14">
+        <label>list.h</label>
+        <link refid="list_8h"/>
+      </node>
+      <node id="10">
+        <label>mpu_wrappers.h</label>
+        <link refid="mpu__wrappers_8h"/>
+      </node>
+      <node id="7">
+        <label>portable.h</label>
+        <link refid="portable_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>projdefs.h</label>
+        <link refid="projdefs_8h"/>
+      </node>
+      <node id="12">
+        <label>queue.h</label>
+        <link refid="queue_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>semphr.h</label>
+        <link refid="semphr_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>task.h</label>
+        <link refid="task_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>portmacro.h</label>
+        <link refid="portmacro_8h"/>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c</label>
+        <link refid="cmsis__os2_8c"/>
+      </node>
+      <node id="1">
+        <label>NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h</label>
+        <link refid="freertos__mpool_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_mem_pool_block__t" prot="public">MemPoolBlock_t</innerclass>
+    <innerclass refid="struct_mem_pool_def__t" prot="public">MemPoolDef_t</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="freertos__mpool_8h_1a8c2537ba17a49647cef36d14c3b28dc2" prot="public" static="no">
+        <name>MPOOL_STATUS</name>
+        <initializer>0x5EED0000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" line="31" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__mpool_8h_1ae5af460c49022acb8519d9a1a5fda576" prot="public" static="no">
+        <name>StaticMemPool_t</name>
+        <initializer><ref refid="freertos__mpool_8h_1a5527322a832173b5ca1a3b0e8b40ffc1" kindref="member">MemPool_t</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" line="55" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__mpool_8h_1a1678789289048421372f041a3a5c8063" prot="public" static="no">
+        <name>MEMPOOL_CB_SIZE</name>
+        <initializer>(sizeof(<ref refid="freertos__mpool_8h_1ae5af460c49022acb8519d9a1a5fda576" kindref="member">StaticMemPool_t</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" line="58" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="freertos__mpool_8h_1a16be8a5c9af53c61c83f7920074522b8" prot="public" static="no">
+        <name>MEMPOOL_ARR_SIZE</name>
+        <param><defname>bl_count</defname></param>
+        <param><defname>bl_size</defname></param>
+        <initializer>(((((bl_size) + (4 - 1)) / 4) * 4)*(bl_count))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" line="61" column="9" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="freertos__mpool_8h_1a5527322a832173b5ca1a3b0e8b40ffc1" prot="public" static="no">
+        <type>struct <ref refid="struct_mem_pool_def__t" kindref="compound">MemPoolDef_t</ref></type>
+        <definition>typedef struct MemPoolDef_t MemPool_t</definition>
+        <argsstring></argsstring>
+        <name>MemPool_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h" line="52" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>--------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2013-2020<sp/>Arm<sp/>Limited.<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>Apache-2.0</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>License);<sp/>you<sp/>may</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>AS<sp/>IS<sp/>BASIS,<sp/>WITHOUT</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Name:<sp/><sp/><sp/><sp/>freertos_mpool.h</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Purpose:<sp/>CMSIS<sp/>RTOS2<sp/>wrapper<sp/>for<sp/>FreeRTOS</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FREERTOS_MPOOL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FREERTOS_MPOOL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_free_r_t_o_s_8h" kindref="compound">FreeRTOS.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="semphr_8h" kindref="compound">semphr.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Memory<sp/>Pool<sp/>implementation<sp/>definitions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="freertos__mpool_8h_1a8c2537ba17a49647cef36d14c3b28dc2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MPOOL_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5EED0000U</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Memory<sp/>Block<sp/>header<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="struct_mem_pool_block__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="struct_mem_pool_block__t_1a7e9f4311c39574495a7f9a309d5c70b5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="struct_mem_pool_block__t_1a7e9f4311c39574495a7f9a309d5c70b5" kindref="member">next</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pointer<sp/>to<sp/>next<sp/>block<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/><ref refid="struct_mem_pool_block__t" kindref="compound">MemPoolBlock_t</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Memory<sp/>Pool<sp/>control<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="struct_mem_pool_def__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_mem_pool_def__t" kindref="compound">MemPoolDef_t</ref><sp/>{</highlight></codeline>
+<codeline lineno="40" refid="struct_mem_pool_def__t_1ad1f539c9838255451dbd9b4eabf89bf3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="struct_mem_pool_block__t" kindref="compound">MemPoolBlock_t</ref><sp/><sp/><sp/><sp/>*<ref refid="struct_mem_pool_def__t_1ad1f539c9838255451dbd9b4eabf89bf3" kindref="member">head</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pointer<sp/>to<sp/>head<sp/>block<sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="struct_mem_pool_def__t_1a419a1bb2902914f7c890c4a6306e9459" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="struct_queue_definition" kindref="compound">SemaphoreHandle_t</ref><sp/><sp/><ref refid="struct_mem_pool_def__t_1a419a1bb2902914f7c890c4a6306e9459" kindref="member">sem</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pool<sp/>semaphore<sp/>handle<sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="struct_mem_pool_def__t_1a3e0cdb18ef901e5aa739542396ac0abc" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="struct_mem_pool_def__t_1a3e0cdb18ef901e5aa739542396ac0abc" kindref="member">mem_arr</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pool<sp/>memory<sp/>array<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="struct_mem_pool_def__t_1a913622747c8e449d6fb0758e468cbe4b" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_mem_pool_def__t_1a913622747c8e449d6fb0758e468cbe4b" kindref="member">mem_sz</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pool<sp/>memory<sp/>array<sp/>size<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="struct_mem_pool_def__t_1add14aa7ad63751f794c6418111c8de10" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="struct_mem_pool_def__t_1add14aa7ad63751f794c6418111c8de10" kindref="member">name</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pointer<sp/>to<sp/>name<sp/>string<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="struct_mem_pool_def__t_1a3f23b4d7db508e8dff3a900710dd2277" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_mem_pool_def__t_1a3f23b4d7db508e8dff3a900710dd2277" kindref="member">bl_sz</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Size<sp/>of<sp/>a<sp/>single<sp/>block<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="struct_mem_pool_def__t_1a6b60a6cdec4d73325af6789243c60cc7" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_mem_pool_def__t_1a6b60a6cdec4d73325af6789243c60cc7" kindref="member">bl_cnt</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>blocks<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="struct_mem_pool_def__t_1a0150d8854edf3b0d4629b316eae60c22" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_mem_pool_def__t_1a0150d8854edf3b0d4629b316eae60c22" kindref="member">n</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Block<sp/>allocation<sp/>index<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="struct_mem_pool_def__t_1ad6bf5c42e1ed231d6cbafefdf7ad5f4a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint32_t<sp/><sp/><ref refid="struct_mem_pool_def__t_1ad6bf5c42e1ed231d6cbafefdf7ad5f4a" kindref="member">status</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Object<sp/>status<sp/>flags<sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(configSUPPORT_STATIC_ALLOCATION<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="structx_s_t_a_t_i_c___q_u_e_u_e" kindref="compound">StaticSemaphore_t</ref><sp/><sp/>mem_sem;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Semaphore<sp/>object<sp/>memory<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="freertos__mpool_8h_1a5527322a832173b5ca1a3b0e8b40ffc1" refkind="member"><highlight class="normal">}<sp/><ref refid="freertos__mpool_8h_1a5527322a832173b5ca1a3b0e8b40ffc1" kindref="member">MemPool_t</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>No<sp/>need<sp/>to<sp/>hide<sp/>static<sp/>object<sp/>type,<sp/>just<sp/>align<sp/>to<sp/>coding<sp/>style<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="freertos__mpool_8h_1ae5af460c49022acb8519d9a1a5fda576" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>StaticMemPool_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemPool_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>memory<sp/>pool<sp/>control<sp/>block<sp/>size<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="freertos__mpool_8h_1a1678789289048421372f041a3a5c8063" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEMPOOL_CB_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(sizeof(StaticMemPool_t))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>size<sp/>of<sp/>the<sp/>byte<sp/>array<sp/>required<sp/>to<sp/>create<sp/>count<sp/>of<sp/>blocks<sp/>of<sp/>given<sp/>size<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="freertos__mpool_8h_1a16be8a5c9af53c61c83f7920074522b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEMPOOL_ARR_SIZE(bl_count,<sp/>bl_size)<sp/>(((((bl_size)<sp/>+<sp/>(4<sp/>-<sp/>1))<sp/>/<sp/>4)<sp/>*<sp/>4)*(bl_count))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>FREERTOS_MPOOL_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h"/>
+  </compounddef>
+</doxygen>

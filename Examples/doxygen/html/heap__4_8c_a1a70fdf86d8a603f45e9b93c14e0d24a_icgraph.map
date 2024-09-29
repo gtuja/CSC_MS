@@ -1,0 +1,20 @@
+<map id="prvInsertBlockIntoFreeList" name="prvInsertBlockIntoFreeList">
+<area shape="rect" id="Node000001" title=" " alt="" coords="546,31,717,57"/>
+<area shape="rect" id="Node000002" href="$heap__4_8c.html#ac56bcb7515f081a5b3df83935499fa4a" title=" " alt="" coords="403,5,498,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,32,498,28,499,23,531,27"/>
+<area shape="rect" id="Node000004" href="$heap__4_8c.html#a1e7cea2fd1bc894ea3b5f5e8179d259b" title=" " alt="" coords="413,56,489,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="531,61,490,67,489,61,531,55"/>
+<area shape="rect" id="Node000003" href="$cmsis__os2_8c.html#a5606604d56e21ece1a654664be877439" title="Enumerate active threads." alt="" coords="217,5,355,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,21,355,21,355,16,387,16"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="397,56,331,35,332,30,399,51"/>
+<area shape="rect" id="Node000005" href="$event__groups_8c.html#a6939faca89fc4ba52fa8288527042464" title="event_groups.h" alt="" coords="221,56,351,83"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="397,72,352,72,352,67,397,67"/>
+<area shape="rect" id="Node000007" href="$queue_8c.html#a35c0b4f9a0e940cb3a86ca4c5e84c41c" title=" " alt="" coords="235,107,337,133"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="399,88,332,109,331,104,397,83"/>
+<area shape="rect" id="Node000009" href="$stream__buffer_8c.html#a7e66db41c3fd13acf3b9f814d650f77d" title=" " alt="" coords="217,157,355,184"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="426,96,394,122,356,148,332,159,330,154,354,143,390,118,422,92"/>
+<area shape="rect" id="Node000006" href="$cmsis__os2_8c.html#a7c4acf2fb0d506ec82905dee53fb5435" title="Delete an Event Flags object." alt="" coords="19,56,155,83"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="205,72,156,72,156,67,205,67"/>
+<area shape="rect" id="Node000008" href="$cmsis__os2_8c.html#aba987f665444e0d83fa6a3a68bc72abe" title="Delete a Message Queue object." alt="" coords="5,107,169,133"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="220,123,169,123,169,117,220,117"/>
+</map>

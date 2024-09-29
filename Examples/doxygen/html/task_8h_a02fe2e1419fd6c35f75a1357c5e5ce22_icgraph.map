@@ -1,0 +1,9 @@
+<map id="xTaskPriorityDisinherit" name="xTaskPriorityDisinherit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="440,31,591,57"/>
+<area shape="rect" id="Node000002" href="$queue_8c.html#a77098159b7735e0c27e27aa7072376c6" title=" " alt="" coords="246,31,392,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,47,392,47,392,41,425,41"/>
+<area shape="rect" id="Node000003" href="$queue_8c.html#acb67c81366c00896b21cd826e07d885d" title=" " alt="" coords="31,5,172,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,36,172,30,173,24,231,31"/>
+<area shape="rect" id="Node000004" href="$queue_8c.html#a0fb58b25eb396a5cf8e1688b7e1a56cb" title=" " alt="" coords="5,56,198,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,57,198,61,198,55,230,52"/>
+</map>

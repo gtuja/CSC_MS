@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_semaphore_attr__t" kind="struct" language="C++" prot="public">
+    <compoundname>osSemaphoreAttr_t</compoundname>
+    <includes refid="cmsis__os2_8h" local="no">cmsis_os2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_semaphore_attr__t_1a0151928f02ecbbc0a22793a63892af66" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* osSemaphoreAttr_t::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>osSemaphoreAttr_t::name</qualifiedname>
+        <briefdescription>
+<para>name of the semaphore </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="256" column="32" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="256" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a2a39806ace781a0008a4374ca701b14a" compoundref="cmsis__os2_8c" startline="1509" endline="1582">osSemaphoreNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_semaphore_attr__t_1a718a87b56a768a4f358a90f8c09b1aab" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osSemaphoreAttr_t::attr_bits</definition>
+        <argsstring></argsstring>
+        <name>attr_bits</name>
+        <qualifiedname>osSemaphoreAttr_t::attr_bits</qualifiedname>
+        <briefdescription>
+<para>attribute bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="257" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_semaphore_attr__t_1adcabe022804af99fc5a4477dd95c8003" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osSemaphoreAttr_t::cb_mem</definition>
+        <argsstring></argsstring>
+        <name>cb_mem</name>
+        <qualifiedname>osSemaphoreAttr_t::cb_mem</qualifiedname>
+        <briefdescription>
+<para>memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="258" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="258" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a2a39806ace781a0008a4374ca701b14a" compoundref="cmsis__os2_8c" startline="1509" endline="1582">osSemaphoreNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_semaphore_attr__t_1aa674886431b3111d252bb90b6f911d32" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osSemaphoreAttr_t::cb_size</definition>
+        <argsstring></argsstring>
+        <name>cb_size</name>
+        <qualifiedname>osSemaphoreAttr_t::cb_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="259" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="259" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a2a39806ace781a0008a4374ca701b14a" compoundref="cmsis__os2_8c" startline="1509" endline="1582">osSemaphoreNew</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Attributes structure for semaphore. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="255" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="255" bodyend="260"/>
+    <listofallmembers>
+      <member refid="structos_semaphore_attr__t_1a718a87b56a768a4f358a90f8c09b1aab" prot="public" virt="non-virtual"><scope>osSemaphoreAttr_t</scope><name>attr_bits</name></member>
+      <member refid="structos_semaphore_attr__t_1adcabe022804af99fc5a4477dd95c8003" prot="public" virt="non-virtual"><scope>osSemaphoreAttr_t</scope><name>cb_mem</name></member>
+      <member refid="structos_semaphore_attr__t_1aa674886431b3111d252bb90b6f911d32" prot="public" virt="non-virtual"><scope>osSemaphoreAttr_t</scope><name>cb_size</name></member>
+      <member refid="structos_semaphore_attr__t_1a0151928f02ecbbc0a22793a63892af66" prot="public" virt="non-virtual"><scope>osSemaphoreAttr_t</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="osKernelInitialize" name="osKernelInitialize">
+<area shape="rect" id="Node000001" title="Initialize the RTOS Kernel." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="Node000002" href="$portable_8h.html#ab13f7c55a8661da7bba3ef95f1282aee" title=" " alt="" coords="173,5,336,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,16,157,16,157,21,125,21"/>
+</map>

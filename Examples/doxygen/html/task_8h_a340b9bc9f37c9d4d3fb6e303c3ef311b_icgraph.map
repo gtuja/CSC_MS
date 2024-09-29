@@ -1,0 +1,15 @@
+<map id="vTaskRemoveFromUnorderedEventList" name="vTaskRemoveFromUnorderedEventList">
+<area shape="rect" id="Node000001" title=" " alt="" coords="426,48,615,91"/>
+<area shape="rect" id="Node000002" href="$event__groups_8c.html#a6939faca89fc4ba52fa8288527042464" title="event_groups.h" alt="" coords="244,19,374,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="411,53,374,46,375,41,411,47"/>
+<area shape="rect" id="Node000004" href="$event__groups_8c.html#a9ac7cd970f50e2e50a494b656e0eb239" title=" " alt="" coords="240,81,378,108"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="411,85,379,89,378,84,410,80"/>
+<area shape="rect" id="Node000003" href="$cmsis__os2_8c.html#a7c4acf2fb0d506ec82905dee53fb5435" title="Delete an Event Flags object." alt="" coords="30,5,167,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,30,167,26,167,20,229,24"/>
+<area shape="rect" id="Node000005" href="$cmsis__os2_8c.html#a33b71d14cecf90b4e72639dd19f23a5e" title="Set the specified Event Flags." alt="" coords="39,56,158,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="224,87,158,79,159,74,225,82"/>
+<area shape="rect" id="Node000006" href="$event__groups_8c.html#a54db6cc97bbb926aa4b78d5affc257d9" title=" " alt="" coords="5,107,192,133"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="225,107,192,111,192,106,224,102"/>
+<area shape="rect" id="Node000007" href="$event__groups_8c.html#ac38db316f0928c7ddaacb677a75dbc03" title=" " alt="" coords="36,157,161,184"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="267,117,193,148,156,159,154,154,191,143,264,112"/>
+</map>

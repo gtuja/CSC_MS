@@ -1,0 +1,5 @@
+<map id="OS_Tick_GetCount" name="OS_Tick_GetCount">
+<area shape="rect" id="Node000001" title=" " alt="" coords="236,5,369,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#ae0fcaff6cecfb4013bb556c87afcd7d2" title="Get the RTOS kernel system timer count." alt="" coords="5,5,188,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,21,188,21,188,16,220,16"/>
+</map>

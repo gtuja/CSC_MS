@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos__mail_q__def" kind="struct" language="C++" prot="public">
+    <compoundname>os_mailQ_def</compoundname>
+    <includes refid="cmsis__os_8h" local="no">cmsis_os.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos__mail_q__def_1a2614df3d7904500621666abc01808f22" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t os_mailQ_def::queue_sz</definition>
+        <argsstring></argsstring>
+        <name>queue_sz</name>
+        <qualifiedname>os_mailQ_def::queue_sz</qualifiedname>
+        <briefdescription>
+<para>number of elements in the queue </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="356" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__mail_q__def_1a582330af53f89bd1f2ce4a27c7facb07" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t os_mailQ_def::item_sz</definition>
+        <argsstring></argsstring>
+        <name>item_sz</name>
+        <qualifiedname>os_mailQ_def::item_sz</qualifiedname>
+        <briefdescription>
+<para>size of an item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="357" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__mail_q__def_1ac20481b569891bf520d2aa263c65c892" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* os_mailQ_def::mail</definition>
+        <argsstring></argsstring>
+        <name>mail</name>
+        <qualifiedname>os_mailQ_def::mail</qualifiedname>
+        <briefdescription>
+<para>pointer to mail </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="358" column="32" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__mail_q__def_1a09357977d1cc71ddcb2496c2e3e58a98" prot="public" static="no" mutable="no">
+        <type><ref refid="structos_memory_pool_attr__t" kindref="compound">osMemoryPoolAttr_t</ref></type>
+        <definition>osMemoryPoolAttr_t os_mailQ_def::mp_attr</definition>
+        <argsstring></argsstring>
+        <name>mp_attr</name>
+        <qualifiedname>os_mailQ_def::mp_attr</qualifiedname>
+        <briefdescription>
+<para>memory pool attributes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="359" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__mail_q__def_1a9b7292e12ae0b3ace5c9308f447c7663" prot="public" static="no" mutable="no">
+        <type><ref refid="structos_message_queue_attr__t" kindref="compound">osMessageQueueAttr_t</ref></type>
+        <definition>osMessageQueueAttr_t os_mailQ_def::mq_attr</definition>
+        <argsstring></argsstring>
+        <name>mq_attr</name>
+        <qualifiedname>os_mailQ_def::mq_attr</qualifiedname>
+        <briefdescription>
+<para>message queue attributes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="360" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Definition structure for mail queue. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>osMemoryPoolAttr_t</label>
+        <link refid="structos_memory_pool_attr__t"/>
+      </node>
+      <node id="3">
+        <label>osMessageQueueAttr_t</label>
+        <link refid="structos_message_queue_attr__t"/>
+      </node>
+      <node id="1">
+        <label>os_mailQ_def</label>
+        <link refid="structos__mail_q__def"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mp_attr</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mq_attr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="355" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="355" bodyend="361"/>
+    <listofallmembers>
+      <member refid="structos__mail_q__def_1a582330af53f89bd1f2ce4a27c7facb07" prot="public" virt="non-virtual"><scope>os_mailQ_def</scope><name>item_sz</name></member>
+      <member refid="structos__mail_q__def_1ac20481b569891bf520d2aa263c65c892" prot="public" virt="non-virtual"><scope>os_mailQ_def</scope><name>mail</name></member>
+      <member refid="structos__mail_q__def_1a09357977d1cc71ddcb2496c2e3e58a98" prot="public" virt="non-virtual"><scope>os_mailQ_def</scope><name>mp_attr</name></member>
+      <member refid="structos__mail_q__def_1a9b7292e12ae0b3ace5c9308f447c7663" prot="public" virt="non-virtual"><scope>os_mailQ_def</scope><name>mq_attr</name></member>
+      <member refid="structos__mail_q__def_1a2614df3d7904500621666abc01808f22" prot="public" virt="non-virtual"><scope>os_mailQ_def</scope><name>queue_sz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

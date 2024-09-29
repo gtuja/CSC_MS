@@ -1,0 +1,7 @@
+<map id="osMessageQueueGet" name="osMessageQueueGet">
+<area shape="rect" id="Node000001" title="Get a Message from a Queue or timeout if Queue is empty." alt="" coords="322,5,469,32"/>
+<area shape="rect" id="Node000002" href="$_free_r_t_o_s___queues_2_src_2main_8c.html#a0322cad3bd0e264bdf2104b17b6d971d" title="Function implementing the MessageQueueCon thread." alt="" coords="103,5,274,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,21,274,21,274,16,306,16"/>
+<area shape="rect" id="Node000003" href="$_free_r_t_o_s___queues_2_src_2main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

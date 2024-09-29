@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_82d6d9139d530875182fe8b877d4474d" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/GPIO_IOToggle/Src</compoundname>
+    <innerfile refid="_g_p_i_o___i_o_toggle_2_src_2main_8c">main.c</innerfile>
+    <innerfile refid="_g_p_i_o___i_o_toggle_2_src_2stm32g0xx__hal__msp_8c">stm32g0xx_hal_msp.c</innerfile>
+    <innerfile refid="_g_p_i_o___i_o_toggle_2_src_2stm32g0xx__it_8c">stm32g0xx_it.c</innerfile>
+    <innerfile refid="_g_p_i_o___i_o_toggle_2_src_2system__stm32g0xx_8c">system_stm32g0xx.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/GPIO_IOToggle/Src/"/>
+  </compounddef>
+</doxygen>

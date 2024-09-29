@@ -1,0 +1,5 @@
+<map id="uxQueueSpacesAvailable" name="uxQueueSpacesAvailable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="238,5,406,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#addf0904427436dd3880d46263c2dc9fa" title="Get number of available slots for messages in a Message Queue." alt="" coords="5,5,190,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+</map>

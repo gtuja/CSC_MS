@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_dede5ed9b5729a45a1734e8b104f4ff3" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE/Debug/Application</compoundname>
+    <innerdir refid="dir_49dc5f6cdcbb1d06b4165971c8e06b0a">NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE/Debug/Application/Startup</innerdir>
+    <innerdir refid="dir_73a5eaae6f7abf3d1892cb036d2bf2e8">NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE/Debug/Application/User</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE/Debug/Application/"/>
+  </compounddef>
+</doxygen>

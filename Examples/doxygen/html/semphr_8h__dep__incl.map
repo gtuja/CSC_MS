@@ -1,0 +1,8 @@
+<map id="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h" name="NUCLEO&#45;G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,220,80"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html" title=" " alt="" coords="5,251,220,325"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,95,68,129,62,165,68,202,77,226,89,249,85,252,72,229,63,203,57,165,63,127,77,93"/>
+<area shape="rect" id="Node000003" href="$freertos__mpool_8h.html" title=" " alt="" coords="77,128,292,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,92,165,126,160,129,140,95"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="157,218,137,252,132,249,152,215"/>
+</map>

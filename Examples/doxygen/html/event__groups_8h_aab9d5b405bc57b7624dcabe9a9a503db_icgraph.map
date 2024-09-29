@@ -1,0 +1,5 @@
+<map id="xEventGroupWaitBits" name="xEventGroupWaitBits">
+<area shape="rect" id="Node000001" title=" " alt="" coords="180,5,325,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a52acb34a8322e58020227344fe662b4e" title="Wait for one or more Event Flags to become signaled." alt="" coords="5,5,132,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,21,132,21,132,16,164,16"/>
+</map>

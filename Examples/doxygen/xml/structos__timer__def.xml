@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos__timer__def" kind="struct" language="C++" prot="public">
+    <compoundname>os_timer_def</compoundname>
+    <includes refid="cmsis__os_8h" local="no">cmsis_os.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos__timer__def_1a7e7df6a1b8c1a1149a19d8c7f19cfe05" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os_8h_1a7904cad2180c6b3a0ac112fe8ff273e7" kindref="member">os_ptimer</ref></type>
+        <definition>os_ptimer os_timer_def::ptimer</definition>
+        <argsstring></argsstring>
+        <name>ptimer</name>
+        <qualifiedname>os_timer_def::ptimer</qualifiedname>
+        <briefdescription>
+<para>start address of a timer function </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="296" column="31" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos__timer__def_1a0afac212a781b48c016b9bfa471699d0" prot="public" static="no" mutable="no">
+        <type><ref refid="structos_timer_attr__t" kindref="compound">osTimerAttr_t</ref></type>
+        <definition>osTimerAttr_t os_timer_def::attr</definition>
+        <argsstring></argsstring>
+        <name>attr</name>
+        <qualifiedname>os_timer_def::attr</qualifiedname>
+        <briefdescription>
+<para>timer attributes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="297" column="33" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Timer Definition structure contains timer parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>osTimerAttr_t</label>
+        <link refid="structos_timer_attr__t"/>
+      </node>
+      <node id="1">
+        <label>os_timer_def</label>
+        <link refid="structos__timer__def"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>attr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" line="295" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" bodystart="295" bodyend="298"/>
+    <listofallmembers>
+      <member refid="structos__timer__def_1a0afac212a781b48c016b9bfa471699d0" prot="public" virt="non-virtual"><scope>os_timer_def</scope><name>attr</name></member>
+      <member refid="structos__timer__def_1a7e7df6a1b8c1a1149a19d8c7f19cfe05" prot="public" virt="non-virtual"><scope>os_timer_def</scope><name>ptimer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="osThreadGetStackSpace" name="osThreadGetStackSpace">
+<area shape="rect" id="Node000001" title="Get available stack space of a thread based on stack watermark recording during execution." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="Node000002" href="$task_8h.html#a799967af01d328132cde814e47733437" title="task.h" alt="" coords="220,5,428,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,16,204,16,204,21,172,21"/>
+</map>

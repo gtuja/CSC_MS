@@ -1,0 +1,5 @@
+<map id="vTaskPrioritySet" name="vTaskPrioritySet">
+<area shape="rect" id="Node000001" title=" " alt="" coords="189,5,304,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a861a420fb2d643115b06622903fb3bfb" title="Change priority of a thread." alt="" coords="5,5,141,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,21,141,21,141,16,173,16"/>
+</map>

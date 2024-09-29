@@ -1,0 +1,7 @@
+<map id="osKernelGetTickCount" name="osKernelGetTickCount">
+<area shape="rect" id="Node000001" title="Get the RTOS kernel tick count." alt="" coords="5,31,157,57"/>
+<area shape="rect" id="Node000002" href="$tasks_8c.html#a5fa24e36d5e1eeb57f5b73b72ea048e7" title=" " alt="" coords="230,5,366,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,32,214,26,215,31,158,38"/>
+<area shape="rect" id="Node000003" href="$tasks_8c.html#ad58fd766b8f438b5703276f585738762" title=" " alt="" coords="205,56,391,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,50,189,54,189,59,157,56"/>
+</map>

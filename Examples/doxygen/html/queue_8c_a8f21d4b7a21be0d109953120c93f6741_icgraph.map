@@ -1,0 +1,15 @@
+<map id="prvIsQueueEmpty" name="prvIsQueueEmpty">
+<area shape="rect" id="Node000001" title=" " alt="" coords="726,56,849,83"/>
+<area shape="rect" id="Node000002" href="$queue_8c.html#a8f68e37e931bbf95440c8845f512e090" title=" " alt="" coords="549,5,646,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="719,54,645,34,647,29,720,49"/>
+<area shape="rect" id="Node000003" href="$queue_8c.html#ad0a166f3b1219a5e37e31f8090d4800d" title=" " alt="" coords="542,56,653,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="710,72,654,72,654,67,710,67"/>
+<area shape="rect" id="Node000007" href="$queue_8c.html#ade45e48664e5ec17ea091f00cd34394f" title=" " alt="" coords="517,107,678,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="720,90,651,109,650,103,719,85"/>
+<area shape="rect" id="Node000004" href="$cmsis__os2_8c.html#ad90d4959466a7a65105061da8256ab9e" title="Get a Message from a Queue or timeout if Queue is empty." alt="" coords="322,56,469,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="526,72,470,72,470,67,526,67"/>
+<area shape="rect" id="Node000005" href="$_free_r_t_o_s___queues_2_src_2main_8c.html#a0322cad3bd0e264bdf2104b17b6d971d" title="Function implementing the MessageQueueCon thread." alt="" coords="103,56,274,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="306,72,274,72,274,67,306,67"/>
+<area shape="rect" id="Node000006" href="$_free_r_t_o_s___queues_2_src_2main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>

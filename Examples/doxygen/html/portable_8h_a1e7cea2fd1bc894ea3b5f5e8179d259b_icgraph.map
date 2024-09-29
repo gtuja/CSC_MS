@@ -1,0 +1,15 @@
+<map id="vPortFree" name="vPortFree">
+<area shape="rect" id="Node000001" title=" " alt="" coords="403,81,479,108"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#a5606604d56e21ece1a654664be877439" title="Enumerate active threads." alt="" coords="217,5,355,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="405,75,354,46,327,35,329,30,356,42,408,71"/>
+<area shape="rect" id="Node000003" href="$event__groups_8c.html#a6939faca89fc4ba52fa8288527042464" title="event_groups.h" alt="" coords="221,56,351,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="387,89,351,83,352,77,388,83"/>
+<area shape="rect" id="Node000005" href="$queue_8c.html#a35c0b4f9a0e940cb3a86ca4c5e84c41c" title=" " alt="" coords="235,107,337,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="388,106,337,114,336,109,387,101"/>
+<area shape="rect" id="Node000007" href="$stream__buffer_8c.html#a7e66db41c3fd13acf3b9f814d650f77d" title=" " alt="" coords="217,157,355,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="408,119,356,148,329,159,327,154,354,143,405,114"/>
+<area shape="rect" id="Node000004" href="$cmsis__os2_8c.html#a7c4acf2fb0d506ec82905dee53fb5435" title="Delete an Event Flags object." alt="" coords="19,56,155,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,72,156,72,156,67,205,67"/>
+<area shape="rect" id="Node000006" href="$cmsis__os2_8c.html#aba987f665444e0d83fa6a3a68bc72abe" title="Delete a Message Queue object." alt="" coords="5,107,169,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="220,123,169,123,169,117,220,117"/>
+</map>

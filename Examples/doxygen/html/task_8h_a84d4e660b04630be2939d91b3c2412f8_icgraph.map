@@ -1,0 +1,5 @@
+<map id="vTaskSuspend" name="vTaskSuspend">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,5,284,32"/>
+<area shape="rect" id="Node000002" href="$cmsis__os2_8c.html#aa9de419d0152bf77e9bbcd1f369fb990" title="Suspend execution of a thread." alt="" coords="5,5,131,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,21,131,21,131,16,163,16"/>
+</map>

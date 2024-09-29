@@ -1,0 +1,5 @@
+<map id="os_pool_def" name="os_pool_def">
+<area shape="rect" id="Node000001" title="Definition structure for memory block allocation." alt="" coords="30,96,121,123"/>
+<area shape="rect" id="Node000002" href="$structos_memory_pool_attr__t.html" title="Attributes structure for memory pool." alt="" coords="5,5,146,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,48,78,95,73,95,73,48"/>
+</map>

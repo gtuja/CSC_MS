@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structos_thread_attr__t" kind="struct" language="C++" prot="public">
+    <compoundname>osThreadAttr_t</compoundname>
+    <includes refid="cmsis__os2_8h" local="no">cmsis_os2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structos_thread_attr__t_1aed20d9f112c97dcb4fc6374290ab7446" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* osThreadAttr_t::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>osThreadAttr_t::name</qualifiedname>
+        <briefdescription>
+<para>name of the thread </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="219" column="32" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="219" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a5f48a821ddc41410fe625860b6380d3a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osThreadAttr_t::attr_bits</definition>
+        <argsstring></argsstring>
+        <name>attr_bits</name>
+        <qualifiedname>osThreadAttr_t::attr_bits</qualifiedname>
+        <briefdescription>
+<para>attribute bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="220" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="220" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a378962e098d6fc89cd0bdecaf03b59de" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osThreadAttr_t::cb_mem</definition>
+        <argsstring></argsstring>
+        <name>cb_mem</name>
+        <qualifiedname>osThreadAttr_t::cb_mem</qualifiedname>
+        <briefdescription>
+<para>memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="221" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="221" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a8992f7ce1ac52bb8682ccd4f42751de5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osThreadAttr_t::cb_size</definition>
+        <argsstring></argsstring>
+        <name>cb_size</name>
+        <qualifiedname>osThreadAttr_t::cb_size</qualifiedname>
+        <briefdescription>
+<para>size of provided memory for control block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="222" column="30" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="222" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a8ce05e5336d40cba01b6e1d1e36afe77" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* osThreadAttr_t::stack_mem</definition>
+        <argsstring></argsstring>
+        <name>stack_mem</name>
+        <qualifiedname>osThreadAttr_t::stack_mem</qualifiedname>
+        <briefdescription>
+<para>memory for stack </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="223" column="26" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="223" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1acb537dae7fecd9c744852ff6d6ea2c04" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osThreadAttr_t::stack_size</definition>
+        <argsstring></argsstring>
+        <name>stack_size</name>
+        <qualifiedname>osThreadAttr_t::stack_size</qualifiedname>
+        <briefdescription>
+<para>size of stack </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="224" column="27" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="224" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a90ae74b20698ee175b68f7f53a0b9091" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os2_8h_1ad4e3e0971b41f2d17584a8c6837342ec" kindref="member">osPriority_t</ref></type>
+        <definition>osPriority_t osThreadAttr_t::priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <qualifiedname>osThreadAttr_t::priority</qualifiedname>
+        <briefdescription>
+<para>initial thread priority (default: osPriorityNormal) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="225" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="225" bodyend="-1"/>
+        <referencedby refid="cmsis__os2_8c_1a48d68b8666d99d28fa646ee1d2182b8f" compoundref="cmsis__os2_8c" startline="444" endline="510">osThreadNew</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a5cefc38447dae2c9f3fb81c193c49536" prot="public" static="no" mutable="no">
+        <type><ref refid="cmsis__os2_8h_1ad5ef21485fe5f60263bc0b48006202cb" kindref="member">TZ_ModuleId_t</ref></type>
+        <definition>TZ_ModuleId_t osThreadAttr_t::tz_module</definition>
+        <argsstring></argsstring>
+        <name>tz_module</name>
+        <qualifiedname>osThreadAttr_t::tz_module</qualifiedname>
+        <briefdescription>
+<para>TrustZone module identifier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="226" column="28" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structos_thread_attr__t_1a553fd9961d8f9e4562f84cd68709ae2d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t osThreadAttr_t::reserved</definition>
+        <argsstring></argsstring>
+        <name>reserved</name>
+        <qualifiedname>osThreadAttr_t::reserved</qualifiedname>
+        <briefdescription>
+<para>reserved (must be 0) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="227" column="29" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Attributes structure for thread. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" line="218" column="1" bodyfile="NUCLEO-G0B1RE/FreeRTOS_Queues/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" bodystart="218" bodyend="228"/>
+    <listofallmembers>
+      <member refid="structos_thread_attr__t_1a5f48a821ddc41410fe625860b6380d3a" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>attr_bits</name></member>
+      <member refid="structos_thread_attr__t_1a378962e098d6fc89cd0bdecaf03b59de" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>cb_mem</name></member>
+      <member refid="structos_thread_attr__t_1a8992f7ce1ac52bb8682ccd4f42751de5" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>cb_size</name></member>
+      <member refid="structos_thread_attr__t_1aed20d9f112c97dcb4fc6374290ab7446" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>name</name></member>
+      <member refid="structos_thread_attr__t_1a90ae74b20698ee175b68f7f53a0b9091" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>priority</name></member>
+      <member refid="structos_thread_attr__t_1a553fd9961d8f9e4562f84cd68709ae2d" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>reserved</name></member>
+      <member refid="structos_thread_attr__t_1a8ce05e5336d40cba01b6e1d1e36afe77" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>stack_mem</name></member>
+      <member refid="structos_thread_attr__t_1acb537dae7fecd9c744852ff6d6ea2c04" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>stack_size</name></member>
+      <member refid="structos_thread_attr__t_1a5cefc38447dae2c9f3fb81c193c49536" prot="public" virt="non-virtual"><scope>osThreadAttr_t</scope><name>tz_module</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="MX_TIM1_Init" name="MX_TIM1_Init">
+<area shape="rect" id="Node000001" title="TIM1 Initialization Function." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="Node000002" href="$_free_r_t_o_s___queues_2_src_2main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="177,5,277,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,34,161,26,162,31,104,39"/>
+<area shape="rect" id="Node000003" href="$_t_i_m___p_w_m_output_2_src_2stm32g0xx__hal__msp_8c.html#ae70bce6c39d0b570a7523b86738cec4b" title="File Name : TIM/TIM_PWMOutput/Src/stm32g0xx_hal_msp.c." alt="" coords="152,56,302,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,49,137,53,136,59,104,54"/>
+</map>

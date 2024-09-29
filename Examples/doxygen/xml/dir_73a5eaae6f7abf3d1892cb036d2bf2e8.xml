@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_73a5eaae6f7abf3d1892cb036d2bf2e8" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE/Debug/Application/User</compoundname>
+    <innerfile refid="_t_i_m___p_w_m_output_2_s_t_m32_cube_i_d_e_2_debug_2_application_2_user_2main_8d">main.d</innerfile>
+    <innerfile refid="_t_i_m___p_w_m_output_2_s_t_m32_cube_i_d_e_2_debug_2_application_2_user_2stm32g0xx__hal__msp_8d">stm32g0xx_hal_msp.d</innerfile>
+    <innerfile refid="_t_i_m___p_w_m_output_2_s_t_m32_cube_i_d_e_2_debug_2_application_2_user_2stm32g0xx__it_8d">stm32g0xx_it.d</innerfile>
+    <innerfile refid="_t_i_m___p_w_m_output_2_s_t_m32_cube_i_d_e_2_debug_2_application_2_user_2syscalls_8d">syscalls.d</innerfile>
+    <innerfile refid="_t_i_m___p_w_m_output_2_s_t_m32_cube_i_d_e_2_debug_2_application_2_user_2sysmem_8d">sysmem.d</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/TIM_PWMOutput/STM32CubeIDE/Debug/Application/User/"/>
+  </compounddef>
+</doxygen>

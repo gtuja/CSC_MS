@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_3af742c69d927acbe15c51069b1905b8" kind="dir">
+    <compoundname>NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug</compoundname>
+    <innerdir refid="dir_af050cd85aa90f23bbb7fef25efc438f">NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Application</innerdir>
+    <innerdir refid="dir_c7588687444a46cabd6dcb7a73b4411c">NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Drivers</innerdir>
+    <innerdir refid="dir_4888d308f954abe5d8301e01d75741d6">NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/Middlewares</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="NUCLEO-G0B1RE/FreeRTOS_Queues/STM32CubeIDE/Debug/"/>
+  </compounddef>
+</doxygen>
