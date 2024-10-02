@@ -141,6 +141,19 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 - This document is also used in various ways, such as displaying the latest tags, navigation, and software links.
 
 </details>
+
+<div id="Reference"></div>
+<details open>
+<summary><font size="5"><b>Reference</b></font></summary>
+
+- [TOC](#toc)
+- [NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)
+- [Github](https://github.com)
+- [STM](https://www.st.com)
+- [Shield.io](https://shields.io)
+- [Simple icon](https://simpleicons.org/)
+
+</details>
 <br>
 
 ![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
