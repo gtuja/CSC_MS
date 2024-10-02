@@ -16,7 +16,7 @@
 - [事前準備](#Preparation)
 - [Part.1[基本編]](#Part1_Basic)
 - [Part.2[実装編]](#Part2_Implementation)
-- [Tip001: Show me the Badge](#Tip001)
+- [Tip : Show me the Badge](#Tip001)
 
 </details>
 
@@ -127,15 +127,15 @@
 \- HLD(High Level Design)<br>
 \- Detailed Design<br>
 - [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
-\- フォルダ構成<br>
+\- 開発環境<br>
 \- コーディング規則<br>
-\- ソフトウエア分析 **[doxygen](https://www.doxygen.nl/)** **[graviz](https://graphviz.org/)**<br>
+\- 終わりに<br>
  
 </details>
 
 <div id="Tip001"></div>
 <details open>
-<summary><font size="5"><b>Tip001: Show me the Badge</b></font></summary>
+<summary><font size="5"><b>Tip : Show me the Badge</b></font></summary>
 
 - [TOC](#toc)<br>
 - 綺麗なアイコン作りはなかなか難しいものです。

@@ -14,7 +14,7 @@
 - [Preparation](#Preparation)
 - [Part.1[Basic]](#Part1_Basic)
 - [Part.2[Implementation]](#Part2_Implementation)
-- [Tip001: Show me the Badge](#Tip001)
+- [Tip : Show me the Badge](#Tip001)
 
 </details>
 
@@ -123,15 +123,15 @@ The latest version is always a good choice, but let's use CubeIDE with ***1.16.0
 \- HLD(High Level Design)<br>
 \- Detailed Design<br>
 - [Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md)<br>
-\- Folder Structure<br>
+\- Stm32CubeIDE<br>
 \- Coding Rules<br>
-\- Software Analysis [doxygen](https://www.doxygen.nl/) [graviz](https://graphviz.org/)<br>
+\- End of Part.2<br>
 
 </details>
 
 <div id="Tip001"></div>
 <details open>
-<summary><font size="5"><b>Tip001: Show me the Badge</b></font></summary>
+<summary><font size="5"><b>Tip : Show me the Badge</b></font></summary>
 
 - [TOC](#toc)<br>
 - Creating beautiful icons is quite difficult.
