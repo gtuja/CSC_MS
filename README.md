@@ -144,8 +144,8 @@
 - [Shield.io](https://shields.io), [Simple icon](https://simpleicons.org/)<br>
 ![Show-me-the-badge](https://github.com/gtuja/CSC_MS/blob/main/Resources/Tips/tip001_001_shields_io_static_badge.png)<br>
 - このドキュメントにも、最新タグの表示、ナビゲーション、ソフトウエアリンクなどにBadgeが活躍中？です。
-
 </details>
+
 <div id="Reference"></div>
 <details open>
 <summary><font size="5"><b>Reference</b></font></summary>
