@@ -17,6 +17,7 @@
 - [Part.1[基本編]](#Part1_Basic)
 - [Part.2[実装編]](#Part2_Implementation)
 - [Tip : Show me the Badge](#Tip001)
+- [Reference](#Reference)
 
 </details>
 
@@ -143,6 +144,18 @@
 - [Shield.io](https://shields.io), [Simple icon](https://simpleicons.org/)<br>
 ![Show-me-the-badge](https://github.com/gtuja/CSC_MS/blob/main/Resources/Tips/tip001_001_shields_io_static_badge.png)<br>
 - このドキュメントにも、最新タグの表示、ナビゲーション、ソフトウエアリンクなどにBadgeが活躍中？です。
+
+</details>
+<div id="Reference"></div>
+<details open>
+<summary><font size="5"><b>Reference</b></font></summary>
+
+- [TOC](#toc)
+- [NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)
+- [Github](https://github.com)
+- [STM](https://www.st.com)
+- [Shield.io](https://shields.io)
+- [Simple icon](https://simpleicons.org/)
 
 </details>
 <br>
