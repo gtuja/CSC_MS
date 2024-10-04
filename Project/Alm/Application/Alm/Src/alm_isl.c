@@ -6,9 +6,20 @@
  * @note    Copyleft, All rights reversed.
  */
 
-
 /* Includes ------------------------------------------------------------------*/
+#include "alm_api.h"
+
 /* Private define ------------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
+
+/* Public functions ----------------------------------------------------------*/
+
+PUBLIC void vidIslInitialize(void* pvArgs) {
+
+}
+
+PUBLIC void vidIslService(void* pvArgs) {
+
+}

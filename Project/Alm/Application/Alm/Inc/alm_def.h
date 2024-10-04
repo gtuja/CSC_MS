@@ -1,6 +1,6 @@
 /**
  * @file    alm_def.h
- * @brief   This file provides defines, types to ALM modules.  
+ * @brief   This file provides defines and types to ALM modules.  
  * @author  Gtuja
  * @date    Oct 5, 2024
  * @note    Copyleft, All rights reversed.
