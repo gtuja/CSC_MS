@@ -1,9 +1,9 @@
 /**
- * @file		xlm_xbm.h
- * @brief		This file is used to ... 
- * @author	User
- * @date		Oct 5, 2024
- * @note		Copyleft, All rights reversed.
+ * @file    xlm_xbm.h
+ * @brief   This file is used to ... 
+ * @author  Gtuja
+ * @date    Oct 5, 2024
+ * @note    Copyleft, All rights reversed.
  */
 
 /* Define to prevent recursive inclusion -------------------------------------*/

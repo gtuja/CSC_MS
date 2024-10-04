@@ -1,9 +1,9 @@
 /**
- * @file		alm_tol.c
- * @brief		This file is used to ... 
- * @author	User
- * @date		Oct 5, 2024
- * @note		Copyleft, All rights reversed.
+ * @file    alm_tol.c
+ * @brief   This file is used to ... 
+ * @author  Gtuja
+ * @date    Oct 5, 2024
+ * @note    Copyleft, All rights reversed.
  */
 
 /* Includes ------------------------------------------------------------------*/

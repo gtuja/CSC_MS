@@ -1,9 +1,9 @@
 /**
- * @file		alm_isl.h
- * @brief		This file is used to ... 
- * @author	User
- * @date		Oct 5, 2024
- * @note		Copyleft, All rights reversed.
+ * @file    alm_isl.h
+ * @brief   This file is used to ... 
+ * @author  Gtuja
+ * @date    Oct 5, 2024
+ * @note    Copyleft, All rights reversed.
  */
 
 #ifndef ALM_SRC_ALM_ISL_H_
