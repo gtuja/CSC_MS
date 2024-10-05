@@ -46,7 +46,9 @@ ${namespace_end}
 /* Private define ------------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
+/* Private function prototypes -----------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Public functions ----------------------------------------------------------*/</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef ${include_guard_symbol}
 #define ${include_guard_symbol}

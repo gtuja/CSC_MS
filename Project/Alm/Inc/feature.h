@@ -11,6 +11,9 @@
 
 /* Includes ------------------------------------------------------------------*/
 /* Exported defines ----------------------------------------------------------*/
+#define XBM_MATCH_CNT 5     /**< match count to confirm push or release. */
+#define XBM_EVT_TH    1000  /**< threshold time(milliseconds) to determine short or long press. */
+
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 /* Exported functions prototypes ---------------------------------------------*/
