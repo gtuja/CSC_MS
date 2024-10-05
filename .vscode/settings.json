@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "alm_api.h": "c",
+    "xlm_api.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled"
+}
