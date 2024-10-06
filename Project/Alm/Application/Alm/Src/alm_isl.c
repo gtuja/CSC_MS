@@ -14,6 +14,9 @@
 #include "xlm_api.h"
 #include <string.h>
 
+/* External variables --------------------------------------------------------*/
+extern TIM_HandleTypeDef htim2;
+
 /* Private define ------------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
 /** Private tstrIsbControl is holding information controlled by ISL. */
@@ -34,6 +37,9 @@ PRIVATE void vidXlmNotifyCallback(tstrXlmNotifyArgs* pstrArgs);
 PUBLIC void vidIslInitialize(void* pvArgs) {
   tstrXlmRegisterArgs strArgs;
 
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (int)XLM_DUTY_MIN);
+  
   vidXlmInitialize();
 
   strArgs.u16Cycle = (U16)PRD_SRV_HIGH;
@@ -81,7 +87,7 @@ PUBLIC BOOL bIslIsLedOn(void) {
 PRIVATE void vidXlmNotifyCallback(tstrXlmNotifyArgs* pstrArgs) {
   switch(pstrArgs->enuNotify) {
   case XLM_NTF_OUTPUT :
-    /* TBD : LED output with duty passed by XLM. */
+    __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (int)(pstrArgs->u16Duty));
     break;
   case XLM_NTF_LOG :
     /* TBD : log output with string passed by XLM. */

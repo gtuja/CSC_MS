@@ -319,7 +319,7 @@ PRIVATE void vidXlmOutput(U16 u16Duty) {
   tstrXlmNotifyArgs strArgs;
 
   strArgs.enuNotify = XLM_NTF_OUTPUT;
-  strArgs.u16Duty = u16Duty;
+  strArgs.u16Duty = (u16Duty >= (U16)XLM_DUTY_MAX) ? (U16)XLM_DUTY_MAX : u16Duty;
   if (gstrControl.strArgs.pfXlmNotifyCallback != NULL) {
     gstrControl.strArgs.pfXlmNotifyCallback(&strArgs);
   }

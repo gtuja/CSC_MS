@@ -17,8 +17,14 @@
 #define XLM_FADE_IN_TMO   1000  /**< fade in time(milliseconds). */
 #define XLM_FADE_OUT_TMO  2000  /**< fade out time(milliseconds). */
 
-#define XLM_DUTY_MIN      0     /**< minimum LED duty. */
-#define XLM_DUTY_MAX      65535 /**< TBD : maximum LED duty. */
+
+/**
+ * @brief This is the setting of PWM output for ISL and XLM.
+ * @note  JIC setting, for more resolution need to change below.
+ *        HCLK(16MHz), PWM(10KHz), Prescaler(0), Counter Period(1599) 
+*/
+#define XLM_DUTY_MIN      0     /**< minimum LED PWM duty. */
+#define XLM_DUTY_MAX      1599  /**< maximum LED PWM duty. */
 
 #define SWD_LOG_MAX       72
 
