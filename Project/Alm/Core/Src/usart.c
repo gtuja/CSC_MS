@@ -137,4 +137,42 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
 /* USER CODE BEGIN 1 */
 
+/**
+ * @brief   Public function that sends one character to UART2 bus with DMA.
+ * @param   ch  character to send.
+ * @sa      printf
+ * @return  int character sended.
+ */
+int __io_putchar(int ch)
+{
+  HAL_UART_Transmit_DMA(&huart2, (const uint8_t *)&ch, 1);
+  while (huart2.gState != HAL_UART_STATE_READY) {
+    ; /* NOOP */
+  }
+  return ch;
+}
+
+/**
+ * @brief  Tx Half Transfer completed callback.
+ * @param  huart  Pointer to a UART_HandleTypeDef structure that contains
+ *                the configuration information for the specified UART module.
+ * @returnn void
+ */
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if (huart->Instance == USART2) {
+    huart2.gState = HAL_UART_STATE_READY;
+  }
+}
+
+/**
+ * @brief  Rx Transfer completed callback.
+ * @param  huart  Pointer to a UART_HandleTypeDef structure that contains
+ *                the configuration information for the specified UART module.
+ * @returnn void
+*/
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+}
+
 /* USER CODE END 1 */

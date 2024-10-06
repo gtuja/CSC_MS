@@ -25,7 +25,7 @@ PUBLIC uint8_t gu8SwdLogIndex;
 
 /* Public functions ----------------------------------------------------------*/
 PUBLIC void vidTaskSwdInitialize(void) {
-//  setbuf(stdout, NULL);
+  setbuf(stdout, NULL);
   gu8SwdLogIndex = 0;
   memset(gpcSwdLog, 0, sizeof(gpcSwdLog));
 }
