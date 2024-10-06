@@ -31,7 +31,7 @@ extern osMessageQueueId_t queSwdTaskHandle;
 
 #define SWD_LOG_THREAD(fmt, ...) { \
   snprintf(gpcSwdLog[gu8SwdLogIndex], SWD_LOG_LEN, fmt, __VA_ARGS__);  \
-  xQueueSendFromISR(queSwdTaskHandle, &gu8SwdLogIndex, NULL);  \
+  xQueueSend(queSwdTaskHandle, &gu8SwdLogIndex, NULL);  \
   if (++gu8SwdLogIndex >= SWD_LOG_MAX) gu8SwdLogIndex = 0; \
 }
 
