@@ -74,6 +74,21 @@ const osThreadAttr_t TSK_SWD_attributes = {
   .priority = (osPriority_t) osPriorityLow,
   .stack_size = 256 * 4
 };
+/* Definitions for queLedTask */
+osMessageQueueId_t queLedTaskHandle;
+const osMessageQueueAttr_t queLedTask_attributes = {
+  .name = "queLedTask"
+};
+/* Definitions for queBtnTask */
+osMessageQueueId_t queBtnTaskHandle;
+const osMessageQueueAttr_t queBtnTask_attributes = {
+  .name = "queBtnTask"
+};
+/* Definitions for queSwdTask */
+osMessageQueueId_t queSwdTaskHandle;
+const osMessageQueueAttr_t queSwdTask_attributes = {
+  .name = "queSwdTask"
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -146,6 +161,16 @@ int main(void)
   /* USER CODE BEGIN RTOS_TIMERS */
   /* start timers, add new ones, ... */
   /* USER CODE END RTOS_TIMERS */
+
+  /* Create the queue(s) */
+  /* creation of queLedTask */
+  queLedTaskHandle = osMessageQueueNew (20, sizeof(uint8_t), &queLedTask_attributes);
+
+  /* creation of queBtnTask */
+  queBtnTaskHandle = osMessageQueueNew (20, sizeof(uint8_t), &queBtnTask_attributes);
+
+  /* creation of queSwdTask */
+  queSwdTaskHandle = osMessageQueueNew (20, sizeof(uint8_t), &queSwdTask_attributes);
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
