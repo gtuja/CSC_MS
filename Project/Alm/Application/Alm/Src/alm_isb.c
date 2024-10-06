@@ -9,6 +9,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32g0xx_hal.h"
 #include "feature.h"
+#include "feature_swd.h"
 #include "alm_api.h"
 #include "xlm_api.h"
 #include <string.h>
@@ -94,7 +95,7 @@ PRIVATE void vidXbmNotifyCallback(tstrXbmNotifyArgs* pstrArgs) {
     gstrControl.enuEvent = pstrArgs->enuEvent;
     break;
   case XBM_NTF_LOG :
-    /* TBD : log output with string passed by XBM. */
+    SWD_LOG("[%2d][XBM] %s", gu8SwdLogIndex, (char*)pstrArgs->pu8Log);
     break;
   default :
     break;

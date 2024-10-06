@@ -10,12 +10,13 @@
 #include "stm32g0xx_hal.h"
 #include "feature.h"
 #include "feature_periodic.h"
+#include "feature_swd.h"
 #include "alm_api.h"
 #include "xlm_api.h"
 #include <string.h>
 
 /* External variables --------------------------------------------------------*/
-extern TIM_HandleTypeDef htim2;
+EXTERN TIM_HandleTypeDef htim2;
 
 /* Private define ------------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
@@ -90,7 +91,7 @@ PRIVATE void vidXlmNotifyCallback(tstrXlmNotifyArgs* pstrArgs) {
     __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (int)(pstrArgs->u16Duty));
     break;
   case XLM_NTF_LOG :
-    /* TBD : log output with string passed by XLM. */
+    SWD_LOG("[%2d][XLM] %s", gu8SwdLogIndex, (char*)pstrArgs->pu8Log);
     break;
   default :
     break;

@@ -23,6 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "feature_periodic.h"
+#include "alm_api.h"
 
 /* USER CODE END Includes */
 
@@ -205,6 +206,9 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   vidPeriodicServiceInitialize();
+  vidTaskBtnInitialize();
+  vidTaskLedInitialize();
+  vidTaskSwdInitialize();
 
   while (1)
   {
@@ -423,6 +427,7 @@ void vidTaskLed(void *argument)
   /* Infinite loop */
   for(;;)
   {
+    vidTaskLedProcess();
     osDelay(1);
   }
   /* USER CODE END vidTaskLed */
@@ -441,6 +446,7 @@ void vidTaskButton(void *argument)
   /* Infinite loop */
   for(;;)
   {
+    vidTaskBtnProcess();
     osDelay(1);
   }
   /* USER CODE END vidTaskButton */
@@ -459,6 +465,7 @@ void vidTaskSwd(void *argument)
   /* Infinite loop */
   for(;;)
   {
+    vidTaskSwdProcess();
     osDelay(1);
   }
   /* USER CODE END vidTaskSwd */

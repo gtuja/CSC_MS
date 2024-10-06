@@ -7,6 +7,8 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
+#include "feature.h"
+#include "feature_swd.h"
 #include "alm_api.h"
 #include "xlm_api.h"
 #include <string.h>
@@ -102,6 +104,15 @@ PRIVATE const tenuXbmState gstrXbmTransitionTbl[XBM_STT_MAX][XBM_EVT_MAX] = {
   /* XBM_STT_RLS_CFM */ {  XBM_STT_NA, XBM_STT_RLS,     XBM_STT_NA      },
 };
 
+/** gpcXbmStateNameTable is state name for notification. */
+PRIVATE const char* gpcXbmStateNameTable[XBM_STT_MAX] = {
+  "XBM_STT_NA",
+  "XBM_STT_RLS",
+  "XBM_STT_PSH_CFM",
+  "XBM_STT_PSH",
+  "XBM_STT_RLS_CFM",
+};
+
 /* Public functions ----------------------------------------------------------*/
 /**
  * @brief   Public function that initialize XBM called by ISB.
@@ -159,6 +170,8 @@ PUBLIC void vidXbmProcess(tstrXbmProcessArgs* pstrArgs) {
  * @return  void
  */
 PRIVATE void vidXbmTransit(tenuXbmState enuStateNext, void* pvArgs) {
+  tstrXbmNotifyArgs strArgs;
+
   if (enuStateNext != XBM_STT_NA || enuStateNext != XBM_STT_MAX) {
     /* Process the exit state function of the current state. */
     if (gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_EXIT] != NULL) {
@@ -171,6 +184,15 @@ PRIVATE void vidXbmTransit(tenuXbmState enuStateNext, void* pvArgs) {
     /* Process the entry state function of the next state. */
     if (gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_ENTRY] != NULL) {
       gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_ENTRY](NULL);
+    }
+
+    /* Notify state transition. */
+    strArgs.enuNotify = XBM_NTF_LOG; 
+    snprintf(strArgs.pu8Log, SWD_LOG_LEN, "State changed [%s]->[%s]", \
+                                          gpcXbmStateNameTable[gstrControl.enuStatePrevious], \
+                                          gpcXbmStateNameTable[gstrControl.enuStateCurrent]);
+    if (gstrControl.strArgs.pfXbmNotifyCallback != NULL) {
+      gstrControl.strArgs.pfXbmNotifyCallback(&strArgs);
     }
   } 
 }

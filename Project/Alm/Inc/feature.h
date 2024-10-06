@@ -26,8 +26,9 @@
 #define XLM_DUTY_MIN      0     /**< minimum LED PWM duty. */
 #define XLM_DUTY_MAX      1599  /**< maximum LED PWM duty. */
 
-#define SWD_LOG_MAX       72
-
+#define SWD_LOG_MAX       20
+#define SWD_LOG_LEN       72
+   
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 /* Exported functions prototypes ---------------------------------------------*/

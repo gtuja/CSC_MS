@@ -7,10 +7,11 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "alm_api.h"
-#include "xlm_api.h"
 #include "feature.h"
 #include "feature_periodic.h"
+#include "feature_swd.h"
+#include "alm_api.h"
+#include "xlm_api.h"
 #include <string.h>
 
 /* Private define ------------------------------------------------------------*/
@@ -103,6 +104,21 @@ PRIVATE const tenuXlmState gstrXlmTransitionTbl[XLM_STT_MAX][ISB_EVT_MAX] =
   /* XLM_STT_FADE_OUT */  {  XLM_STT_NA, XLM_STT_NA,        XLM_STT_OFF,  },
 };
 
+/** gpcXbmStateNameTable and gpcXbmEventNameTable are state name for notification. */
+PRIVATE const char* gpcXlmStateNameTable[XLM_STT_MAX] = {
+  "XLM_STT_NA",
+  "XLM_STT_OFF",
+  "XLM_STT_FADE_IN",
+  "XLM_STT_ON",
+  "XLM_STT_FADE_OUT",
+};
+
+PRIVATE const char* gpcXlmEventNameTable[ISB_EVT_MAX] = {
+  "ISB_EVT_NA",
+  "ISB_EVT_SHORT",
+  "ISB_EVT_LONG",
+};
+
 /* Public functions ----------------------------------------------------------*/
 /**
  * @brief   Public function that initialize XLM called by ISL.
@@ -166,6 +182,8 @@ PUBLIC void vidXlmProcess(tstrXlmProcessArgs* pstrArgs) {
  * @return  void
  */
 PRIVATE void vidXlmTransit(tenuXlmState enuStateNext, void* pvArgs) {
+  tstrXlmNotifyArgs strArgs;
+
   if (enuStateNext != XLM_STT_NA || enuStateNext != XLM_STT_MAX) {
     /* Process the exit state function of the current state. */
     if (gpfXlmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XLM_STT_FTN_EXIT] != NULL) {
@@ -179,6 +197,16 @@ PRIVATE void vidXlmTransit(tenuXlmState enuStateNext, void* pvArgs) {
     /* Process the entry state function of the next state. */
     if (gpfXlmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XLM_STT_FTN_ENTRY] != NULL) {
       gpfXlmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XLM_STT_FTN_ENTRY](NULL);
+    }
+    
+    /* Notify state transition. */
+    strArgs.enuNotify = XLM_NTF_LOG; 
+    snprintf(strArgs.pu8Log, SWD_LOG_LEN, "State changed [%s]->[%s] by [%s]", \
+                                          gpcXlmStateNameTable[gstrControl.enuStatePrevious], \
+                                          gpcXlmStateNameTable[gstrControl.enuStateCurrent],  \
+                                          gpcXlmEventNameTable[gstrControl.enuEventCurrent]);
+    if (gstrControl.strArgs.pfXlmNotifyCallback != NULL) {
+      gstrControl.strArgs.pfXlmNotifyCallback(&strArgs);
     }
   } 
 }

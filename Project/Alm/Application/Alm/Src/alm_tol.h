@@ -1,6 +1,6 @@
 /**
  * @file    alm_tol.h
- * @brief   This file is used to ... 
+ * @brief   This file is used for implementing TOB (Task Of Button, TSK_BTN).
  * @author  Gtuja
  * @date    Oct 5, 2024
  * @note    Copyleft, All rights reversed.

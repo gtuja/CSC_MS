@@ -1,6 +1,6 @@
 /**
  * @file    alm_tos.h
- * @brief   This file is used to ... 
+ * @brief   This file is used for implementing TOS (Task Of SWD, TSK_SWD).
  * @author  Gtuja
  * @date    Oct 5, 2024
  * @note    Copyleft, All rights reversed.

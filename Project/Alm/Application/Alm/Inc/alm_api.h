@@ -10,9 +10,12 @@
 #define ALM_INC_ALM_API_H_
 
 /* Includes ------------------------------------------------------------------*/
+#include "feature.h"
 #include "alm_def.h"
 
 /* Exported defines ----------------------------------------------------------*/
+#define ALM_LOG_LEN   50  /* Log imitation, i.e., SWD_LOG_LEN - 21. */
+
 /* Exported types ------------------------------------------------------------*/
 
 /** tenuIsbEvent, with inline docs. */
@@ -35,7 +38,7 @@ typedef enum {
 typedef struct {
   tenuXbmNotify enuNotify;  /**< The notification type from XBM. */
   tenuIsbEvent enuEvent;    /**< The ISB event set by XBM through tpfXbmNotifyCallback. */
-  U8* pu8Log;               /**< The logs set by XBM through tpfXbmNotifyCallback. */
+  char pu8Log[ALM_LOG_LEN]; /**< The logs set by XBM through tpfXbmNotifyCallback. */
 } tstrXbmNotifyArgs;
 
 /** tpfXbmNotifyCallback shall be implemented in ISB and callback by XBM. */
@@ -53,7 +56,7 @@ typedef enum {
 typedef struct {
   tenuXlmNotify enuNotify;  /**< The notification type from XLM. */
   U16 u16Duty;              /**< The LED duty set by XLM through tpfXlmNotifyCallback. */
-  U8* pu8Log;               /**< The logs set by XLM through tpfXlmNotifyCallback. */
+  char pu8Log[ALM_LOG_LEN]; /**< The logs set by XLM through tpfXlmNotifyCallback. */
 } tstrXlmNotifyArgs;
 
 /** tpfXlmNotifyCallback shall be implemented in ISB and callback by XBM. */
@@ -67,5 +70,13 @@ EXTERN tenuIsbEvent enuIsbGetEvent(void);
 
 EXTERN void vidIslInitialize(void* pvArgs);
 EXTERN void vidIslService(void* pvArgs);
+
+EXTERN void vidTaskBtnInitialize(void);
+EXTERN void vidTaskLedInitialize(void);
+EXTERN void vidTaskSwdInitialize(void);
+
+EXTERN void vidTaskBtnProcess(void);
+EXTERN void vidTaskLedProcess(void);
+EXTERN void vidTaskSwdProcess(void);
 
 #endif /* ALM_INC_ALM_API_H_ */
