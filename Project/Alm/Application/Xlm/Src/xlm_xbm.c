@@ -1,6 +1,6 @@
 /**
  * @file    xlm_xbm.c
- * @brief   This file is used to implement XBM (Extension Button Module).
+ * @brief   This file is used to implement XBM (eXtension Button Module).
  * @author  Gtuja
  * @date    Oct 5, 2024
  * @note    Copyleft, All rights reversed.
@@ -40,6 +40,7 @@ typedef enum {
   XBM_STT_FTN_MAX,        /**< XBM maximum state function. */
 } tenuXbmStateFunction;
 
+/** Private typedef XBM state functions */
 typedef void (*tpfXbmStateFunction)(void* pvArgs);
 
 /** Private tstrXbmStateFunction, with inline docs. */
@@ -51,7 +52,7 @@ typedef struct {
 
 /** tstrIsbControl is holding information controlled by XBM. */
 typedef struct {
-  tstrXbmRegisterArgs strArgs;          /**< strArgs is XMB feature set by ISB with XBM API vidXbmRegister. */
+  tstrXbmRegisterArgs strArgs;          /**< strArgs is XBM feature set by ISB with XBM API vidXbmRegister. */
   U32                 u32MatchCounter;  /**< u32MatchCounter is used for chattering prevention within XBM state machine. */
   U32                 u32PressCounter;  /**< u32PressCounter is used for fetching ISB event(tenuIsbEvent) within XBM state machine. */
   tenuXbmState        enuStateCurrent;  /**< The current XBM state. */
@@ -81,8 +82,8 @@ PRIVATE void vidXbmRlsCfmExit(void* pvArgs);
 /* Private variables ---------------------------------------------------------*/
 PRIVATE tstrXbmControl gstrControl;  /** gstrControl is a private variable holding information controlled by XBM. */
 
-/** gpfXmbStateFunctionTable is a private const table holding XBM state functions. */
-PRIVATE const tpfXbmStateFunction gpfXmbStateFunctionTable[XBM_STT_MAX][XBM_STT_FTN_MAX] = {
+/** gpfXbmStateFunctionTable is a private const table holding XBM state functions. */
+PRIVATE const tpfXbmStateFunction gpfXbmStateFunctionTable[XBM_STT_MAX][XBM_STT_FTN_MAX] = {
                         /*  XBM_STT_FTN_ENTRY   XBM_STT_FTN_DO  XBM_STT_FTN_EXIT  */
   /* XBM_STT_NA */      {   NULL,               NULL,           NULL              },
   /* XBM_STT_RLS */     {   vidXbmRlsEntry,     vidXbmRlsDo,    vidXbmRlsExit     },
@@ -145,8 +146,8 @@ PUBLIC void vidXbmProcess(tstrXbmProcessArgs* pstrArgs) {
   }
 
   /* Process the do state function. */
-  if (gpfXmbStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_DO] != NULL) {
-    gpfXmbStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_DO](NULL);
+  if (gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_DO] != NULL) {
+    gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_DO](NULL);
   }
 }
 
@@ -160,16 +161,16 @@ PUBLIC void vidXbmProcess(tstrXbmProcessArgs* pstrArgs) {
 PRIVATE void vidXbmTransit(tenuXbmState enuStateNext, void* pvArgs) {
   if (enuStateNext != XBM_STT_NA || enuStateNext != XBM_STT_MAX) {
     /* Process the exit state function of the current state. */
-    if (gpfXmbStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_EXIT] != NULL) {
-      gpfXmbStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_EXIT](NULL);
+    if (gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_EXIT] != NULL) {
+      gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_EXIT](NULL);
     }
     /* Transit states. */
     gstrControl.enuStatePrevious = gstrControl.enuStateCurrent;
     gstrControl.enuStateCurrent = enuStateNext;
 
     /* Process the entry state function of the next state. */
-    if (gpfXmbStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_ENTRY] != NULL) {
-      gpfXmbStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_ENTRY](NULL);
+    if (gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_ENTRY] != NULL) {
+      gpfXbmStateFunctionTable[(U16)gstrControl.enuStateCurrent][(U16)XBM_STT_FTN_ENTRY](NULL);
     }
   } 
 }
@@ -306,5 +307,3 @@ PRIVATE void vidXbmRlsCfmDo(void* pvArgs) {
 PRIVATE void vidXbmRlsCfmExit(void* pvArgs) {
   gstrControl.u32MatchCounter = (U32)0;
 }
-
-

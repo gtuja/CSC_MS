@@ -12,9 +12,9 @@
 
 /* Includes ------------------------------------------------------------------*/
 /* Exported defines ----------------------------------------------------------*/
-#define PRD_SRV_HIGH  (uint16_t)1                   /* Service performed every minimum cycle */
-#define PRD_SRV_MED   (uint16_t)(10*PRD_SRV_HIGH)   /* Service performed every GSL_SRV_PRD_HIGH*10 */
-#define PRD_SRV_LOW   (uint16_t)(100*PRD_SRV_HIGH)  /* Service performed every GSL_SRV_PRD_HIGH*100 */
+#define PRD_SRV_HIGH  (unsigned short)1                   /* Service performed every minimum cycle */
+#define PRD_SRV_MED   (unsigned short)(10*PRD_SRV_HIGH)   /* Service performed every GSL_SRV_PRD_HIGH*10 */
+#define PRD_SRV_LOW   (unsigned short)(100*PRD_SRV_HIGH)  /* Service performed every GSL_SRV_PRD_HIGH*100 */
 
 /* Exported types ------------------------------------------------------------*/
 typedef void (*tpfPeriodicServiceInitialize)(void* pvArgs);
@@ -28,13 +28,13 @@ typedef enum {
 } tenuAlmServiceType;
 
 typedef struct {
-  U16 u16Period;
+  unsigned short                u16Period;
   tpfPeriodicServiceInitialize  pfInitialize;
   tpfPeriodicService            pfService;
 } tstrPeriodicService;
 
 /* Exported constants --------------------------------------------------------*/
 /* Exported functions prototypes ---------------------------------------------*/
-EXTERN void vidPeriodicServiceInitialize(void);
+extern void vidPeriodicServiceInitialize(void);
 
 #endif /* FEATURE_PERIODIC_H_ */

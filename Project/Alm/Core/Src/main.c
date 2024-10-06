@@ -22,6 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "feature_periodic.h"
 
 /* USER CODE END Includes */
 
@@ -141,6 +142,8 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  vidPeriodicServiceInitialize();
+
   while (1)
   {
     /* USER CODE END WHILE */

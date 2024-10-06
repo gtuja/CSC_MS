@@ -28,11 +28,28 @@ typedef struct {
   BOOL bIsPushed;                           /**< Button is pushed or not. */
 } tstrXbmProcessArgs;
 
+/** tstrXlmRegisterArgs shall be passed by ISB to configure XBM feature. */
+typedef struct {
+  U16 u16Cycle;                             /**< The periodic cycle for fading. */
+  U16 u16FadeInTimeOut;                     /**< The fade in timeout. */
+  U16 u16FadeOutTimeOut;                    /**< The fade out timeout. */
+  tpfXlmNotifyCallback pfXlmNotifyCallback; /**< Callback notification for XLM. */
+} tstrXlmRegisterArgs;
+
+/** tstrXlmProcessArgs shall be passed by ISB to extract event by XBM. */
+typedef struct {
+  tenuIsbEvent enuEvent;
+} tstrXlmProcessArgs;
+
 /* Exported constants --------------------------------------------------------*/
 /* Exported functions prototypes ---------------------------------------------*/
 
 EXTERN void vidXbmInitialize(void);
 EXTERN void vidXbmRegister(tstrXbmRegisterArgs* pstrArgs);
 EXTERN void vidXbmProcess(tstrXbmProcessArgs* pstrArgs);
+
+EXTERN void vidXlmInitialize(void);
+EXTERN void vidXlmRegister(tstrXlmRegisterArgs* pstrArgs);
+EXTERN void vidXlmProcess(tstrXlmProcessArgs* pstrArgs);
 
 #endif /* XLM_INC_XLM_API_H_ */

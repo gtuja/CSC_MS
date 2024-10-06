@@ -41,6 +41,24 @@ typedef struct {
 /** tpfXbmNotifyCallback shall be implemented in ISB and callback by XBM. */
 typedef void (*tpfXbmNotifyCallback)(tstrXbmNotifyArgs* pstrArgs);
 
+/** tenuXlmNotify, with inline docs. */
+typedef enum {
+  XLM_NTF_NA = 0, /**< XLM notification, not available. */
+  XLM_NTF_OUTPUT, /**< XLM notification, LED duty shall be set by XLM through tpfXlmNotifyCallback. */
+  XLM_NTF_LOG,    /**< XLM notification, logs shall be set by XBM through tpfXlmNotifyCallback. */
+  XLM_NTF_MAX,    /**< XLM maximum notification. */
+} tenuXlmNotify;
+
+/** tstrXlmNotifyArgs shall passed by XBM using tpfXlmNotifyCallback implemented in ISB. */
+typedef struct {
+  tenuXlmNotify enuNotify;  /**< The notification type from XLM. */
+  U16 u16Duty;              /**< The LED duty set by XLM through tpfXlmNotifyCallback. */
+  U8* pu8Log;               /**< The logs set by XLM through tpfXlmNotifyCallback. */
+} tstrXlmNotifyArgs;
+
+/** tpfXlmNotifyCallback shall be implemented in ISB and callback by XBM. */
+typedef void (*tpfXlmNotifyCallback)(tstrXlmNotifyArgs* pstrArgs);
+
 /* Exported constants --------------------------------------------------------*/
 /* Exported functions prototypes ---------------------------------------------*/
 EXTERN void vidIsbInitialize(void* pvArgs);

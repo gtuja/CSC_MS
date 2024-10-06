@@ -1,6 +1,6 @@
 /**
  * @file    alm_isb.c
- * @brief   This file is used to implement ISB (Interrupt Service for Button).
+ * @brief   This file is used for implementing ISB (Interrupt Service for Button).
  * @author  Gtuja
  * @date    Oct 5, 2024
  * @note    Copyleft, All rights reversed.
@@ -75,7 +75,7 @@ PUBLIC void vidIsbService(void* pvArgs) {
  *          gstrControl.enuEvent shall be initialized before vidXbmProcess to prevent duplicate processing.
  * @sa      vidIslService
  * @sa      vidXlmProcess
- * @return  void
+ * @return  tenuIsbEvent  The current ISB event.
  */
 PUBLIC tenuIsbEvent enuIsbGetEvent(void) {
   return gstrControl.enuEvent;
@@ -83,7 +83,7 @@ PUBLIC tenuIsbEvent enuIsbGetEvent(void) {
 
 /**
  * @brief   Private callback function called by XBM to notify something, e.g., ISB event, logs, etc.
- * @param   pstrArgs  Arguments form XBM.
+ * @param   pstrArgs  Arguments from XBM.
  * @sa      tstrXbmNotifyArgs
  * @sa      vidXbmProcess
  * @return  void
@@ -94,6 +94,7 @@ PRIVATE void vidXbmNotifyCallback(tstrXbmNotifyArgs* pstrArgs) {
     gstrControl.enuEvent = pstrArgs->enuEvent;
     break;
   case XBM_NTF_LOG :
+    /* TBD : log output with string passed by XBM. */
     break;
   default :
     break;

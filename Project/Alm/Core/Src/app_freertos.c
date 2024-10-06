@@ -47,8 +47,9 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 
-PRIVATE U32 gu32SysTickCounter;
+PRIVATE U32 gu32SysTickCounter; /**< The base counter for frequency division for each periodic service. */
 
+/** gstrXlmTransitionTbl is a private const table holding periodic service information. */
 PRIVATE const tstrPeriodicService gstrPeriodicServiceTable[PRD_SRV_MAX] = {
   { PRD_SRV_HIGH, vidIsbInitialize,  vidIsbService  },
   { PRD_SRV_HIGH, vidIslInitialize,  vidIslService  },
@@ -63,6 +64,13 @@ PRIVATE const tstrPeriodicService gstrPeriodicServiceTable[PRD_SRV_MAX] = {
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+
+/**
+ * @brief   Public function that initialize periodic services.
+ * @param   void
+ * @sa      gstrPeriodicServiceTable
+ * @return  void
+ */
 PUBLIC void vidPeriodicServiceInitialize(void) {
   uint16_t i;
   const tstrPeriodicService* pService;
@@ -77,6 +85,12 @@ PUBLIC void vidPeriodicServiceInitialize(void) {
   }
 }
 
+/**
+ * @brief   Public function that process periodic services every SysTick(1ms).
+ * @param   void
+ * @sa      gstrPeriodicServiceTable
+ * @return  void
+ */
 void vApplicationTickHook(void) {
   uint16_t i;
   const tstrPeriodicService* pService;
