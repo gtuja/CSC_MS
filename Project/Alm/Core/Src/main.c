@@ -53,6 +53,27 @@ const osThreadAttr_t defaultTask_attributes = {
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 128 * 4
 };
+/* Definitions for TSK_LED */
+osThreadId_t TSK_LEDHandle;
+const osThreadAttr_t TSK_LED_attributes = {
+  .name = "TSK_LED",
+  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 256 * 4
+};
+/* Definitions for TSK_BTN */
+osThreadId_t TSK_BTNHandle;
+const osThreadAttr_t TSK_BTN_attributes = {
+  .name = "TSK_BTN",
+  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 256 * 4
+};
+/* Definitions for TSK_SWD */
+osThreadId_t TSK_SWDHandle;
+const osThreadAttr_t TSK_SWD_attributes = {
+  .name = "TSK_SWD",
+  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 256 * 4
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -63,6 +84,9 @@ static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_TIM2_Init(void);
 void StartDefaultTask(void *argument);
+void vidTaskLed(void *argument);
+void vidTaskButton(void *argument);
+void vidTaskSwd(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -130,6 +154,15 @@ int main(void)
   /* Create the thread(s) */
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+
+  /* creation of TSK_LED */
+  TSK_LEDHandle = osThreadNew(vidTaskLed, NULL, &TSK_LED_attributes);
+
+  /* creation of TSK_BTN */
+  TSK_BTNHandle = osThreadNew(vidTaskButton, NULL, &TSK_BTN_attributes);
+
+  /* creation of TSK_SWD */
+  TSK_SWDHandle = osThreadNew(vidTaskSwd, NULL, &TSK_SWD_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -350,6 +383,60 @@ void StartDefaultTask(void *argument)
     osDelay(1);
   }
   /* USER CODE END 5 */
+}
+
+/* USER CODE BEGIN Header_vidTaskLed */
+/**
+* @brief Function implementing the TSK_LED thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_vidTaskLed */
+void vidTaskLed(void *argument)
+{
+  /* USER CODE BEGIN vidTaskLed */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END vidTaskLed */
+}
+
+/* USER CODE BEGIN Header_vidTaskButton */
+/**
+* @brief Function implementing the TSK_BTN thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_vidTaskButton */
+void vidTaskButton(void *argument)
+{
+  /* USER CODE BEGIN vidTaskButton */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END vidTaskButton */
+}
+
+/* USER CODE BEGIN Header_vidTaskSwd */
+/**
+* @brief Function implementing the TSK_SWD thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_vidTaskSwd */
+void vidTaskSwd(void *argument)
+{
+  /* USER CODE BEGIN vidTaskSwd */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END vidTaskSwd */
 }
 
 /**
