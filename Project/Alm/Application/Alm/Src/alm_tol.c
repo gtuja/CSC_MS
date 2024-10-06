@@ -8,7 +8,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "feature.h"
+#include "cmsis_os.h"
+#include "queue.h"
 #include "alm_api.h"
+
+/* External variables --------------------------------------------------------*/
+extern osMessageQueueId_t queLedTaskHandle;
 
 /* Private define ------------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
@@ -19,4 +24,12 @@ PUBLIC void vidTaskLedInitialize(void) {
 }
 
 PUBLIC void vidTaskLedProcess(void) {
+  BaseType_t xStatus;
+  uint8_t u8Received;
+
+  xStatus = xQueueReceive(queLedTaskHandle, &u8Received, portMAX_DELAY);
+  if (xStatus == pdPASS)
+  {
+    /* TBD */
+  }
 }

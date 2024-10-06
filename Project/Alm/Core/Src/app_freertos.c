@@ -203,7 +203,7 @@ void vidTaskLed(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    vidTaskLedProcess();
   }
   /* USER CODE END vidTaskLed */
 }
@@ -221,7 +221,7 @@ void vidTaskButton(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    vidTaskBtnProcess();
   }
   /* USER CODE END vidTaskButton */
 }
@@ -239,7 +239,7 @@ void vidTaskSwd(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    vidTaskSwdProcess();
   }
   /* USER CODE END vidTaskSwd */
 }
