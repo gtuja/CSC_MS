@@ -43,12 +43,28 @@ ${namespace_end}
 
 #endif /* ${include_guard_symbol} */</template><template autoinsert="false" context="org.eclipse.cdt.core.cSource.contenttype_context" deleted="false" description="Default template for newly created C source files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.csourcefile" name="Default C source template">${filecomment}
 /* Includes ------------------------------------------------------------------*/
+/* External variables --------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private typedef -----------------------------------------------------------*/
-/* Private macro -------------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-/* Public functions ----------------------------------------------------------*/</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
+/* Public functions ----------------------------------------------------------*/
+
+/**
+ * @brief   A public function that xxx.
+ * @param   xxParam  A xxx parameter used for xxxx from Xxx.
+ * @sa      vidXxx
+ * @return  void
+ */
+
+/* Private functions ---------------------------------------------------------*/
+
+/**
+ * @brief   A private function that initialize XXX.
+ * @param   xxParam  A xxx parameter used for xxxx.
+ * @sa      vidXxx
+ * @return  void
+ */</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef ${include_guard_symbol}
 #define ${include_guard_symbol}
@@ -56,7 +72,6 @@ ${namespace_end}
 /* Includes ------------------------------------------------------------------*/
 /* Exported defines ----------------------------------------------------------*/
 /* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
 /* Exported functions prototypes ---------------------------------------------*/
 
 #endif /* ${include_guard_symbol} */
