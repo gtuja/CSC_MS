@@ -38,8 +38,9 @@
 
 - [TOC](#toc)<br>
 - このプログラムはMS開発に興味はあるが､何から手を付ければいいのかを悩む方への一つの提案です。
-- [Part.1[基本編]](Part1_Basic)で開発環境を構築し、[Part.2[実装編]](#Part2_実装編)では簡単なシステム要求を定義してから、要求分析、ソフトウエア設計、ソフトウエア開発を順に追って実習していきます。
-- [Part.2[実装編]](#Part2_実装編)では[Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を念頭において進めていきましょう。<br><br>
+- [Part.1[基本編]](Part1_Basic)で開発環境を構築します。
+- [Part.2[実装編]](#Part2_実装編)では簡単なシステム要求を定義してから、要求分析、ソフトウエア設計、ソフトウエア開発を順に追って実習していきます。
+- [Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を念頭において、進めていきましょう。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
@@ -64,17 +65,18 @@
 - [TOC](#toc)<br>
 - このプログラムではMCU開発を実習しますので、MCUを載せている評価ボードが必要です。
 - どのサプライヤーを選ぶのか？<br>
-- 伸びしろからは　**[ST](https://www.st.com/content/st_com/en.html)** でしょう。<br>
+- 伸びしろからは[ST](https://www.st.com/content/st_com/en.html)でしょう。<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
 [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)<br>
 [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
 - どのマイコンにするのか？<br>
-- [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には **[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)** でしょう。<br>
+- [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)でしょう。<br>
 - [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？<br>
-- **[Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)** がいいですが。<br>
+- [Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)がいいでしょう。<br>
 \- Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的ですね。 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
-\- これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも是非覚えて頂きたいです。<br>
+\- これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、<br>
 \- 本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
+\- MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。<br>
 
 - Flash, RAMサイズはどれぐらい必要か？
 - 大は小を兼ねるので **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)** でしょう。<br>
