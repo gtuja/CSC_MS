@@ -38,8 +38,8 @@
 
 - [TOC](#toc)<br>
 - このプログラムはMS開発に興味はあるが､何から手を付ければいいのかに悩む方への一つの提案です。
-- [Part.1[基本編]](Part1_Basic)で開発環境を構築し、[Part.2[実装編]](#Part2_実装編)では簡単なシステム要求を定義してから、要求分析、ソフトウエア設計、ソフトウエア開発を順に追って進めていきます。
-- [Part.2[実装編]](#Part2_実装編)では[Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を意識しながら実習しましょう。<br><br>
+- [Part.1[基本編]](Part1_Basic)で開発環境を構築し、[Part.2[実装編]](#Part2_実装編)では簡単なシステム要求を定義してから、要求分析、ソフトウエア設計、ソフトウエア開発を順に追って実習していきます。
+- [Part.2[実装編]](#Part2_実装編)では[Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を念頭において進めていきましょう。<br><br>
 ![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
@@ -51,9 +51,9 @@
 
 - [TOC](#toc)<br>
 - Seho Seo, 韓国, 50s
-- 釜山大学の電子計算学科卒業
+- 釜山大学・電子計算学科
 - MSエンジニアとして21年間、家電、FA、モビリティ分野で活動中？
-- 趣味は釣り、スピーカー、コストコ巡りなど
+- 趣味は釣り・スピーカー・コストコ巡り・etc.
 
 </details>
 
@@ -63,7 +63,7 @@
 
 - [TOC](#toc)<br>
 - このプログラムではMCU開発を実習しますので、MCUを載せている評価ボードが必要です。
-- どのサプライヤー？ 伸びしろからは・・・ **[ST](https://www.st.com/content/st_com/en.html)**<br>
+- どのサプライヤーを選ぶのか？伸びしろからは**[ST](https://www.st.com/content/st_com/en.html)**でしょう<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
 [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)<br>
 [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
