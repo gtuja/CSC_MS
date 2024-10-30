@@ -73,11 +73,10 @@
 - (A) [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)でしょう。<br>
 - (Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？<br>
 - (A) [Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)がいいでしょう。<br>
-\- Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的ですね。 [Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
-\- これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、<br>
-\- 本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
-\- MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。<br>
-
+- (A) Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的ですね。[Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
+- (A) これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、<br>
+- (A) 本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
+- (A) MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。<br>
 - (Q) Flash, RAMサイズはどれぐらい必要か？
 - (A) 大は小を兼ねるので **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)** でしょう。<br>
 ![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
@@ -88,8 +87,8 @@
 - Wifi
 - [Githubアカウント](https://github.com)
 - [STMアカウント](https://www.st.com)
-- Application<br>
-最新版でOKですが、ST CubeIDEだけはマイナがついてない***1.16.0***で統一しましょう。<br>
+- Applications<br>
+基本的には最新版でOKですが、ST CubeIDEだけはマイナがついてない1.16.0で統一しましょう。<br>
 \- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
 \- [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
 \- [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
