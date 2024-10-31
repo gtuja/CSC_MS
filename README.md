@@ -74,7 +74,7 @@
 - (A) [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)でしょう。<br>
 - (Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？<br>
 - (A) [Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)はいいですね。<br>
-- (A) Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的ですね。[Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
+- (A) Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的です。[Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)<br>
 - (A) これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、<br>
 - (A) 本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。<br>
 - (A) MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。<br>
