@@ -16,7 +16,7 @@
 - [事前準備](#Preparation)
 - [Part.1[基本編]](#Part1_Basic)
 - [Part.2[実装編]](#Part2_Implementation)
-- [EX. Show me the Badge](#EX.)
+- [EX. Show me the Badge](#EX)
 - [Reference](#Reference)
 
 </details>
@@ -139,7 +139,7 @@
  
 </details>
 
-<div id="EX."></div>
+<div id="EX"></div>
 <details open>
 <summary><font size="5"><b>EX. Show me the Badge</b></font></summary>
 
