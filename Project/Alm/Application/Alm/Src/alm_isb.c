@@ -6,7 +6,7 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Includes ------------------------------------------------------------------*/
+/* Includes -------------------------------------------------------- */
 #include "stm32g0xx_hal.h"
 #include "feature.h"
 #include "feature_swd.h"
@@ -14,22 +14,21 @@
 #include "xlm_api.h"
 #include <string.h>
 
-/* Private define ------------------------------------------------------------*/
-/* Private typedef -----------------------------------------------------------*/
-
+/* External variables ---------------------------------------------- */
+/* Private define -------------------------------------------------- */
+/* Private typedef ------------------------------------------------- */
 /** Private tstrIsbControl is holding information controlled by ISB. */
 typedef struct {
   tenuIsbEvent enuEvent;  /**< enuEvent might be set by XBM and referenced by ISL. */
 } tstrIsbControl;
 
-/* Private macro -------------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/
+/* Private function prototypes ------------------------------------- */
 PRIVATE void vidXbmNotifyCallback(tstrXbmNotifyArgs* pstrArgs);
 
-/* Private variables ---------------------------------------------------------*/
+/* Private variables ----------------------------------------------- */
 PRIVATE tstrIsbControl gstrControl;  /** gstrControl is a private variable holding information controlled by ISB. */
 
-/* Public functions ----------------------------------------------------------*/
+/* Public functions ------------------------------------------------ */
 /**
  * @brief   Public function that initialize ISB.
  * @param   pvArgs  Arguments shall be set if needed.
@@ -82,6 +81,7 @@ PUBLIC tenuIsbEvent enuIsbGetEvent(void) {
   return gstrControl.enuEvent;
 }
 
+/* Private functions ----------------------------------------------- */
 /**
  * @brief   Private callback function called by XBM to notify something, e.g., ISB event, logs, etc.
  * @param   pstrArgs  Arguments from XBM.

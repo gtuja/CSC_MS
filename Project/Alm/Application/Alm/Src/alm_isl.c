@@ -6,7 +6,7 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Includes ------------------------------------------------------------------*/
+/* Includes -------------------------------------------------------- */
 #include "stm32g0xx_hal.h"
 #include "feature.h"
 #include "feature_periodic.h"
@@ -15,18 +15,16 @@
 #include "xlm_api.h"
 #include <string.h>
 
-/* External variables --------------------------------------------------------*/
+/* External variables ---------------------------------------------- */
 EXTERN TIM_HandleTypeDef htim2;
 
-/* Private define ------------------------------------------------------------*/
-/* Private typedef -----------------------------------------------------------*/
-/** Private tstrIsbControl is holding information controlled by ISL. */
-
-/* Private macro -------------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/
+/* Private define -------------------------------------------------- */
+/* Private typedef ------------------------------------------------- */
+/* Private function prototypes ------------------------------------- */
 PRIVATE void vidXlmNotifyCallback(tstrXlmNotifyArgs* pstrArgs);
 
-/* Public functions ----------------------------------------------------------*/
+/* Private variables ----------------------------------------------- */
+/* Public functions ------------------------------------------------ */
 /**
  * @brief   Public function that initialize ISL.
  * @param   pvArgs  Arguments shall be set if needed.
@@ -78,6 +76,7 @@ PUBLIC BOOL bIslIsLedOn(void) {
   return FALSE;
 }
 
+/* Private functions ----------------------------------------------- */
 /**
  * @brief   Private callback function called by XLM to notify something, e.g., LED duty, logs, etc.
  * @param   pstrArgs  Arguments from XLM.

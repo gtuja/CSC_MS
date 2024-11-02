@@ -6,7 +6,7 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Includes ------------------------------------------------------------------*/
+/* Includes -------------------------------------------------------- */
 #include "feature.h"
 #include "feature_periodic.h"
 #include "feature_swd.h"
@@ -14,10 +14,9 @@
 #include "xlm_api.h"
 #include <string.h>
 
-/* Private define ------------------------------------------------------------*/
-/* Private typedef -----------------------------------------------------------*/
-/** Private tenuXlmEvt, with inline docs. */
-
+/* External variables ---------------------------------------------- */
+/* Private define -------------------------------------------------- */
+/* Private typedef ------------------------------------------------- */
 /** Private tenuXlmState, with inline docs. */
 typedef enum {
   XLM_STT_NA = 0,   /**< XLM state, not available. */
@@ -58,8 +57,7 @@ typedef struct {
   tenuIsbEvent        enuEventPrevious;   /**< The previous ISB event. */
 } tstrXlmControl;
 
-/* Private macro -------------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/
+/* Private function prototypes ------------------------------------- */
 PRIVATE void vidXlmTransit(tenuXlmState enuStateNext, void* pvArgs);
 
 PRIVATE void vidXlmOffEntry(void* pvArgs);
@@ -80,7 +78,7 @@ PRIVATE void vidXlmFadeOffExit(void* pvArgs);
 
 PRIVATE void vidXlmOutput(U16 u16Duty);
 
-/* Private variables ---------------------------------------------------------*/
+/* Private variables ----------------------------------------------- */
 PRIVATE tstrXlmControl gstrControl;  /** gstrControl is a private variable holding information controlled by XLM. */
 
 /** gpfXlmStateFunctionTable is a private const table holding XLM state functions. */
@@ -119,7 +117,7 @@ PRIVATE const char* gpcXlmEventNameTable[ISB_EVT_MAX] = {
   "ISB_EVT_LONG",
 };
 
-/* Public functions ----------------------------------------------------------*/
+/* Public functions ------------------------------------------------ */
 /**
  * @brief   Public function that initialize XLM called by ISL.
  * @param   void
@@ -174,7 +172,7 @@ PUBLIC void vidXlmProcess(tstrXlmProcessArgs* pstrArgs) {
   }
 }
 
-/* Private functions ---------------------------------------------------------*/
+/* Private functions ----------------------------------------------- */
 /**
  * @brief   Private function that transit state on XLM.
  * @param   enuStateNext  The next state to transit.

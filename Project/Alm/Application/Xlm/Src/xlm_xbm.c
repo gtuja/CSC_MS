@@ -6,16 +6,16 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Includes ------------------------------------------------------------------*/
+/* Includes -------------------------------------------------------- */
 #include "feature.h"
 #include "feature_swd.h"
 #include "alm_api.h"
 #include "xlm_api.h"
 #include <string.h>
 
-/* Private define ------------------------------------------------------------*/
-/* Private typedef -----------------------------------------------------------*/
-
+/* External variables ---------------------------------------------- */
+/* Private define -------------------------------------------------- */
+/* Private typedef ------------------------------------------------- */
 /** Private tenuXbmEvt, with inline docs. */
 typedef enum {
   XBM_EVT_NA = 0, /**< XBM event, not available. */
@@ -61,8 +61,7 @@ typedef struct {
   tenuXbmState        enuStatePrevious; /**< The previous XBM state. */
 } tstrXbmControl;
 
-/* Private macro -------------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/
+/* Private function prototypes ------------------------------------- */
 PRIVATE void vidXbmTransit(tenuXbmState enuStateNext, void* pvArgs);
 
 PRIVATE void vidXbmRlsEntry(void* pvArgs);
@@ -81,7 +80,7 @@ PRIVATE void vidXbmRlsCfmEntry(void* pvArgs);
 PRIVATE void vidXbmRlsCfmDo(void* pvArgs);
 PRIVATE void vidXbmRlsCfmExit(void* pvArgs);
 
-/* Private variables ---------------------------------------------------------*/
+/* Private variables ----------------------------------------------- */
 PRIVATE tstrXbmControl gstrControl;  /** gstrControl is a private variable holding information controlled by XBM. */
 
 /** gpfXbmStateFunctionTable is a private const table holding XBM state functions. */
@@ -113,7 +112,7 @@ PRIVATE const char* gpcXbmStateNameTable[XBM_STT_MAX] = {
   "XBM_STT_RLS_CFM",
 };
 
-/* Public functions ----------------------------------------------------------*/
+/* Public functions ------------------------------------------------ */
 /**
  * @brief   Public function that initialize XBM called by ISB.
  * @param   void
@@ -162,7 +161,7 @@ PUBLIC void vidXbmProcess(tstrXbmProcessArgs* pstrArgs) {
   }
 }
 
-/* Private functions ---------------------------------------------------------*/
+/* Private functions ----------------------------------------------- */
 /**
  * @brief   Private function that transit state on XBM.
  * @param   enuStateNext  The next state to transit.

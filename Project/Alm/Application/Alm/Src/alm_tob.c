@@ -6,24 +6,24 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Includes ------------------------------------------------------------------*/
+/* Includes -------------------------------------------------------- */
 #include "feature.h"
 #include "cmsis_os.h"
 #include "queue.h"
 #include "alm_api.h"
 
-/* External variables --------------------------------------------------------*/
+/* External variables ---------------------------------------------- */
 extern osMessageQueueId_t queBtnTaskHandle;
 
-/* Private define ------------------------------------------------------------*/
-/* Private typedef -----------------------------------------------------------*/
-/* Private macro -------------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/
-/* Public functions ----------------------------------------------------------*/
-
+/* Private define -------------------------------------------------- */
+/* Private typedef ------------------------------------------------- */
+/* Private function prototypes ------------------------------------- */
+/* Private variables ----------------------------------------------- */
+/* Public functions ------------------------------------------------ */
 PUBLIC void vidTaskBtnInitialize(void) {
 }
 
+/* Private functions ----------------------------------------------- */
 PUBLIC void vidTaskBtnProcess(void) {
   BaseType_t xStatus;
   uint8_t u8Received;

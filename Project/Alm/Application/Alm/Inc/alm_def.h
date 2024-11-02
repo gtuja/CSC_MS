@@ -6,12 +6,12 @@
  * @note    Copyleft, All rights reversed.
  */
 
+/* Define to prevent recursive inclusion --------------------------- */
 #ifndef ALM_INC_ALM_DEF_H_
 #define ALM_INC_ALM_DEF_H_
 
-/* Includes ------------------------------------------------------------------*/
-/* Exported defines ----------------------------------------------------------*/
-
+/* Includes -------------------------------------------------------- */
+/* Exported defines ------------------------------------------------ */
 #ifdef PRIVATE
 #undef PRIVATE
 #endif /* PRIVATE */
@@ -88,8 +88,7 @@
 #endif /* NULL */
 #define NULL  0
 
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions prototypes ---------------------------------------------*/
+/* Exported types -------------------------------------------------- */
+/* Exported functions prototypes ----------------------------------- */
 
 #endif /* ALM_INC_ALM_DEF_H_ */

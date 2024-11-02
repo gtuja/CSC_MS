@@ -6,18 +6,18 @@
  * @note    Copyleft, All rights reversed.
  */
 
+/* Define to prevent recursive inclusion --------------------------- */
 #ifndef ALM_INC_ALM_API_H_
 #define ALM_INC_ALM_API_H_
 
-/* Includes ------------------------------------------------------------------*/
+/* Includes -------------------------------------------------------- */
 #include "feature.h"
 #include "alm_def.h"
 
-/* Exported defines ----------------------------------------------------------*/
+/* Exported defines ------------------------------------------------ */
 #define ALM_LOG_LEN   50  /* Log imitation, i.e., SWD_LOG_LEN - 21. */
 
-/* Exported types ------------------------------------------------------------*/
-
+/* Exported types -------------------------------------------------- */
 /** tenuIsbEvent, with inline docs. */
 typedef enum {
   ISB_EVT_NA = 0, /**< ISB event, not available. */
@@ -62,8 +62,7 @@ typedef struct {
 /** tpfXlmNotifyCallback shall be implemented in ISB and callback by XBM. */
 typedef void (*tpfXlmNotifyCallback)(tstrXlmNotifyArgs* pstrArgs);
 
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions prototypes ---------------------------------------------*/
+/* Exported functions prototypes ----------------------------------- */
 EXTERN void vidIsbInitialize(void* pvArgs);
 EXTERN void vidIsbService(void* pvArgs);
 EXTERN tenuIsbEvent enuIsbGetEvent(void);

@@ -6,14 +6,13 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Define to prevent recursive inclusion -------------------------------------*/
+/* Define to prevent recursive inclusion --------------------------- */
 #ifndef ALM_SRC_ALM_TOS_H_
 #define ALM_SRC_ALM_TOS_H_
 
-/* Includes ------------------------------------------------------------------*/
-/* Exported defines ----------------------------------------------------------*/
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions prototypes ---------------------------------------------*/
+/* Includes -------------------------------------------------------- */
+/* Exported defines ------------------------------------------------ */
+/* Exported types -------------------------------------------------- */
+/* Exported functions prototypes ----------------------------------- */
 
 #endif /* ALM_SRC_ALM_TOS_H_ */

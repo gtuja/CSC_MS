@@ -6,14 +6,13 @@
  * @note    Copyleft, All rights reversed.
  */
 
-/* Define to prevent recursive inclusion -------------------------------------*/
+/* Define to prevent recursive inclusion --------------------------- */
 #ifndef XLM_INC_XLM_DEF_H_
 #define XLM_INC_XLM_DEF_H_
 
-/* Includes ------------------------------------------------------------------*/
-/* Exported defines ----------------------------------------------------------*/
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions prototypes ---------------------------------------------*/
+/* Includes -------------------------------------------------------- */
+/* Exported defines ------------------------------------------------ */
+/* Exported types -------------------------------------------------- */
+/* Exported functions prototypes ----------------------------------- */
 
 #endif /* XLM_INC_XLM_DEF_H_ */
