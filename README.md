@@ -87,7 +87,7 @@
 - [Githubアカウント](https://github.com)
 - [STMアカウント](https://www.st.com)
 - Applications
-- 基本的には最新版でOKですが、ST CubeIDEだけはマイナがついてない1.16.0で統一しましょう。
+- 基本的には最新版でOKですが、ST CubeIDEだけはマイナがついてない1.16.0で統一しましょう。<br>
 \- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
 \- [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
 \- [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
