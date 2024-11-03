@@ -25,7 +25,7 @@
 <details open>
 <summary><font size="5"><b>変更履歴</b></font></summary> 
 
-- [TOC](#toc)<br>
+- [TOC](#toc)
 - v0.1 2024/09/14 Seho.Seo Brand new document.
 - v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
 - v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
@@ -51,7 +51,7 @@
 <details open>
 <summary><font size="5"><b>トレーナー</b></font></summary>
 
-- [TOC](#toc)<br>
+- [TOC](#toc)
 - Seho Seo, 韓国, 50s
 - 釜山大学・電子計算学科卒
 - 2003年に来日してから21年間、MSエンジニアとして、家電・FA・モビリティ分野で活動中？
@@ -78,23 +78,23 @@
 - (A) これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。
 - (A) MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。
 - (Q) Flash, RAMサイズはどれぐらい必要か？
-- (A) 大は小を兼ねるので[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)でしょう。
-![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)<br>
-- [marutsu](https://www.marutsu.co.jp/pc/i/40719714/)
+- (A) 大は小を兼ねるので[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)でしょう。<br>
+[![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)<br>
 - PC
-- Data Cable(Type-C)
+- USB to Mini-B cable <-> [Type-A, USB Type-C]
 - Wifi
 - [Githubアカウント](https://github.com)
 - [STMアカウント](https://www.st.com)
 - Applications
-- 基本的には最新版でOKですが、ST CubeIDEだけはマイナがついてない1.16.0で統一しましょう。<br>
-\- [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)<br>
-\- [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)<br>
-\- [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)<br>
-\- [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)<br>
-\- [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)<br>
-\- [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)<br>
-\- [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)<br>
+- 基本的には最新版でOKですが、ST CubeIDEだけはマイナがついてない1.16.0で統一しましょう。
+  - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
+  - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
+  - [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)
+  - [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)
+  - [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)
+  - [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)
+  - [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)
+  - Microsoft Office [Excel, Powerpoint, etc.] *option
 
 </details>
 
@@ -102,18 +102,20 @@
 <details open>
 <summary><font size="5"><b>Part.1[基本編]</b></font></summary>
 
-- [TOC](#toc)<br>
-- [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)<br>
-\- トレンド<br>
-\- 市場<br>
-\- マイコンの基本<br>
-- [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)<br>
-\- 最初は? ***Git!!***<br>
-\- Hello Cube<br>
-\- Debug printf<br>
-- [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)<br>
-\- 業務プロセス<br>
-\- 開発組織<br>
+- [TOC](#toc)
+- [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+  - [背景](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Background)
+  - [トレンド](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Trends)
+  - [市場](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Market)
+  - [マイコンの基本](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Basic_Features)
+- [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
+  - [最初は? ***Git!!***](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#At_first_Git)
+  - [Hello Cube](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Hello_Cube)
+  - [EX. Show me the Clock](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise)
+- [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
+  - [業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#WorkFlow)
+  - [組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Organization)
+  - [EX. Show me the PWM](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Exercise)
 
 </details>
 
@@ -121,19 +123,18 @@
 <details open>
 <summary><font size="5"><b>Part.2[実装編]</b></font></summary>
 
-- [TOC](#toc)<br>
+- [TOC](#toc)
 - [1. Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
-- [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)<br>
-\- システム要求<br>
-\- システム要求仕様<br>
-\- ソフトウエア要求仕様<br>
-- [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)<br>
-\- HLD(High Level Design)<br>
-\- Detailed Design<br>
-- [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)<br>
-\- 開発環境<br>
-\- コーディング規則<br>
-\- 終わりに<br>
+- [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)
+  - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#what_is_requirements)
+  - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#project_alm)
+- [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)
+  - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#HLD)
+  - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#Detailed_Design)
+- [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
+  - [開発環境](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#Stm32CubeIDE)
+  - [コーディング規則](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#coding_rules)
+  - [終わりに](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#end_of_part2)
  
 </details>
 
@@ -141,7 +142,7 @@
 <details open>
 <summary><font size="5"><b>EX. Show me the Badge</b></font></summary>
 
-- [TOC](#toc)<br>
+- [TOC](#toc)
 - 綺麗なアイコン作りはなかなか難しいものです。
 - 下記マニュアル？を参考に自分Badgeを作って見ましょう。
 - [Shield.io](https://shields.io), [Simple icon](https://simpleicons.org/)<br>
