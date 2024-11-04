@@ -16,7 +16,7 @@
 - [事前準備](#Preparation)
 - [Part.1[基本編]](#Part1_Basic)
 - [Part.2[実装編]](#Part2_Implementation)
-- [EX. Show me the Badge](#EX)
+- [EX. Show me the Badge](#Exercise)
 - [Reference](#Reference)
 
 </details>
@@ -29,7 +29,8 @@
 - v0.1 2024/09/14 Seho.Seo Brand new document.
 - v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
 - v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
-
+- v0.6 2024/11/04 Seho.Seo Update overall contents, e.g., exercises.
+  
 </details>
 
 <div id="Concept"></div>
@@ -139,7 +140,7 @@
  
 </details>
 
-<div id="EX"></div>
+<div id="Exercise"></div>
 <details open>
 <summary><font size="5"><b>EX. Show me the Badge</b></font></summary>
 
