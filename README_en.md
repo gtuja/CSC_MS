@@ -23,7 +23,6 @@
 <details open>
 <summary><font size="5"><b>History</b></font></summary> 
 
-- [TOC](#toc)
 - v0.1 2024/09/14 Seho.Seo Brand new document.
 - v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
 - v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
@@ -35,7 +34,6 @@
 <details open>
 <summary><font size="5"><b>Concept</b></font></summary>
 
-- [TOC](#toc)
 - This program aims to provide a guide for those who are interested in MS development but are worried about ***where to start***.
 - Regarding MS development environment ([Part.1[Basic]](Part1_Basic)) and Requirements, product development ([Part.2[Implementation]](#Part2_Implementation))
 follow the steps in order and proceed.

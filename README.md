@@ -25,7 +25,6 @@
 <details open>
 <summary><font size="5"><b>変更履歴</b></font></summary> 
 
-- [TOC](#toc)
 - v0.1 2024/09/14 Seho.Seo Brand new document.
 - v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
 - v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
@@ -37,7 +36,6 @@
 <details open>
 <summary><font size="5"><b>コンセプト</b></font></summary>
 
-- [TOC](#toc)
 - このプログラムはMS開発に興味はあるが､何から手を付ければいいのかを悩む方への一つの提案です。
 - [Part.1[基本編]](Part1_Basic)では、開発環境を構築します。
 - [Part.2[実装編]](#Part2_実装編)では、簡単なシステム要求を定義してから、開発業務プロセスを実習しましょう。
