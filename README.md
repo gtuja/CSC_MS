@@ -80,7 +80,7 @@
 - (A) 大は小を兼ねるので[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)でしょう。<br>
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)<br>
 - PC
-- USB to Mini-B cable <-> [Type-A, USB Type-C]
+- USB cable : Mini-B <-> [Type-A, USB Type-C]
 - Wifi
 - [Githubアカウント](https://github.com)
 - [STMアカウント](https://www.st.com)
