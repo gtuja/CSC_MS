@@ -77,7 +77,7 @@ follow the steps in order and proceed.
 - (A) **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)
 - PC
-- USB to Mini-B cable <-> [Type-A, USB Type-C]
+- USB cable : micro-B <-> [Type-A, Type-C]
 - Wifi
 - [Github account](https://github.com)
 - [STM account](https://www.st.com)
