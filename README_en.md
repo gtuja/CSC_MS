@@ -122,15 +122,19 @@ follow the steps in order and proceed.
 
 - [TOC](#toc)
 - [1. Workflow on the Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub_en.md)
+  - [EX. Show me your Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub_en.md#Exercise)
 - [2. Requirement Analysis](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis_en.md)
   - [What is requirements](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis_en.md#what_is_requirements)
   - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis_en.md#project_alm)
+  - [EX. Show me the Log](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis_en.md#Exercise)
 - [3. Software Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign_en.md)
   - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign_en.md#HLD)
   - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign_en.md#Detailed_Design)
+  - [EX. Hello draw.io](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign_en.md#Exercise)
 - [4. Software Implementation](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md)
   - [Stm32CubeIDE](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md#Stm32CubeIDE)
   - [Coding Rules](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md#coding_rules)
+  - [EX. Show me the ISR](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md#Exercise)  
   - [End of Part.2](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation_en.md#end_of_part2)
 
 </details>
