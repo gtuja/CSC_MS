@@ -125,15 +125,19 @@
 
 - [TOC](#toc)
 - [1. Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
+  - [EX. Show me your Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md#Exercise)
 - [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)
   - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#what_is_requirements)
   - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#project_alm)
+  - [EX. Show me the Log](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#Exercise)
 - [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)
   - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#HLD)
   - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#Detailed_Design)
+  - [EX. Hello draw.io](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#Exercise)
 - [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
   - [開発環境](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#Stm32CubeIDE)
   - [コーディング規則](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#coding_rules)
+  - [EX. Show me the ISR](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#Exercise)
   - [終わりに](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#end_of_part2)
  
 </details>
