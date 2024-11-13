@@ -4,7 +4,7 @@
 )](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md) [![Part.2](https://img.shields.io/badge/Part.2-%E5%AE%9F%E8%A3%85%E5%A4%89-brightgreen
 )](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
 
-# ゼロからのMCU開発
+# ゼロからのマイコン開発
 
 <div id="toc"></div>
 <details open>
