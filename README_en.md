@@ -78,7 +78,7 @@ follow the steps in order and proceed.
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)
 - PC
   - OS : Windows 10, 11
-  - CPU : >= Intel Core-i5-7200U (7th 2010/01)
+  - CPU : >= Intel Core-i5-7200U (7th 2017/01)
   - RAM : >= 8GB
   - SSD : >= 256GB, Git(50MB), TortoiseGit(50MB), CubeIDE(2GB)
 - USB cable : micro-B <-> [Type-A, Type-C]

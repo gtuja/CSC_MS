@@ -81,7 +81,7 @@
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)<br>
 - PC
   - OS : Windows 10, 11
-  - CPU : >= Intel 第7世代Core-i5-7200U (2010年1月)
+  - CPU : >= Intel 第7世代Core-i5-7200U (2017年1月)
   - RAM : >= 8GB
   - SSD : >= 256GB, Git(50MB), TortoiseGit(50MB), CubeIDE(2GB)
 - USB cable : micro-B <-> [Type-A, Type-C]
