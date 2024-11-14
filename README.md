@@ -80,6 +80,10 @@
 - (A) 大は小を兼ねるので[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)でしょう。<br>
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)<br>
 - PC
+  - OS : Windows 10, 11
+  - CPU : >= Intel 第7世代Core-i5-7200U (2010年1月)
+  - RAM : >= 8GB
+  - SSD : >= 256GB, Git(50MB), TortoiseGit(50MB), CubeIDE(2GB)
 - USB cable : micro-B <-> [Type-A, Type-C]
 - Wifi
 - [Githubアカウント](https://github.com)
@@ -88,11 +92,7 @@
 - 基本的には最新版でOKですが、ST CubeIDEだけはマイナがついてない1.16.0で統一しましょう。
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
   - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
-  - [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)
   - [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)
-  - [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)
-  - [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)
-  - [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)
   - Microsoft Office [Excel, Powerpoint, etc.] *option
 
 </details>

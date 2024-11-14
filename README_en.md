@@ -77,6 +77,10 @@ follow the steps in order and proceed.
 - (A) **[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)**<br>
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)
 - PC
+  - OS : Windows 10, 11
+  - CPU : >= Intel Core-i5-7200U (7th 2010/01)
+  - RAM : >= 8GB
+  - SSD : >= 256GB, Git(50MB), TortoiseGit(50MB), CubeIDE(2GB)
 - USB cable : micro-B <-> [Type-A, Type-C]
 - Wifi
 - [Github account](https://github.com)
@@ -85,11 +89,7 @@ follow the steps in order and proceed.
 - The latest version is always a good choice, but let's use CubeIDE with ***1.16.0***, which does not have any minor features.
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
   - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
-  - [![Winmerge](https://img.shields.io/badge/Winmerge-brightgreen?style=flat)](https://winmerge.org/)
   - [![Stm Cube IDE](https://img.shields.io/badge/Stm-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)　***1.16.0***
-  - [![draw.io](https://img.shields.io/badge/Drawio-brightgreen?style=flat&logo=diagramsdotnet&logoColor=%23F08705&labelColor=white)](https://app.diagrams.net/)
-  - [![Doxygen](https://img.shields.io/badge/Doxygen-brightgreen?style=flat)](https://www.doxygen.nl/)
-  - [![Graphviz](https://img.shields.io/badge/Graphviz-brightgreen?style=flat)](https://graphviz.org/)
   - Microsoft Office [Excel, Powerpoint, etc.] *option
 
 </details>
