@@ -161,6 +161,7 @@ follow the steps in order and proceed.
 - [STM](https://www.st.com)
 - [Shield.io](https://shields.io)
 - [Simple icon](https://simpleicons.org/)
+- [Lychee-Waterfall model](https://lychee-redmine.jp/blogs/project/biginner_and_waterfallmodel/)
 
 </details>
 <br>
