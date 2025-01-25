@@ -37,11 +37,11 @@
 <summary><font size="5"><b>コンセプト</b></font></summary>
 
 - このプログラムはMS開発に興味はあるが､何から手を付ければいいのかを悩む方への一つの提案です。
-- [Part.1[基本編]](Part1_Basic)では、開発環境を構築します。
-- [Part.2[実装編]](#Part2_実装編)では、簡単なシステム要求を定義してから、開発業務プロセスを実習しましょう。
+- [Part.1[基本編]](#Part1_Basic)では、開発環境を構築します。
+- [Part.2[実装編]](#Part2_Implementation)では、簡単なシステム要求を定義してから、開発業務プロセスを実習しましょう。
 - 要求分析・ソフトウエア設計・ソフトウエア開発を順に追って行います。
-- [Part.1[基本編]](#Part1_Basic)の[業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を念頭において、進めていきましょう。<br>
-![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
+- [Part.1[基本編]](#Part1_Basic)の[3.業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を念頭において、進めていきましょう。<br>
+![Lychee-Waterfall model](https://lychee-redmine.jp/wp-content/uploads/2023/04/20230405_S.png.webp)
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
 </details>
@@ -164,6 +164,7 @@
 - [STM](https://www.st.com)
 - [Shield.io](https://shields.io)
 - [Simple icon](https://simpleicons.org/)
+- [Lychee-Waterfall model](https://lychee-redmine.jp/blogs/project/biginner_and_waterfallmodel/)
 
 </details>
 <br>
