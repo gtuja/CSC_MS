@@ -8,7 +8,6 @@
 <details open>
 <summary><font size="5"><b>Table of Contents</b></font></summary>
 
-- [History](#history)
 - [Concept](#Concept)
 - [Trainer](#Trainer)
 - [Preparation](#Preparation)
@@ -16,18 +15,7 @@
 - [Part.2[Implementation]](#Part2_Implementation)
 - [EX. Show me the Badge](#Exercise)
 - [Reference](#Reference)
-
-</details>
-
-<div id="history"></div>
-<details open>
-<summary><font size="5"><b>History</b></font></summary> 
-
-- v0.1 2024/09/14 Seho.Seo Brand new document.
-- v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
-- v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
-- v0.6 2024/11/04 Seho.Seo Update overall contents, e.g., exercises.
-- v0.7 2025/01/29 Seho.Seo Update contents and release v0.7.
+- [History](#history)
 
 </details>
 
@@ -164,6 +152,18 @@ follow the steps in order and proceed.
 - [Simple icon](https://simpleicons.org/)
 - [Lychee-Waterfall model](https://lychee-redmine.jp/blogs/project/biginner_and_waterfallmodel/)
 
+</details>
+
+<div id="history"></div>
+<details open>
+<summary><font size="5"><b>History</b></font></summary> 
+
+- v0.1 2024/09/14 Seho.Seo Brand new document.
+- v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
+- v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
+- v0.6 2024/11/04 Seho.Seo Update overall contents, e.g., exercises.
+- v0.7 2025/01/29 Seho.Seo Update contents and release v0.7.
+- v0.8 2025/07/05 Seho.Seo Update README, Part1 and Part2.
 </details>
 <br>
 

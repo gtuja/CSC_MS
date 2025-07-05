@@ -1,8 +1,13 @@
 ![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
 [![Language](https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-English-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/README_en.md)
 [![Part.1](https://img.shields.io/badge/Part.1-%E5%9F%BA%E6%9C%AC%E7%B7%A8-brightgreen
-)](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md) [![Part.2](https://img.shields.io/badge/Part.2-%E5%AE%9F%E8%A3%85%E5%A4%89-brightgreen
-)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
+)](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+[![Part.2](https://img.shields.io/badge/Part.2-%E8%A8%AD%E8%A8%88%E7%B7%A8-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
+[![Part.3](https://img.shields.io/badge/Part.3-TBD-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
+[![Part.4](https://img.shields.io/badge/Part.4-TBD-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
 
 # ゼロからのマイコン開発
 
@@ -10,41 +15,21 @@
 <details open>
 <summary><font size="5"><b>Table of Contents</b></font></summary>
 
-- [変更履歴](#history)
 - [コンセプト](#Concept)
 - [トレーナー](#Trainer)
 - [事前準備](#Preparation)
-- [Part.1[基本編]](#Part1_Basic)
-- [Part.2[実装編]](#Part2_Implementation)
-- [EX. Show me the Badge](#Exercise)
+- [概要](#Part1_Overview)
 - [Reference](#Reference)
+- [変更履歴](#history)
 
-</details>
-
-<div id="history"></div>
-<details open>
-<summary><font size="5"><b>変更履歴</b></font></summary> 
-
-- v0.1 2024/09/14 Seho.Seo Brand new document.
-- v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
-- v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
-- v0.6 2024/11/04 Seho.Seo Update overall contents, e.g., exercises.
-- v0.7 2025/01/29 Seho.Seo Update contents and release v0.7.
-  
 </details>
 
 <div id="Concept"></div>
 <details open>
 <summary><font size="5"><b>コンセプト</b></font></summary>
 
-- このプログラムはMS開発に興味はあるが､何から手を付ければいいのかを悩む方への一つの提案です。
-- [Part.1[基本編]](#Part1_Basic)では、開発環境を構築します。
-- [Part.2[実装編]](#Part2_Implementation)では、簡単なシステム要求を定義してから、開発業務プロセスを実習しましょう。
-- 要求分析・ソフトウエア設計・ソフトウエア開発を順に追って行います。
-- [Part.1[基本編]](#Part1_Basic)の[3.業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)を念頭において、進めていきましょう。<br>
-![Lychee-Waterfall model](https://lychee-redmine.jp/wp-content/uploads/2023/04/20230405_S.png.webp)
+- このコンテンツはMS開発にて､何から手を付ければいいのかを悩む方への一つの提案です。
 - [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio)と[Affordance](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
-
 </details>
 
 <div id="Trainer"></div>
@@ -52,9 +37,9 @@
 <summary><font size="5"><b>トレーナー</b></font></summary>
 
 - [TOC](#toc)
-- Seho Seo, 韓国, 50s
+- Seho Seo, 韓国, 51 [4(S), 3(M), 3(P), 22 => 8(T), 4(F), 10(T)]
 - 釜山大学・電子計算学科卒
-- 2003年に来日してから21年間、MSエンジニアとして、家電・FA・モビリティ分野で活動中？
+- 2003年に来日してから22年間、MSエンジニアとして、家電・FA・モビリティ分野で活動中？
 - 趣味は釣り・スピーカー・コストコ巡りなど
 
 </details>
@@ -98,61 +83,35 @@
 
 </details>
 
-<div id="Part1_Basic"></div>
+<div id="Part1_Overview"></div>
 <details open>
-<summary><font size="5"><b>Part.1[基本編]</b></font></summary>
+<summary><font size="5"><b>概要</b></font></summary>
 
 - [TOC](#toc)
-- [1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
-  - [背景](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Background)
-  - [トレンド](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Trends)
-  - [市場](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Market)
-  - [マイコンの基本](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Basic_Features)
-- [2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
-  - [最初は? Git!!](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#At_first_Git)
-  - [EX.1 Show me your Git](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise1)
-  - [EX.2 Hello Cube](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise2)
-  - [EX.3 Show me the Clock](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise3)
-- [3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
-  - [業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#WorkFlow)
-  - [組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Organization)
-  - [EX. Show me the PWM](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Exercise)
-
-</details>
-
-<div id="Part2_Implementation"></div>
-<details open>
-<summary><font size="5"><b>Part.2[実装編]</b></font></summary>
-
-- [TOC](#toc)
-- [1. Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
-  - [EX. Show me your Github](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md#Exercise)
-- [2. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md)
-  - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#what_is_requirements)
-  - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#project_alm)
-  - [EX. Show me the Log](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.RequirementAnalysis.md#Exercise)
-- [3. ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md)
-  - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#HLD)
-  - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#Detailed_Design)
-  - [EX. Hello draw.io](https://github.com/gtuja/CSC_MS/blob/main/Part2/3.SoftwareDesign.md#Exercise)
-- [4. ソフトウエア開発](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md)
-  - [開発環境](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#Stm32CubeIDE)
-  - [コーディング規則](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#coding_rules)
-  - [EX. Show me the ISR](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#Exercise)
-  - [終わりに](https://github.com/gtuja/CSC_MS/blob/main/Part2/4.SoftwareImplementation.md#end_of_part2)
- 
-</details>
-
-<div id="Exercise"></div>
-<details open>
-<summary><font size="5"><b>EX. Show me the Badge</b></font></summary>
-
-- [TOC](#toc)
-- 綺麗なアイコン作りはなかなか難しいものです。
-- 下記マニュアル？を参考に自分Badgeを作って見ましょう。
-- [Shield.io](https://shields.io), [Simple icon](https://simpleicons.org/)<br>
-![Show-me-the-badge](https://github.com/gtuja/CSC_MS/blob/main/Resources/Tips/tip001_001_shields_io_static_badge.png)<br>
-- このプログラムにも、最新タグの表示、ナビゲーション、ソフトウエアリンクなどにBadgeが活躍中？です。
+- [Part.1[基本編]](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+  - [1.1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+    - [背景](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Background)
+    - [トレンド](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Trends)
+    - [市場](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Market)
+    - [マイコンの基本](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Basic_Features)
+  - [1.2. 百考は一行に如かず](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md)
+    - [最初は? Git!!](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#At_first_Git)
+    - [EX.1 Show me your Git](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise1)
+    - [EX.2 Hello Cube](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise2)
+    - [EX.3 Show me the Clock](https://github.com/gtuja/CSC_MS/blob/main/Part1/2.Hello%20MCU.md#Exercise3)
+  - [1.3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
+    - [業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#WorkFlow)
+    - [組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Organization)
+    - [Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Github)
+- [Part.2[設計編]](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+  - [2.1. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
+    - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#what_is_requirements)
+    - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#project_alm)
+  - [2.2 ソフトウエア設計](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md)
+    - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#HLD)
+    - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#Detailed_Design)
+- [Part.3[実装編(TBD)]](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
+- [Part.3[評価編(TBD)]](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
 </details>
 
 <div id="Reference"></div>
@@ -168,10 +127,27 @@
 - [Lychee-Waterfall model](https://lychee-redmine.jp/blogs/project/biginner_and_waterfallmodel/)
 
 </details>
+
+<div id="history"></div>
+<details open>
+<summary><font size="5"><b>変更履歴</b></font></summary> 
+
+- v0.1 2024/09/14 Seho.Seo Brand new document.
+- v0.2 2024/09/15 Seho.Seo Remove Part3, it might be rescheduled.
+- v0.3 2024/09/22 Seho.Seo Deal with features, multi-language, shield-io badges and improve readability overall contents.
+- v0.6 2024/11/04 Seho.Seo Update overall contents, e.g., exercises.
+- v0.7 2025/01/29 Seho.Seo Update contents and release v0.7.
+- v0.8 2025/07/05 Seho.Seo Update README, Part1 and Part2.
+</details>
 <br>
 
 ![latest tag](https://img.shields.io/github/v/tag/gtuja/CSC_MS.svg?color=brightgreen)
 [![Language](https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-English-brightgreen)](https://github.com/gtuja/CSC_MS/blob/main/README_en.md)
 [![Part.1](https://img.shields.io/badge/Part.1-%E5%9F%BA%E6%9C%AC%E7%B7%A8-brightgreen
-)](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md) [![Part.2](https://img.shields.io/badge/Part.2-%E5%AE%9F%E8%A3%85%E5%A4%89-brightgreen
-)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.WorFlowOnGithub.md)
+)](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+[![Part.2](https://img.shields.io/badge/Part.2-%E8%A8%AD%E8%A8%88%E7%B7%A8-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
+[![Part.3](https://img.shields.io/badge/Part.3-TBD-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
+[![Part.4](https://img.shields.io/badge/Part.4-TBD-brightgreen
+)](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
