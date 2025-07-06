@@ -50,32 +50,32 @@
 
 - [TOC](#toc)
 - このプログラムではMCU開発を実習しますので、MCUを載せている評価ボードが必要です。
-- <u>**(Q) どのサプライヤーを選ぶのか？**</u>
+- **(Q) どのサプライヤーを選ぶのか？**
 - (A) 伸びしろからは[ST](https://www.st.com/content/st_com/en.html)でしょう。<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
 - [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)
 - [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
-- <u>**(Q) どのマイコンにするのか？**</u>
+- **(Q) どのマイコンにするのか？**
 - (A) [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)でしょう。
-- <u>**(Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？**</u>
+- **(Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？**
 - (A) [Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)はいいですね。
 - (A) Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的です。[Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)
 - (A) これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。
 - (A) MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。
-- <u>**(Q) Flash, RAMサイズはどれぐらい必要か？**</u>
+- **(Q) Flash, RAMサイズはどれぐらい必要か？**
 - (A) 大は小を兼ねるので[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)でしょう。<br>
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)<br>
-- <u>**PC**</u>
+- **PC**
   - OS : Windows 10, 11
   - CPU : >= Intel 第7世代Core-i5-7200U (2017年1月)
   - RAM : >= 8GB
   - SSD : >= 256GB, Git(50MB), TortoiseGit(50MB), CubeIDE(2GB)
-- <u>**USB cable**</u>
+- **USB cable**
   - micro-B <-> [Type-A, Type-C]
-- <u>**Wifi**</u>
-- <u>**[Githubアカウント](https://github.com)**</u>
-- <u>**[STMアカウント](https://www.st.com)**</u>
-- <u>**Applications**</u>
+- **Wifi**
+- **[Githubアカウント](https://github.com)**
+- **[STMアカウント](https://www.st.com)**
+- **Applications**
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
   - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
   - [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)
