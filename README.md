@@ -37,7 +37,7 @@
 <summary><font size="5"><b>トレーナー</b></font></summary>
 
 - [TOC](#toc)
-- Seho Seo, 韓国, 51 <span style="color:orange">**[4(S), 3(M), 3(P), 22 => 8(T), 4(F), 10(T)]**</span>
+- Seho Seo, 韓国, 51 **[4(S), 3(M), 3(P), 22 => 8(T), 4(F), 10(T)]**
 - 釜山大学・電子計算学科卒
 - 2003年に来日してから22年間、MSエンジニアとして、家電・FA・モビリティ分野で活動中？
 - 趣味は釣り・スピーカー・コストコ巡りなど
@@ -50,32 +50,32 @@
 
 - [TOC](#toc)
 - このプログラムではMCU開発を実習しますので、MCUを載せている評価ボードが必要です。
-- <span style="color:orange">**(Q) どのサプライヤーを選ぶのか？**</span>
+- <u>**(Q) どのサプライヤーを選ぶのか？**</u>
 - (A) 伸びしろからは[ST](https://www.st.com/content/st_com/en.html)でしょう。<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
 - [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)
 - [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
-- <span style="color:orange">**(Q) どのマイコンにするのか？**</span>
+- <u>**(Q) どのマイコンにするのか？**</u>
 - (A) [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)でしょう。
-- <span style="color:orange">**(Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？**</span>
+- <u>**(Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？**</u>
 - (A) [Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/ja/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)はいいですね。
 - (A) Keil MDKの年間ライセンス費用は20~40万円で、個人での購入は絶望的です。[Keil vs GCC](https://stackoverflow.com/questions/1226401/keil-vs-gcc-for-arm7)
 - (A) これをタダで使えるのはかなりのメリットありで、いずれ訪れる大きなプロジェクトでの活躍？のためにも覚えておきたいですが、本プログラムはゼロからですので、分かりやすいStm32CubeIDEの[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain)を使います。
 - (A) MDK環境に対しては「３からのMCU開発」？ぐらいでしょう。
-- <span style="color:orange">**(Q) Flash, RAMサイズはどれぐらい必要か？**</span>
+- <u>**(Q) Flash, RAMサイズはどれぐらい必要か？**</u>
 - (A) 大は小を兼ねるので[NUCLEO-G0B1RE](https://www.st.com/ja/evaluation-tools/nucleo-g0b1re.html)でしょう。<br>
 [![NucleoSeries_C0G0F0](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/NucleoSeries_C0G0F0.png)](https://www.marutsu.co.jp/pc/i/40719714/)<br>
-- PC
+- <u>**PC**</u>
   - OS : Windows 10, 11
   - CPU : >= Intel 第7世代Core-i5-7200U (2017年1月)
   - RAM : >= 8GB
   - SSD : >= 256GB, Git(50MB), TortoiseGit(50MB), CubeIDE(2GB)
-- USB cable : micro-B <-> [Type-A, Type-C]
-- Wifi
-- [Githubアカウント](https://github.com)
-- [STMアカウント](https://www.st.com)
-- Applications
-- 基本的には最新版でOKです。
+- <u>**USB cable**</u>
+  - micro-B <-> [Type-A, Type-C]
+- <u>**Wifi**</u>
+- <u>**[Githubアカウント](https://github.com)**</u>
+- <u>**[STMアカウント](https://www.st.com)**</u>
+- <u>**Applications**</u>
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
   - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
   - [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)
