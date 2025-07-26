@@ -103,7 +103,7 @@
     - [業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#WorkFlow)
     - [組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Organization)
     - [Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Github)
-- [Part.2[設計編]](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+- [Part.2[設計編]](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
   - [2.1. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
     - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#what_is_requirements)
     - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#project_alm)
