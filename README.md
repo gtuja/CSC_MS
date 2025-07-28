@@ -109,7 +109,7 @@
   - [2.1. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
     - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#what_is_requirements)
     - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#project_alm)
-  - [2.2 ソフトウエア設計](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md)
+  - [2.2 ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md)
     - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#HLD)
     - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#Detailed_Design)
 - [Part.3[実装編(TBD)]](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
