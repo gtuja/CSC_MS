@@ -28,7 +28,7 @@
 <details open>
 <summary><font size="5"><b>コンセプト</b></font></summary>
 
-- このコンテンツはMS開発にて､何から手を付ければいいのかを悩む方への一つの提案です。<br><br><br>
+- このコンテンツはMS開発にて､何から手を付ければいいのかを悩む方への一つの提案です。<br><br>
 ![MSDFS Concept](https://github.com/gtuja/CSC_MS/blob/main/Resources/Part1/Part1_Diagrams-Concept.drawio.png)<br>
 - [**Golden ratio**](https://en.m.wikipedia.org/wiki/Golden_ratio)と[**Affordance**](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[**Occam's razor**](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
