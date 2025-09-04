@@ -18,7 +18,7 @@
 - [コンセプト](#Concept)
 - [トレーナー](#Trainer)
 - [事前準備](#Preparation)
-- [概要](#Part1_Overview)
+- [概要](#Overview)
 - [Reference](#Reference)
 - [変更履歴](#history)
 
@@ -28,8 +28,7 @@
 <details open>
 <summary><font size="5"><b>コンセプト</b></font></summary>
 
-- このコンテンツはMS開発にて､何から手を付ければいいのかを悩む方への一つの提案です。<br><br>
-![MSDFS Concept](https://github.com/gtuja/CSC_MS/blob/main/Resources/Part1/Part1_Diagrams-Concept.drawio.png)<br>
+- このコンテンツはMS開発にて､何から手を付ければいいのかを悩む方への一つの提案です。
 - [**Golden ratio**](https://en.m.wikipedia.org/wiki/Golden_ratio)と[**Affordance**](https://en.m.wikipedia.org/wiki/Affordance)を念頭に入れ、[**Occam's razor**](https://en.m.wikipedia.org/wiki/Occam%27s_razor)を手に持って切り開こう！
 
 </details>
@@ -85,11 +84,12 @@
 
 </details>
 
-<div id="Part1_Overview"></div>
+<div id="Overview"></div>
 <details open>
 <summary><font size="5"><b>概要</b></font></summary>
 
 - [TOC](#toc)
+- ![MSDFS Overview](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/README_Diagrams-Overview.drawio.png)
 - [Part.1[基本編]](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
   - [1.1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
     - [背景](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Background)

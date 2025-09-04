@@ -11,9 +11,7 @@
 - [Concept](#Concept)
 - [Trainer](#Trainer)
 - [Preparation](#Preparation)
-- [Part.1[Basic]](#Part1_Basic)
-- [Part.2[Implementation]](#Part2_Implementation)
-- [EX. Show me the Badge](#Exercise)
+- [Overview](#Overview)
 - [Reference](#Reference)
 - [History](#history)
 
@@ -23,11 +21,7 @@
 <details open>
 <summary><font size="5"><b>Concept</b></font></summary>
 
-- This program aims to provide a guide for those who are interested in MS development but are worried about ***where to start***.
-- Regarding MS development environment ([Part.1[Basic]](Part1_Basic)) and Requirements, product development ([Part.2[Implementation]](#Part2_Implementation))
-follow the steps in order and proceed.
-- We're gonna practice a simple project at the [Part.2[Implementation]](#Part2_Implementation), with [Process and Organization](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md) on the [Part.1[Basic]](#Part1_Basic).<br><br>
-![gantt_chart_deliverables_by_division](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/gantt_chart_deliverables_by_division.png)
+- This program aims to provide trainee, who are interested in MS development but not sure ***where to start***, with a guide.
 - Keep in mind [Golden ratio](https://en.m.wikipedia.org/wiki/Golden_ratio) and [Affordance](https://en.m.wikipedia.org/wiki/Affordance), divide and conquer with [Occam's razor](https://en.m.wikipedia.org/wiki/Occam%27s_razor). 
 
 </details>
