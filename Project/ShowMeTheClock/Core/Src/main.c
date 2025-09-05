@@ -57,6 +57,18 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+static void Delay(uint32_t u32Delay)
+{
+  uint32_t u32Cnt;
+
+  u32Cnt = 0;
+
+  while(++u32Cnt < u32Delay)
+  {
+    /* NOOP */
+  }
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -100,6 +112,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+    Delay(100000);
   }
   /* USER CODE END 3 */
 }
