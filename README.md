@@ -38,11 +38,10 @@
 <summary><font size="5"><b>トレーナー</b></font></summary>
 
 - [TOC](#toc)
-- Seho Seo, 韓国, 51 **[4(S), 3(M), 3(P), 22 => 8(T), 4(F), 10(T)]**
-- 釜山大学・電子計算学科卒
-- 2003年に来日してから22年間、MSエンジニアとして、家電・FA・モビリティ分野で活動中？
+- Seho Seo, 韓国, 50s
+- 韓国の釜山大学・電子計算学科卒 (1999)
+- 来日してから22年間、MSエンジニアとして、家電・FA・モビリティ分野で活動中？
 - 趣味は釣り・スピーカー・コストコ巡りなど
-
 </details>
 
 <div id="Preparation"></div>
@@ -54,8 +53,8 @@
 - **(Q) どのサプライヤーを選ぶのか？**
 - (A) 伸びしろからは[ST](https://www.st.com/content/st_com/en.html)でしょう。<br>
 ![Leading MCU suppliers(2021)](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/Leading_MCU_Suppliers_2020_22021.png)<br>
-- [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)
-- [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
+- (A) [Top 5 Manufacturers in the MCU Market](https://www.onerivertronics.com/a/43018.html)
+- (A) [Top 5 MCU Manufacturers View for the Development of the Microcontroller Market](https://www.hardfindelec.com/a/76030.html)
 - **(Q) どのマイコンにするのか？**
 - (A) [SDGs](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)的には[MainStream:C0/G0/F0/F1/G4/F3](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)でしょう。
 - **(Q) [Toolchain](https://en.wikipedia.org/wiki/Toolchain)はどれにするか？**
@@ -77,11 +76,11 @@
 - **[Githubアカウント](https://github.com)**
 - **[STMアカウント](https://www.st.com)**
 - **Applications**
+  - 最新バージョンでいいでしょう。 
   - [![Git](https://img.shields.io/badge/Git-brightgreen?style=flat&logo=Git&logoColor=%23F05032&labelColor=white)](https://git-scm.com/)
   - [![TortoiseGit](https://img.shields.io/badge/TortoiseGit-brightgreen?style=flat)](https://tortoisegit.org/)
   - [![Stm Cube IDE](https://img.shields.io/badge/CubeIDE-brightgreen?style=flat&logo=stmicroelectronics&logoColor=%2303234B&labelColor=white)](https://www.st.com/en/development-tools/stm32cubeide.html)
   - Microsoft Office [Excel, Powerpoint, etc.] *option
-
 </details>
 
 <div id="Overview"></div>
@@ -104,11 +103,11 @@
   - [1.3. 業務プロセス・組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md)
     - [業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#WorkFlow)
     - [組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Organization)
-    - [Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Github)
+    - [Github](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Github)
 - [Part2. 設計編](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
   - [2.1. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
     - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#what_is_requirements)
-    - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#project_alm)
+    - [The project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#project_alm)
   - [2.2 ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md)
     - [HWD (HardWare Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#HWD)
     - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#HLD)
