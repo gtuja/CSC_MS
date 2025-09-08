@@ -90,7 +90,7 @@
 
 - [TOC](#toc)
 - ![MSDFS Overview](https://github.com/gtuja/CSC_MS/blob/main/Resources/README/README_Diagrams-Overview.drawio.png)
-- [Part.1[基本編]](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
+- [Part1. 基本編](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
   - [1.1. MSとは](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md)
     - [背景](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Background)
     - [トレンド](https://github.com/gtuja/CSC_MS/blob/main/Part1/1.What%20is%20MS.md#Trends)
@@ -105,15 +105,16 @@
     - [業務プロセス](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#WorkFlow)
     - [組織](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Organization)
     - [Github上のプロジェクト管理](https://github.com/gtuja/CSC_MS/blob/main/Part1/3.ProcessAndOrganization.md#Github)
-- [Part.2[設計編]](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
+- [Part2. 設計編](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
   - [2.1. 要求分析](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md)
     - [要求とは](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#what_is_requirements)
     - [Project ALM](https://github.com/gtuja/CSC_MS/blob/main/Part2/1.RequirementAnalysis.md#project_alm)
   - [2.2 ソフトウエアデザイン](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md)
+    - [HWD (HardWare Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#HWD)
     - [HLD(High Level Design)](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#HLD)
     - [Detailed Design](https://github.com/gtuja/CSC_MS/blob/main/Part2/2.SoftwareDesign.md#Detailed_Design)
-- [Part.3[実装編(TBD)]](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
-- [Part.3[評価編(TBD)]](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
+- [Part3. 計画編(TBD)](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
+- [Part4. 実装編(TBD)](https://github.com/gtuja/CSC_MS/blob/main/Resources/TBD.md)
 </details>
 
 <div id="Reference"></div>
